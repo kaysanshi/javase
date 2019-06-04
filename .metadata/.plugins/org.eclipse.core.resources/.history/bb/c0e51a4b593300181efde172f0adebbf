@@ -1,0 +1,28 @@
+package com.zcib.dao;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.zcib.domain.Problem;
+
+public interface ProblemDao {
+	/**
+	 * 问题增加
+	 * @param problem
+	 * @return
+	 */
+	void addProblem(Problem problem,Connection conn);
+	/**
+	 * 问题列表
+	 * @return
+	 */
+	List<Problem> getAllProblem();
+	/**
+	 * 获取是否有这个
+	 * @param subjecttitle
+	 * @param conn
+	 * @return
+	 */
+	Problem findProblemByName(String subjecttitle, Connection conn);
+
+}

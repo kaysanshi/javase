@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MedicineManager"
+  id="myeclipse.1243214725359"
+  context-root="/MedicineManager"
+  j2ee-spec="5.0"
+  archive="MedicineManager.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,36 @@
+package com.zcib.dao;
+
+import java.util.List;
+
+import com.zcib.domain.Resource;
+
+public interface ResourceDao {
+	/**
+	 * 增加
+	 * @param resource
+	 */
+	void addresource(Resource resource);
+	/**
+	 * 获得所有
+	 * @return
+	 */
+	List<Resource> getAllResourse();
+	/**
+	 * 根据id查找
+	 * @param id
+	 * @return
+	 */
+	Resource getResource(String id);
+	/**
+	 * 删除资源
+	 * @param resourceid
+	 * @return
+	 */
+	void delResource(Resource resourceid);
+	/**
+	 * 随机获取视频
+	 * @return
+	 */
+	List<Resource> getRedomResourse();
+
+}

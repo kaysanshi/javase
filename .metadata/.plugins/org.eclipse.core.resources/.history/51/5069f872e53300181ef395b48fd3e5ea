@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <title>注册界面</title>
+    <link rel="stylesheet" href="css/regist.css">
+    <script type="text/javascript">
+        var id;
+        var count=0;
+        function fun(){
+            id=setInterval(show,2000);
+        }
+        function show(){
+            count++;
+            var imgs=document.getElementsByTagName('img');
+            for(var i=0;i<imgs.length;i++)
+                imgs[i].className="no";
+            var indenx=count%imgs.length;
+            imgs[indenx].className="yes";
+        }
+        function stop(){
+            clearInterval(id);
+        }
+        function changeImg(img){
+  			img.src = img.src+"?time="+new Date().getTime();
+  		}
+    </script>
+</head>
+<body onload="fun();">
+<div id="head"> 
+     <img src="images/logo.jpg" alt="">
+</div>
+<div id="center">
+    <div class="center_left" onmouseover="stop();" onmouseout="fun();">
+        <img src="images/log.jpg">
+        
+    </div>
+    <div class="dl">
+        <form id="form1" action="${pageContext.request.contextPath }/RegistServlet" method="post">
+            <div class="wz1">用户注册</div>
+            <table>
+                <tr>
+                    <td><input type="text" name=" name" placeholder="用户名" class="user" required=""  /></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="password" placeholder="密码" class="password" required=""/></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="vcode" placeholder="验证码" class="vcode" required=""/></td>
+                    <td class="valimage"><img src="${pageContext.request.contextPath}/ValiImg" onclick="changeImg(this)" style="cursor: pointer;"/></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input  class="an" type="submit" value="注册"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+     </div>
+</div>
+</body>
+</html>

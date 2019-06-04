@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>验证</title>
+ <script type="text/javascript">
+    	function changeImg(img){
+    		img.src="/Test/ValiImage?time="+new Date().getTime();
+    	}
+    </script> 
+</head>
+<body>
+	<form action="#" method="post">
+		用户名:<input type="text" name="username"/>
+		密码:<input type="password"name="password"/>
+		验证码<input type="text"name="valist"/>
+		<img src="/Test/ValiImage"style="cursor: pointer;" onclick="changeImg(this)"/>
+		<input type="submit" value="注册"/>	
+	</form>
+
+</body>
+</html>

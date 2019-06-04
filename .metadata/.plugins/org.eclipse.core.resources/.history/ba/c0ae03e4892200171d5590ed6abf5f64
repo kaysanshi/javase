@@ -1,0 +1,31 @@
+package demo4;
+
+public class JiaoChe extends Car {
+	public int day;
+	public String getName(String name){
+		this.name=name;
+		return name;
+	}
+	public String getType(String type){
+		this.type =type;
+		return type;
+	}
+	public int getMoney(String name,String type,int day){
+		if(name=="宝马"){
+			if(type=="550i"){
+				money=500*day;
+			}
+		}
+		else if(name=="别克"){
+			if(type=="林荫大道"){
+				money=300*day;
+			}
+		}
+		else{
+			if(type=="商务舱GL"){
+				money=600*day;
+			}
+		}
+		return money;
+	}
+}

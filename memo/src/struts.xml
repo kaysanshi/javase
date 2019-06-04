@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="user" namespace="/" extends="struts-default">
+		<!-- 声明拦截器 -->
+		<interceptors>
+			<interceptor name="loginInterceptor" class="cn.test.memo.interceptor.LoginInterceptor"></interceptor>
+		</interceptors>
+		<!-- 定义默认拦截器 -->
+		<default-interceptor-ref name="defaultStack"></default-interceptor-ref>
+		<action name="user_*" class="cn.test.memo.action.UserAction" method="{1}">
+			<result name="login">login.jsp</result>
+			<result name="home">home.jsp</result>
+			<interceptor-ref name="loginInterceptor">
+				<!--
+					配置action里面的某些方法不进行拦截
+					name属性值：excludeMethods
+				-->
+				<param name="excludeMethods">login,register,check</param>
+			</interceptor-ref>
+			<allowed-methods>*</allowed-methods>
+		</action>
+	</package>
+	<package name="record" namespace="/" extends="struts-default">
+		<!-- 声明拦截器 -->
+		<interceptors>
+			<interceptor name="loginInterceptor" class="cn.test.memo.interceptor.LoginInterceptor"></interceptor>
+		</interceptors>
+		<!-- 定义默认拦截器 -->
+		<default-interceptor-ref name="defaultStack"></default-interceptor-ref>
+		<action name="rd_*" class="cn.test.memo.action.RecordAction" method="{1}">
+			<result name="list">list.jsp</result>
+			<result name="edit">edit.jsp</result>
+			<result name="info">info.jsp</result>
+			<result name="login">login.jsp</result>
+			<interceptor-ref name="loginInterceptor"></interceptor-ref>
+			<allowed-methods>*</allowed-methods>
+		</action>
+	</package>
+</struts>

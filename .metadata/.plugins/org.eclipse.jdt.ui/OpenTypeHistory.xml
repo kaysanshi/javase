@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Test/D:\/jdk-8u91-windows-x64\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.bind.v2.schemagen.xmlschema(SimpleRestriction.class[SimpleRestriction" modifiers="1537" timestamp="1464774550000"/>
+<typeInfo handle="=JDBC/D:\/jdk-8u91-windows-x64\/jre\/lib\/rt.jar&lt;javax.sql(DataSource.class[DataSource" modifiers="1537" timestamp="1464774550000"/>
+<typeInfo handle="=JDBC/D:\/jdk-8u91-windows-x64\/jre\/lib\/rt.jar&lt;javax.activation(DataSource.class[DataSource" modifiers="1537" timestamp="1464774550000"/>
+<typeInfo handle="=SafeDemo/src&lt;com.zcib.dao{UserDao.java[UserDao" modifiers="513" timestamp="1531316298116"/>
+<typeInfo handle="=SafeDemo/src&lt;com.zcib.service{UserService.java[UserService" modifiers="513" timestamp="1531315789010"/>
+<typeInfo handle="=SafeDemo/D:\/jdk-8u91-windows-x64\/jre\/lib\/rt.jar&lt;java.nio.file.attribute(UserPrincipal.class[UserPrincipal" modifiers="1537" timestamp="1464774550000"/>
+<typeInfo handle="=Estore/src&lt;com.itheima.service{UserService.java[UserService" modifiers="513" timestamp="1523095327120"/>
+<typeInfo handle="=SafeDemo/src&lt;com.zcib.service{ProblemService.java[ProblemService" modifiers="513" timestamp="1531313886823"/>
+</typeInfoHistroy>

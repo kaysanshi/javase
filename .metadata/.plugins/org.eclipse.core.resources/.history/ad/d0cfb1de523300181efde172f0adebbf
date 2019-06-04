@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>添加问题</title>
+</head>
+<body>
+	<h1>问题的录入</h1>
+	<form action="${pageContext.request.contextPath}/AddSubjectServlet" method="post">
+		<table>
+  			<tr>
+  				<td>请输入题目</td>
+  				<td><input type="text" name="subjecttitle" value="" /></td>
+  			</tr>
+  			<tr>
+  				<td>请输入选项A:</td>
+  				<td><input type="text" name="subjectOptionA" /></td>
+  			</tr>
+  			<tr>
+  				<td>请输入选项B:</td>
+  				<td><input type="text" name="subjectOptionB" /></td>
+  			</tr>
+  			<tr>
+  				<td>请输入选项C:</td>
+  				<td><input type="text" name="subjectOptionC" /></td>
+  			</tr>
+  			<tr>
+  				<td>请输入选项D:</td>
+  				<td><input type="text" name="subjectOptionD" /></td>
+  			</tr>
+  			<tr>
+  				<td>请输入答案:</td>
+  				<td><input type="text" name="subjectAnswer" /></td>
+  			</tr>
+  			<tr>
+  				<td>请输入解析:</td>
+  				<td><input type="text" name="subjectParse" /></td>
+  			</tr>
+  			<tr>
+  				<td><input type="submit" name="" value="提交"></td>
+  			</tr>
+  		</table>
+	</form>
+</body>
+</html>

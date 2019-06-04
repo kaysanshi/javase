@@ -1,0 +1,108 @@
+package com.hanshunping2;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.Vector;
+
+import javax.swing.table.AbstractTableModel;
+
+public class StudentModel extends AbstractTableModel{
+	Vector rowData,columnNames;
+	//定义数据库的知识
+	Connection conn=null;
+	PreparedStatement stmt=null;
+	ResultSet rs=null;//类似于一个临时表，用来暂时存储数据库查询的结果集；
+	//选中方法
+	public void Iint(String sql){
+		if(sql==""){
+			sql="select * from stu";
+		}
+		columnNames=new Vector();
+		columnNames.add("学号");
+		columnNames.add("姓名");
+		columnNames.add("性别");
+		columnNames.add("年龄");
+		columnNames.add("系别");
+		columnNames.add("地址");
+		rowData=new Vector();
+		try {
+			
+			Class.forName("com.mysql.jdbc.Driver");
+			String url="jdbc:mysql://localhost:3306/Student?user=root&password=123";
+			conn=DriverManager.getConnection(url);
+			stmt=conn.prepareStatement(sql);
+			//一个包含查询产生的数据的ResultSet对象;
+			rs=stmt.executeQuery();
+			//指针下移一个
+			while(rs.next()){
+				Vector hang=new Vector();
+				hang.add(rs.getString("stuId"));
+				hang.add(rs.getString("stuName"));
+				hang.add(rs.getString("stuSex"));
+				hang.add(rs.getInt("stuAge"));
+				hang.add(rs.getString("stuDept"));
+				hang.add(rs.getString("stuAddress"));
+				rowData.add(hang);
+			}
+		} catch (ClassNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		} catch (SQLException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}finally{
+			
+				try {
+					if(rs!=null){
+					rs.close();
+					}
+					if(stmt!=null){
+						stmt.close();
+					}
+					if(conn!=null){
+						conn.close();
+					}
+				} catch (SQLException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+	}
+	//通过传递的sql语句获得数据模型
+	public StudentModel(String sql){
+		this.Iint(sql);
+	}
+	//初始化数据库操作
+	public StudentModel(){
+		this.Iint("");
+	}
+	//得到共有多少行
+	@Override
+	public int getRowCount() {
+		// TODO Auto-generated method stub
+//		System.out.println("1");
+		return this.rowData.size();
+	}
+	//多少列
+	@Override
+	public int getColumnCount() {
+		// TODO Auto-generated method stub
+		return this.columnNames.size();
+	}
+	//得到某一行
+	@Override
+	public Object getValueAt(int rowIndex, int columnIndex) {
+		// TODO Auto-generated method stub
+		return ((Vector)this.rowData.get(rowIndex)).get(columnIndex);
+	}
+	@Override
+	public String getColumnName(int column) {
+		// TODO Auto-generated method stub
+		return (String) this.columnNames.get(column);
+	}
+
+}

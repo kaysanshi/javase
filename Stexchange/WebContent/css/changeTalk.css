@@ -1,0 +1,19 @@
+ @CHARSET "UTF-8";
+#form{
+		width: 710px;
+		height:300px;
+		border: 1px solid #000000;
+		margin: 0px auto;
+		background-color: #C0BBB5;
+}
+#form #title{
+		width:500px;
+		height:30px;
+}
+#form select{
+		width:200px;
+		height:30px;
+}
+#form select option{
+		text-align:center;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.zcib.show.ShowView&apos; to &apos;Index&apos;&#x0D;&#x0A;- Original project: &apos;Demoitem&apos;&#x0D;&#x0A;- Original element: &apos;com.zcib.show.ShowView&apos;&#x0D;&#x0A;- Renamed element: &apos;com.zcib.show.Index&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ShowView&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.zcib.show{ShowView.java[ShowView" matchStrategy="1" name="Index" qualified="false" references="true" similarDeclarations="false" stamp="1508900396413" textual="false" version="1.0"/>
+</session>

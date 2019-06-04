@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.java1995.Object_finalize_Test.id&apos; in &apos;com.java1995.Object_finalize_Test&apos;&#x0D;&#x0A;- Original project: &apos;demo6&apos;&#x0D;&#x0A;- Original element: &apos;com.java1995.Object_finalize_Test.id&apos;&#x0D;&#x0A;- Getter method name: &apos;getId&apos;&#x0D;&#x0A;- Setter method name: &apos;setId&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;id&apos;" flags="589830" getter="getId" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.java1995{Object_finalize_Test.java[Object_finalize_Test^id" insertion="2" setter="setId" stamp="1495191650265" version="1.0" visibility="1"/>
+</session>

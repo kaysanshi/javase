@@ -1,0 +1,7 @@
+<classpath>
+  <container id="Test2!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="F:/Java/Javase/Test2/WebContent/WEB-INF/lib/commons-fileupload-1.3.1.jar">
+      <source-attachment-path>D:/SoftWare/lib/commons-fileupload-1.2.1-sources.jar</source-attachment-path>
+    </entry>
+  </container>
+</classpath>

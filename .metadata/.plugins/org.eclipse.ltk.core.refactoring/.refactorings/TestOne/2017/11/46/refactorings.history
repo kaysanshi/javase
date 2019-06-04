@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.itheima&apos; to &apos;com.ithe&apos;&#x0D;&#x0A;- Original project: &apos;TestOne&apos;&#x0D;&#x0A;- Original element: &apos;TestOne/src/com.itheima&apos;&#x0D;&#x0A;- Renamed element: &apos;TestOne/src/com.ithe&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.itheima&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.itheima" name="com.ithe" qualified="false" references="true" stamp="1510836223135" textual="false" version="1.0"/>
+</session>

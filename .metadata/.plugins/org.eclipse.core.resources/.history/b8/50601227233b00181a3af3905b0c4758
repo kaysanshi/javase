@@ -1,0 +1,80 @@
+package com.zcib.dao;
+
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.zcib.domain.User;
+/**
+ * 
+ * @author 555
+ *
+ */
+public interface UserDao {
+	/**
+	 * 查找name
+	 * @param name 
+	 * @return 
+	 */
+	User findUserByName(String username, Connection conn);
+	/**
+	 * ͨ
+	 * @param username
+	 * @param password
+	 * @return
+	 */
+	User finUserByNameAndPsw(String username, String password);
+	/**
+	 * 
+	 * @param user
+	 */
+	
+	void addUser(User user, Connection conn);
+	/**
+	 * 
+	 * @param conn
+	 * @param id
+	 * @throws SQLException 
+	 */
+	void delUserByIDWithTrans(Connection conn, String id) throws SQLException;
+	/**
+	 * 
+	 * @param i
+	 * @param rowperpage
+	 * @return
+	 */
+	List<User> getUserByPage(int i, int rowperpage);
+	/**
+	 * 
+	 * @return
+	 */
+	int getCountRow();
+	/**
+	 * 
+	 * @return
+	 */
+	List<User> getAllUser();
+	/**
+	 * 
+	 * @return
+	 */
+	List<User> findUserByCond(User user);
+	/**
+	 *
+	 * @param user
+	 */
+	void deleteUser(User user);
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
+	User findUserByid(String id);
+	/**
+	 * 
+	 * @param user
+	 */
+	void updateUser(User user);
+	
+}

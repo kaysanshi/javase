@@ -1,0 +1,85 @@
+package com.zcib.web;
+
+import java.io.IOException;
+import java.net.URLEncoder;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.zcib.domain.User;
+import com.zcib.factory.BasicFactory;
+import com.zcib.service.UserService;
+import com.zcib.utils.MD5Utils;
+
+/**
+ * Servlet implementation class LoginServlet
+ */
+@WebServlet("/LoginServlet")
+public class LoginServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public LoginServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		UserService service = BasicFactory.getFactory().GetInstance(UserService.class);
+		//1.
+		String username = request.getParameter("username");
+		String password = MD5Utils.md5(request.getParameter("password"));
+		//2.
+		User user = service.getUserByNameAndPsw(username,password);
+		if(user == null){
+			request.setAttribute("msg", "请输入用户名");
+			request.getRequestDispatcher("/login.jsp").forward(request, response);
+			return;
+		}
+		
+		//4.
+		request.getSession().setAttribute("user", user);
+		
+		//--
+		if("true".equals(request.getParameter("remname"))){
+			Cookie remnameC = new Cookie("remname",URLEncoder.encode(user.getUsername(),"utf-8"));
+			remnameC.setPath("/");
+			remnameC.setMaxAge(3600*24*30);
+			response.addCookie(remnameC);
+		}else{
+			Cookie remnameC = new Cookie("remname","");
+			remnameC.setPath("/");
+			remnameC.setMaxAge(0);
+			response.addCookie(remnameC);
+		}
+		
+		//-
+		if("true".equals(request.getParameter("autologin"))){
+			Cookie autologinC = new Cookie("autologin",URLEncoder.encode(user.getUsername()+":"+user.getPassword(),"utf-8"));
+			autologinC.setPath("/");
+			autologinC.setMaxAge(3600*24*30);
+			response.addCookie(autologinC);
+		}
+		
+		response.sendRedirect(request.getContextPath()+"/index.jsp");
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

@@ -1,0 +1,34 @@
+1529242304114	Delete element
+1529242309547	Delete element
+1529242315224	Delete element
+1529244157888	Copy file
+1529244530617	Delete element
+1529244535759	Delete element
+1529296491227	Move 'addnews.jsp' to 'addmin'
+1529296495321	Move 'listnews.jsp' to 'addmin'
+1529296947143	Move 'login.jsp' to 'addmin'
+1529296952782	Move 'regist.jsp' to 'addmin'
+1529298676142	Move 'addproblem.jsp' to 'addmin'
+1529298681904	Move 'listproblem.jsp' to 'addmin'
+1529298697703	Move 'updateproblem.jsp' to 'addmin'
+1529300442704	Encapsulate field 'upid'
+1529300539281	Encapsulate field 'upid'
+1529300595708	Encapsulate field 'upid'
+1529300749959	Delete element
+1529302143065	Delete element
+1529307807028	Rename resource 'addproblem.jsp'
+1529307842765	Rename resource 'addProblem.jsp'
+1529309512541	Rename type 'Resource'
+1529309540966	Rename type 'ResourceDao'
+1529309566026	Rename type 'ResourceDaoImpl'
+1529309612804	Rename type 'DelResourceServlet'
+1529309640907	Rename type 'DownListServlet'
+1529309902744	Rename compilation unit 'ResourceService.java'
+1529309927013	Rename type 'ResourceServiceImpl'
+1529310461099	Rename type 'UploadServlet'
+1529313178473	Encapsulate field 'videotitle'
+1529313855833	Delete element
+1529387661806	Delete element
+1529394939976	Delete element
+1529415518211	Encapsulate field 'addtime'
+1529416968400	Encapsulate field 'type'

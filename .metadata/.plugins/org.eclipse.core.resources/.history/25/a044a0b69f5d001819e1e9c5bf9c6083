@@ -1,0 +1,88 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jstl/core_rt"  prefix="c"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>主页</title>
+		<link rel="stylesheet" href="${pageContext.request.contextPath }/css/logindo.css" />
+		<script type="text/javascript" src="${pageContext.request.contextPath }/js/jquery-1.8.3.min.js" ></script>
+</head>
+<script>
+function getAllVideo(){
+		$.ajax({
+			type:'get',
+			url:'ListVideoServlet',
+			success:function(data){
+				$(".playvideoright").html(data);
+			}
+		})
+	}
+function getAjaxListFile(){
+	$.ajax({
+		type:'get',
+		url:'ListFileServlet',
+		success:function(data){
+			$("#listfile").html(data);
+		}
+	
+	})	
+};
+function getAjaxvideoplay(url,method){
+	$.ajax({
+			 type: method,
+			 url: url ,
+			 success: function(data) {
+				 if($.trim(data)=="1"){//有这一个视频路径
+						var src=${requestScope.filepath };
+						$("#playvideo video source").attr("src",src);
+					}
+			 }
+	});
+}
+	</script>
+	<body>
+			<div id="top">
+					<div class="left">
+						<img src="../images/toplogo.gif" width="700px" height="90px">
+					</div>
+					<div class="right">
+						<span>欢迎你</span>
+						<a href="loinout.jsp">退出</a>
+					</div>
+			</div>
+			<div id="main">
+				
+				<div class="playvideo">
+						
+				</div>
+				<div class="playvideoright">
+					<h3>视频列表</h3>
+					<ul>
+					<c:forEach items="${ requestScope.list}" var="r">
+	                    <li><a href="javascript:getAjaxvideoplay('PlayvideoServlet?id=${r.id}','post')"><span><img src="images/toplogo.gif"alt="视频" width="100px" height="50px"/></span>${r.realname }</a></li>
+	                </c:forEach>
+					</ul>
+				</div>
+			</div>
+			<div id="fileshow">
+				<h3>资源列表</h3>
+				<ul>
+					<li><a href="#">1</a>11</li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">1</a></li>
+				</ul>
+			</div>
+			<div id="bottom">
+					<ul>
+						<li>copyright:555</li>
+						<li>邮箱：592726028@qq.com</li>
+						<li><a href="www.zcib.com">中原工学院</a></li>
+						<li><a href="www.zzib.com">中原工学院信息商务学院</a></li>
+					</ul>
+			</div>
+	</body>
+</html>

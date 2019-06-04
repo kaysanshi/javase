@@ -1,0 +1,15 @@
+package com.zcib.service;
+
+import com.zcib.dao.ProblemDao;
+import com.zcib.domain.Problem;
+import com.zcib.factory.BasicFactory;
+
+public class ProblemServiceImpl implements ProblemService {
+	ProblemDao dao=BasicFactory.getFactory().GetInstance(ProblemDao.class);
+	@Override
+	public void addProblem(Problem problem) {
+		// TODO Auto-generated method stub
+		 dao.addProblem(problem);
+	}
+
+}

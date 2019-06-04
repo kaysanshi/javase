@@ -1,0 +1,92 @@
+package com.mhl.view;
+//这是人事管理界面
+import com.mhl.tools.*;
+import com.mhl.model.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.event.*;
+import java.sql.ResultSet;
+
+import javax.swing.*;
+public class EmpInfo extends JPanel implements ActionListener{
+	//定义组件
+	JPanel p1,p2,p3,p4,p5;
+	JLabel p1_l1,p3_l1;
+	JTextField p1_jtf;
+	JButton p1_jb,p4_jb1,p4_jb2,p4_jb3,p4_jb4;
+	JTable jtable;
+	JScrollPane jsp;
+	EmpModel em=null;
+	public EmpInfo()
+	{
+		//创建组件
+		
+		//北
+		p1=new JPanel(new FlowLayout(FlowLayout.CENTER));
+		p1_l1=new JLabel("请输入姓名（员工号或职位）:");
+		p1_l1.setFont(MyTools.f1);
+		p1_jtf=new JTextField(20);
+		p1_jb=new JButton("查询");
+		p1_jb.addActionListener(this);
+		p1_jb.setFont(MyTools.f4);
+		p1.add(p1_l1);
+		p1.add(p1_jtf);
+		p1.add(p1_jb);
+		
+		
+		//中间
+		
+		p2=new JPanel(new BorderLayout());
+		em=new EmpModel();
+		
+		String []params={"1"}; 
+		em.query("select empid,empname,sex,zhiwei,address,xl from rszl where 1=?", params);
+		jtable= new JTable(em);
+		jsp=new JScrollPane(jtable);
+
+		p2.add(jsp);
+		
+		//南
+		p5=new JPanel(new BorderLayout());
+		p3=new JPanel(new FlowLayout(FlowLayout.LEFT));
+		p3_l1=new JLabel("总记录是？？条");
+		p3.add(p3_l1);
+		p4=new JPanel(new FlowLayout(FlowLayout.RIGHT));
+		p4_jb1=new JButton("详细信息");
+		p4_jb1.setFont(MyTools.f4);
+		p4_jb2=new JButton("添加");
+		p4_jb2.setFont(MyTools.f4);
+		p4_jb3=new JButton("修改");
+		p4_jb3.setFont(MyTools.f4);
+		p4_jb4=new JButton("删除");
+		p4_jb4.setFont(MyTools.f4);
+		p4.add(p4_jb1);
+		p4.add(p4_jb2);
+		p4.add(p4_jb3);
+		p4.add(p4_jb4);
+		p5.add(p3,"West");
+		p5.add(p4,"East");
+		//this.setBackground(Color.pink);
+		this.setLayout(new BorderLayout());
+		this.add(p1,"North");
+		this.add(p2,"Center");
+		this.add(p5,"South");
+		this.setVisible(true);
+		
+	}
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		// TODO 自动生成的方法存根
+		if(arg0.getSource().equals(p1_jb))
+		{
+			String text=p1_jtf.getText().trim();
+			String text1=p1_jtf.getText().trim();
+			String params[]={"text","text1"};
+			em=new EmpModel();
+			em.query("select empid,empname,sex,zhiwei,address,xl from rszl where empid=? or empname=?",params);
+			jtable.setModel(em);
+			
+		}
+	}
+}

@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Wed Sep 05 21:59:44 CST 2018
+org.eclipse.jst.jee.server\:Estore=D\:\\SoftWare\\Tomcat 8.0\\webapps\\Estore
+org.eclipse.jst.jee.server\:Test1=D\:\\SoftWare\\Tomcat 8.0\\webapps\\Test1
+org.eclipse.jst.jee.server\:Json=D\:\\SoftWare\\Tomcat8.0\\webapps\\Json

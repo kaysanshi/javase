@@ -1,0 +1,43 @@
+body{
+	background:#FFFFFF;
+	margin:15;
+}
+body, table, td, input{
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+h2{
+	color:#000FFF;
+	font-family:·ÂËÎ;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+a{
+	font-family:Î¢ÈíÑÅºÚ;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color:#0044DD;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#FF5500;
+	text-decoration:underline;
+}
+table{
+	border:1px solid #FFFFFF;
+	border-collapse:collapse;
+}
+table th{
+	color:#2467FA;
+	background:#DADADA;
+	font-family:·ÂËÎ;
+	font-size:16px;
+	border:1px solid #FFFFFF;
+}
+table td{
+	background:#F1F1F1;
+	text-align:center;
+	border:1px solid #FFFFFF;
+}

@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+html,body,div{margin: 0;padding: 0;}
+	.video-wrap{width: 720px;height: 400px;background: black; position: relative;
+		z-index: 1;}
+	.video-wrap video{width: 100%; height: 100%;margin:auto;}
+	.video-wrap .foot-pannel{width: 100%;height: 50px;background-color: rgba(0,0,0,0.7);
+		position: absolute;z-index: 2;left:0px;bottom: 0px;display: flex;
+		justify-content: center;align-items: center;}
+	.video-wrap .foot-pannel .oper-btn{width: 35px;height:35px;
+		background-image: url("images/pause.png");background-repeat: no-repeat;
+		background-size: 100%;background-position: center;
+		position: relative;left: -15px;}
+	.video-wrap .foot-pannel .drag-wrap{width: 80%;height: 100%;position: relative;z-index: 1;}
+	.video-wrap .foot-pannel .drag-wrap .drap-line{width: 95%;height: 3px;
+		background: white;margin: 0 auto;margin-top: 20px;border-radius: 5px;position: relative;z-index: 1;}
+	.video-wrap .foot-pannel .drag-wrap .drap-line .drap-btn{width: 7px;height: 7px;
+		background:  position: absolute;z-index: 1;}
+	.video-wrap .foot-pannel .full-btn{width: 40px;height: 40px;
+		background-image: url("images/full.png");background-repeat: no-repeat;background-size: 100%;
+		position: relative;left: 15px;}

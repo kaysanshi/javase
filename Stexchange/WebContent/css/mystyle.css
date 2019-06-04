@@ -1,0 +1,61 @@
+     @CHARSET "UTF-8";
+	 body{
+	    font-family:'微软雅黑';
+	 }
+     .biao{
+	    font-size:14px;
+		text-align:center;
+		background-color:#a8c7ce;
+		border-collapse:separate;
+		border-spacing:1px;
+	 }
+    .biaotou{
+	    background-color:#d3eaef;
+	    height:45px; 
+		width:180px;
+	 }
+	 .neirong{
+	    background-color:#ffffff;
+		height:45px;
+	 }
+	a {text-decoration: none;}
+   .btn-green{
+	  display:inline-block;
+	  font-size:16px;     
+	  color:#FFF;         
+	  width:100px;        
+	  height:30px;         
+	  line-height:30px;   
+	  border:1px solid #6CAE0C;
+	  text-align:center;
+	  font-family:'Microsoft YaHei';
+	  background-color: #F07575; 
+	  background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#80C51A),to(#66AB00));
+   }  
+   .btn-green:hover{
+	   cursor:pointer;
+	   background-color: #66AB00;
+	   background-image: -webkit-gradient(linear,0% 0%, 0% 100%, from(#66AB00),to(#80C51A));
+   } 
+   .biaoti{
+       text-align:center;
+	   margin:30px auto;
+	   font-size:18px;
+   }
+   input,select{
+      width:90%;
+	  height:28px;
+	  font-family:'微软雅黑';
+   }
+   textarea{
+      width:90%;
+	  height:300px;
+	  margin:10px auto;
+	  font-family:'微软雅黑';
+   }
+   #tipinfo{
+      text-align:center;  
+	  margin-top:30px;
+	  font-size:14px;
+	  color:red;
+   }

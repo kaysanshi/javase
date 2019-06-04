@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;upload&apos; to &apos;WEB-INF&apos;" description="Move &apos;upload&apos; to &apos;WEB-INF&apos;" destination="WebContent/WEB-INF" element1="WebContent/upload" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1519905723954" updateReferences="true"/>
+</session>

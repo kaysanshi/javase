@@ -1,0 +1,66 @@
+package com.zcib.domain;
+public class Problem {
+	private int subjectid;//
+	private String subjecttitle;//
+	private String subjectOptionA;
+	private String subjectOptionB;
+	private String subjectOptionC;
+	private String subjectOptionD;
+	private String subjectAnswer;
+	private String subjectParese;
+	private String userid;//
+	public int getSubjectid() {
+		return subjectid;
+	}
+	public void setSubjectid(int subjectid) {
+		this.subjectid = subjectid;
+	}
+	public String getSubjecttitle() {
+		return subjecttitle;
+	}
+	public void setSubjecttitle(String subjecttitle) {
+		this.subjecttitle = subjecttitle;
+	}
+	public String getSubjectOptionA() {
+		return subjectOptionA;
+	}
+	public void setSubjectOptionA(String subjectOptionA) {
+		this.subjectOptionA = subjectOptionA;
+	}
+	public String getSubjectOptionB() {
+		return subjectOptionB;
+	}
+	public void setSubjectOptionB(String subjectOptionB) {
+		this.subjectOptionB = subjectOptionB;
+	}
+	public String getSubjectOptionC() {
+		return subjectOptionC;
+	}
+	public void setSubjectOptionC(String subjectOptionC) {
+		this.subjectOptionC = subjectOptionC;
+	}
+	public String getSubjectOptionD() {
+		return subjectOptionD;
+	}
+	public void setSubjectOptionD(String subjectOptionD) {
+		this.subjectOptionD = subjectOptionD;
+	}
+	public String getSubjectAnswer() {
+		return subjectAnswer;
+	}
+	public void setSubjectAnswer(String subjectAnswer) {
+		this.subjectAnswer = subjectAnswer;
+	}
+	public String getSubjectParese() {
+		return subjectParese;
+	}
+	public void setSubjectParese(String subjectParese) {
+		this.subjectParese = subjectParese;
+	}
+	public String getUserid() {
+		return userid;
+	}
+	public void setUserid(String userid) {
+		this.userid = userid;
+	}
+}

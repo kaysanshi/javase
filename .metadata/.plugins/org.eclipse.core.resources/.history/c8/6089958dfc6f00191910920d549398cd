@@ -1,0 +1,10 @@
+package com.kaysanshi.tree;
+/**
+ * hash的使用用的是
+ * 链地址法
+ * @author leoill
+ *@date 2019年5月6日
+ */
+public class HashOpenLinkaddress {
+
+}

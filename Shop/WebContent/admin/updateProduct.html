@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/select.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+<script type="text/javascript" src="js/select-ui.min.js"></script>
+<script type="text/javascript" src="editor/kindeditor.js"></script>
+
+<script type="text/javascript">
+	KE.show({
+		id : 'content7',
+		cssPath : './index.css'
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		$(".select1").uedSelect({
+			width : 345
+		});
+		$(".select2").uedSelect({
+			width : 167
+		});
+		$(".select3").uedSelect({
+			width : 100
+		});
+	});
+</script>
+</head>
+
+<body>
+
+	<div class="place">
+		<span>位置：</span>
+		<ul class="placeul">
+			<li><a href="#">首页</a>
+			</li>
+			<li><a href="#">修改商品信息</a>
+			</li>
+		</ul>
+	</div>
+
+	<form action="" method="post">
+		<div class="formbody">
+
+			<div class="formtitle">
+				<span>修改商品基本信息</span>
+			</div>
+
+			<ul class="forminfo">
+				<li><label>商品名称<b>*</b>
+				</label> <input name="" type="text" class="dfinput" value="请填写商品名称"
+					style="width:518px;" />
+				</li>
+
+				<li><label>商品分类<b>*</b>
+				</label>
+					<div class="vocation">
+						<select class="select1">
+							<option>衣服</option>
+							<option>书本</option>
+							<option>电子产品</option>
+							<option>视频</option>
+							<option>虚拟商品</option>
+							<option>其它</option>
+						</select>
+					</div></li>
+
+				<li><label>商品封面<b>*</b>
+				</label> <input type="file" class="dfinput" /><input type="button"
+					class="uploadbtn" value="上传" /></li>
+
+				<li><label>商品价格<b>*</b>
+				</label> <input name="" type="text" class="dfinput" value="请填写商品价格"
+					style="width:278px;" />
+				</li>
+
+				<li><label>商品市场价格<b>*</b>
+				</label> <input name="" type="text" class="dfinput" value="请填写商品市场价格"
+					style="width:278px;" />
+				</li>
+
+				<li><label>商品数量<b>*</b>
+				</label> <input name="" type="text" class="dfinput" value="请填写商品数量"
+					style="width:278px;" />
+				</li>
+
+				<li><label>商品描述内容<b>*</b>
+				</label> <textarea id="content7" name="content"
+						style="width:700px;height:250px;visibility:hidden;"></textarea></li>
+				<li><label>&nbsp;</label><input name="" type="button"
+					class="btn" value="马上发布" />
+				</li>
+			</ul>
+
+		</div>
+	</form>
+</body>
+</html>

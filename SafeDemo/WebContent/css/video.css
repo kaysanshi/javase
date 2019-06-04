@@ -1,0 +1,423 @@
+@charset "utf-8";*{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,em,strong,th{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{
+	font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+body{
+	font:14px/1.5 "Microsoft YaHei","微软雅黑",Arial,Helvetica,sans-serif;color:#333;
+	word-wrap:break-word;background-color:#fff;-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale}
+img{width:100%}
+.clearfix{clear:both}
+.rgb_red{color:#da0000}.rgb_666{color:#666}.rgb_999{color:#999}
+.f_left{float:left}.f_right{float:right}
+strong{font-weight:bold}
+.text-left{text-align:left}
+.text-right{text-align:right
+	color:#209583;
+}
+.text-center{text-align:center}
+.single-line{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+
+.container{width:940px;margin: 0 auto}
+
+.header{
+	background:#f5f5f5;height:22px;border-bottom:1px solid #eee;
+	padding:14px 0;line-height:22px;font-size:12px;color:#999}
+.header .logo {
+    width: 132px;
+    height: 22px;
+    margin-right: 20px;
+    background: url(../image/logo.png) no-repeat center;
+    background-size: 100%;
+}
+.header a{margin:0 5px;color:#999;text-decoration:none}
+.header .text-right a{color:#209583;}
+.header a:hover{color:#209583;text-decoration:underline}
+.header .loginAfter{
+	float:left;display:inline-block;*zoom:1;*display:inline;vertical-align:top;
+	width:140px;position:relative}
+.header .loginAfter p{
+	width:110px;height:16px;line-height:16px;padding-right:20px;
+	background:url(../images/global/bg_loginAfter.png) no-repeat right top;cursor:pointer}
+.header .loginAfter p.on{
+	background:url(../images/global/bg_loginAfteropen.png) no-repeat right top}
+.header .loginAfter p span{color:#209583}
+.header .loginAfter ul{
+	display:none;position:absolute;z-index:3;left:50%;top:32px;width:106px;
+	margin-left:-53px;background:#f4f4f4;border:1px solid #d1d1d1}
+.header .loginAfter ul a{color:#999}
+.header .loginAfter ul a:hover{color:#209583;text-decoration:underline}
+.header .loginAfter ul span{
+	display:block;position:absolute;top:-7px;width:106px;height:7px;
+	background:url(../images/global/icon_loginAfter.png) no-repeat center top}
+.header .loginAfter li{height:36px;line-height:36px}
+.header .loginAfter .li-line{border-bottom:1px dashed #d1d1d1}
+
+#navigator{float:left;font-family:"Microsoft YaHei";font-size:12px;overflow:hidden}
+#navigator li{float:left;height:22px;line-height:22px;padding:0 2px;text-align:center}
+#navigator em{
+	display:block;margin-top:3px;width:1px;height:16px;
+	border-left:#fff 1px solid;background:#c7c7c7}
+#navigator li a{
+	display:block;padding:0 5px;margin:0;height:22px;
+	white-space:nowrap;color:#666;text-decoration:none}
+#navigator li a:hover,#navigator li .current{
+	height:22px;background:#209583;
+	-webkit-border-radius:5px;-moz-border-radius:5px;
+	border-radius:5px;color:#fff;text-decoration:none}
+
+
+
+.header_top {
+    width: 100%;
+    background: url(../images/header_bg.jpg) no-repeat top center;
+    overflow: hidden;
+    background-size: 100%;
+}
+.header_top .topcont {
+    padding: 20px 0 20px;
+    background: url(../images/header_top.jpg) no-repeat top left;
+    overflow: hidden;
+    background-size: 100%;
+}
+.header_top .topcont, .pagecontent {
+    width: 940px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.header_top .topleft {
+    float: left;
+    padding-top: 6px;
+}
+.header_top .topleft a {
+    font-size: .75em;
+    line-height: 20px;
+    margin: 0 10px;
+    color: #666;
+    text-decoration: none;
+}
+.header_top .topleft .pic {
+    float: left;
+    width: 180px;
+    height: 28px;
+}
+
+.header_top .searchbg {
+    float: right;
+    font-size: 14px;
+    width: 248px;
+    height: 24px;
+    padding: 1px;
+    background: url(../images/searchbg.jpg) no-repeat;
+}
+.header_top .searchbg input {
+    float: left;
+    width: 194px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 2px;
+    border: 0;
+    outline: 0;
+    /*align-items: center;*/
+}
+.header_top .searchbg .btn_search {
+    float: right;
+    display: block;
+    width: 46px;
+    height: 24px;
+    background: url(../images/searchbg.jpg) no-repeat -199px -1px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.sub_menu {
+    width: 100%;
+    margin: 10px 0 0;
+    background: #209583;
+    overflow: hidden;
+}
+.sub_menu ul {
+    margin: 0 auto;
+    width: 940px;
+}
+.sub_menu li {
+    float: left;
+    height: 36px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 4px;
+}
+.sub_menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px;
+    margin: 0 auto;
+    white-space: nowrap;
+}
+.sub_menu a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #219558;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+
+
+.pagecontent {
+    width: 980px;
+    margin: 0 auto;
+}
+.pagecontent a {
+    color: #333;
+    text-decoration: none;
+}
+
+.gameplay-body {
+    background: #272822;
+}
+.gameplay-body .pagecontent {
+    background: #1f1f1f;
+    padding: 20px 0 0;
+}
+
+.gametitle {
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.gametitle a {
+    width: 53px;
+    height: 31px;
+    text-indent: -20000px;
+    margin-right: 20px;
+    float: right;
+    background: url(../images/back.png) no-repeat;
+    background-size: 100%;
+}
+.gametitle p {
+    float: left;
+    width: 730px;
+}
+
+.gameplay {
+    line-height: 24px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.playbox {
+    float: left;
+    padding: 0 20px;
+    width: 690px;
+}
+.playbox p {
+    width: 690px;
+    height: 550px;
+    vertical-align: middle;
+    line-height: 550px;
+    align-items: center;
+}
+.playbox p video {
+    display: inline-block;
+    vertical-align: middle;
+}
+.playbox .bto {
+    border-top: #898989 2px solid;
+    line-height: 44px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*视频播放样式*/
+/*.video-wrap{width: 720px;height: 400px;background: black; position: relative;
+		z-index: 1;}
+.video-wrap video{width: 100%; height: 100%;margin:auto;}
+.video-wrap .foot-pannel{width: 100%;height: 50px;background-color: rgba(0,0,0,0.7);
+	position: absolute;z-index: 2;left:0px;bottom: 0px;display: flex;
+	justify-content: center;align-items: center;}
+.video-wrap .foot-pannel .oper-btn{width: 35px;height:35px;
+	background-image: url("image/pause.png");background-repeat: no-repeat;
+	background-size: 100%;background-position: center;
+	position: relative;left: -15px;}
+.video-wrap .foot-pannel .drag-wrap{width: 80%;height: 100%;position: relative;z-index: 1;}
+.video-wrap .foot-pannel .drag-wrap .drap-line{width: 95%;height: 3px;
+	background: white;margin: 0 auto;margin-top: 20px;border-radius: 5px;position: relative;z-index: 1;}
+.video-wrap .foot-pannel .drag-wrap .drap-line .drap-btn{width: 7px;height: 7px;
+	background:  position: absolute;z-index: 1;}
+.video-wrap .foot-pannel .full-btn{width: 40px;height: 40px;
+	background-image: url("image/full.png");background-repeat: no-repeat;background-size: 100%;
+	position: relative;left: 15px;}*/
+
+.play-rtlist {
+    float: left;
+    width: 230px;
+}
+.play-rtlist .hd {
+    padding-left: 30px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #fff;
+    background: url(../images/icon-hd.jpg) no-repeat left center;
+    margin-bottom: 15px;
+}
+.play-rtlist li {
+    background: url(../images/icon-libg.jpg) repeat-y left;
+    padding-left: 30px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.play-rtlist li em {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: url(../images/icon06.jpg) no-repeat left center;
+}
+.play-rtlist li a {
+    color: #fff;
+}
+.play-rtlist li div img {
+    width: 200;
+    height: 148px;
+    background-size: 100%;
+}
+.play-rtlist li h4 {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.play-rtlist li h4 a, .play-rtlist li h4 a:hover {
+    color: #fff;
+}
+.play-rtlist li div {
+    display: none;
+    padding-top: 15px;
+}
+.play-rtlist .li-on em {
+    color: #fff;
+    background: url(../images/icon07.jpg) no-repeat left center;
+}
+.play-rtlist .li-on h4 {
+    background: #104e97;
+}
+.play-rtlist .li-on div {
+    display: block;
+}
+
+
+.gamedivtext {
+    font-size: 14px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 670px;
+}
+
+
+
+.gamehd {
+    width: auto;
+    height: 20px;
+    margin: 10px 15px;
+    padding-left: 30px;
+    background: url(../images/pic_10.jpg) no-repeat left;
+}
+
+.gamediv{
+    font-size: 14px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 936px;
+}
+.gamediv ul {
+    width: 100%;
+    overflow: hidden;
+}
+.gamediv ul a {
+    color: #333;
+    text-decoration: none;
+}
+.gamediv ul a:hover {
+    color: #36c;
+    text-decoration: underline;
+}
+.gamediv ul li {
+    display: inline;
+    width: 200px;
+    height: 154px;
+    padding: 10px;
+    margin: 10px 6px;
+}
+.gamediv li {
+    float: left; 
+    display: inline;
+    text-align: center;
+    overflow: hidden;
+}
+.gamediv li img {
+    width: 200px;
+    height: 130px;
+}
+.gamediv h4 {
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+#footer {
+    border-top: 10px solid #209583;
+    background: #eee;
+    padding: 20px 0;
+    line-height: 30px;
+    font-size: 14px;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+#footer a {
+    padding: 0 10px;
+    color: #222;
+    text-decoration: none;
+}
+#footer a:hover {
+    color: #222;
+    text-decoration: underline;
+}
+#footer a.foot_logo {
+    display: block;
+    width: 232px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background: url(../images/logo.png) no-repeat;
+}

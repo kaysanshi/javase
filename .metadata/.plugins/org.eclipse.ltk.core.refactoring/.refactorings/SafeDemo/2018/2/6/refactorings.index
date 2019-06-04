@@ -1,0 +1,8 @@
+1518186087354	Move 'web.xml' to 'WEB-INF'
+1518186108444	Copy file
+1518187310187	Rename type 'Customer'
+1518187817084	Encapsulate field 'stunumber'
+1518187820444	Encapsulate field 'addtime'
+1518188838881	Rename resource 'addCustomer.jsp'
+1518188909180	Rename type 'AddCustomerServlet'
+1518188917847	Delete element

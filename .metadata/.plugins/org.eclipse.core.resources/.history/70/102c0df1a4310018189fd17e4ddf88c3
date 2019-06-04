@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.disk.DiskFileItemFactory"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.FileUploadException"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.FileItem"/>
+<fullyQualifiedTypeName name="com.itheima.factory.BasicFactory"/>
+<fullyQualifiedTypeName name="com.itheima.util.DaoUtils"/>
+<fullyQualifiedTypeName name="com.itheima.dao.UserDao"/>
+<fullyQualifiedTypeName name="org.apache.commons.dbutils.handlers.BeanHandler"/>
+<fullyQualifiedTypeName name="com.itheima.domain.User"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="com.itheima.response.RedirectServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="com.itheima.annotation.Tran"/>
+<fullyQualifiedTypeName name="com.itheima.dao.Dao"/>
+<fullyQualifiedTypeName name="com.itheima.service.Service"/>
+<fullyQualifiedTypeName name="com.zcib.domain.Page"/>
+<fullyQua

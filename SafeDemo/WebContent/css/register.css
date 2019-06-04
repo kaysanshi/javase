@@ -1,0 +1,84 @@
+#bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        z-index: -1;
+    }
+#contanier{
+			border: 0px solid white;
+			width: 1300px;
+			margin: 0px auto;
+		}
+			
+#top{
+		border: 0px solid white;
+		width: 100%;
+		height: 50px;
+			}
+#top .top_login{
+		border: 0px solid white;
+		float: right;
+		line-height: 50px;
+		padding-right: 25px;
+		
+	}
+#menu{
+		border: 0px solid white;
+		height: 40px;
+		background-color: black;
+		padding-top: 10px;
+		margin-bottom: 15px;
+		margin-top: 10px;
+}
+
+#bottom{
+		margin-top: 13px;
+		text-align: center;
+		}
+			
+#form{
+		height: 500px;
+		padding-top: 70px;
+		background-image:
+		margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+}
+			
+label.error{
+		background:url(../../img/unchecked.gif) no-repeat 10px 3px;
+		padding-left: 30px;
+		font-family:georgia;
+		font-size: 15px;
+		font-style: normal;
+		color: red;
+		}
+			
+label.success{
+		background:url(../../img/checked.gif) no-repeat 10px 3px;
+		padding-left: 30px;
+		}
+			
+#father{
+		border: 0px solid white;
+		
+		margin: 0px auto;
+		}
+			
+#form2{
+		border: 5px solid gray;
+		width: 660px;
+		height: 450px;
+		margin: 0px auto;
+	}
+input{
+	border-radius: 5px;
+	height: 30px;
+}
+button{
+	border-radius: 5px;
+}

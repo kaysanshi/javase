@@ -1,0 +1,31 @@
+package com.zcib.dao;
+
+import java.util.List;
+
+import com.zcib.domain.Resource;
+
+public interface ResourceDao {
+	/**
+	 * 增加
+	 * @param resource
+	 */
+	void addresource(Resource resource);
+	/**
+	 * 
+	 * @return
+	 */
+	List<Resource> getAllResourse();
+	/**
+	 * 
+	 * @param id
+	 * @return
+	 */
+	Resource getResource(String id);
+	/**
+	 * 
+	 * @param resourceid
+	 * @return
+	 */
+	void delResource(Resource resourceid);
+
+}

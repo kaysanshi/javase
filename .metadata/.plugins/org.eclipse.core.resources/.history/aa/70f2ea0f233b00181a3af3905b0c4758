@@ -1,0 +1,88 @@
+package com.zcib.dao;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanHandler;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+
+import com.zcib.domain.Problem;
+import com.zcib.domain.Resource;
+import com.zcib.domain.User;
+import com.zcib.utils.DaoUtils;
+
+public class ResourceDaoImpl implements ResourceDao {
+
+	@Override
+	public void addresource(Resource resource){
+		// TODO Auto-generated method stub
+		try {
+			String sql="insert into resource values(null,?,?,?,?,?,null,?)";
+			QueryRunner runner=new QueryRunner(DaoUtils.getSource());
+			runner.update(sql,resource.getUuidname(),resource.getRealname(),resource.getType(),resource.getSavepath(),resource.getIp(),resource.getDiscription() );
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			throw new RuntimeException();
+		} 
+	}
+
+	@Override
+	public List<Resource> getAllResourse() {
+		// TODO Auto-generated method stub
+		String sql = "select * from resource";
+		QueryRunner runner = new QueryRunner(DaoUtils.getSource());
+		List<Resource> list = null;
+		try {
+			list = runner.query(sql, new BeanListHandler<Resource>(Resource.class));
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return list;
+	}
+
+	@Override
+	public Resource getResource(String id) {
+		// TODO Auto-generated method stub
+		Resource resource=null;
+		String sql = "select * from resource where id = ?";
+		try {
+			QueryRunner runner = new QueryRunner(DaoUtils.getSource());
+			resource= runner.query(sql, new BeanHandler<Resource>(Resource.class), id);
+		} catch (SQLException e) {
+			e.printStackTrace();
+			throw new RuntimeException();
+		}
+		return resource;
+		
+	}
+
+	@Override
+	public void delResource(Resource resource) {
+		// TODO Auto-generated method stub
+		String sql="delete from resource where id=?";
+		QueryRunner runner=new QueryRunner(DaoUtils.getSource());
+		try {
+			runner.update(sql,resource.getId());
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public List<Resource> getRedomResourse() {
+		// TODO Auto-generated method stub
+		String sql1="select * from resource  order by rand() limit 5";
+		try{
+			QueryRunner runner = new QueryRunner(DaoUtils.getSource());
+			return  runner.query(sql1, new BeanListHandler<Resource>(Resource.class));
+		}catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.java1995;
+
+public class FileInPutStream_Test {
+//文件的输入输出流
+	public static void main(String[] args) {
+		
+
+	}
+
+}

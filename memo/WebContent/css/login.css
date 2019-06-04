@@ -1,0 +1,80 @@
+html {
+    /*background: url(../images/bg.jpg) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+}
+.bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url(../images/loginbg.jpg) no-repeat #000;
+        background-size: cover;
+        z-index: -1;
+    }
+.title {
+    width: 400px;
+    text-align: center;
+}
+.login {
+    border-radius: 20px;
+    width: 400px;
+    height: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -200px;
+    background: rgba(0, 0, 125, 0.2);
+    text-align: center;
+}
+.login-title {
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+form {
+    width: 100%;
+}
+table label {
+    color: whitesmoke;
+}
+.login-msg {
+    height: 20px;
+    width: 100%;
+    display: inline-block;
+    line-height: 20px;
+    color: red;
+    text-align: center;
+    font-size: 12px;
+}
+table,tr,td {
+    text-align: center;
+    height:40px;
+}
+input{
+	border-radius: 5px;
+	height: 25px;
+}
+button{
+	border-radius: 5px;
+}
+a{
+	color: red;
+	text-decoration: none;
+}

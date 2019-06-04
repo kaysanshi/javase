@@ -1,0 +1,30 @@
+package com.zcib.service;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.zcib.dao.ProblemDao;
+import com.zcib.domain.Problem;
+import com.zcib.factory.BasicFactory;
+import com.zcib.utils.DaoUtils;
+
+public class ProblemServiceImpl implements ProblemService {
+	ProblemDao dao=BasicFactory.getFactory().GetInstance(ProblemDao.class);
+	@Override
+	public void addProblem(Problem problem) {
+		// TODO Auto-generated method stub
+		Connection conn = DaoUtils.getConnection();
+		//1.
+		if(dao.findUserByName(user.getUsername(),conn)!=null){
+			throw new RuntimeException("已有人!!");
+		}
+		//2.
+		 dao.addProblem(problem,conn);
+	}
+	@Override
+	public List<Problem> getAllProblem() {
+		// TODO Auto-generated method stub
+		return dao.getAllProblem();
+	}
+
+}

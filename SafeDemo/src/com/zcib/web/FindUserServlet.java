@@ -1,0 +1,65 @@
+package com.zcib.web;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.beanutils.BeanUtils;
+import com.zcib.domain.User;
+import com.zcib.factory.BasicFactory;
+import com.zcib.service.UserService;
+/**
+ * Servlet implementation class FindUserServlet
+ */
+/**
+ * 后台用户查询
+ * @author 555
+ *
+ */
+@WebServlet(description = "查找用户", urlPatterns = { "/FindUserServlet" })
+public class FindUserServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public FindUserServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		try{
+			request.setCharacterEncoding("utf-8");
+			UserService service = BasicFactory.getFactory().GetInstance(UserService.class);
+			//1.
+			User user = new User();
+			BeanUtils.populate(user, request.getParameterMap());
+			//2.
+			List<User> list = service.findUserByCond(user);
+			//3.
+			request.setAttribute("list", list);
+			request.getRequestDispatcher("user/listUser.jsp").forward(request, response);
+		}catch (Exception e) {
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}	
+		}
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

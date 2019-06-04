@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.lyq.persistence">
+	<class name="Medicine" table="tb_medicine">
+		<!-- 主键 -->
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="medNo" length="100" not-null="true" unique="true"/>
+		<property name="name" not-null="true" length="200" />
+		<property name="factoryAdd" length="200"/>
+		<property name="description" type="text"/>
+		<property name="price" not-null="true"/>
+		<property name="medCount"/>
+		<property name="reqCount"/>
+		<property name="photoPath"/>
+		<!-- 与药品类别的多对一关系 -->
+		<many-to-one name="category" column="categoryId" cascade="save-update"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,33 @@
+BeRendered="false" ref="_Wpn0gTjCEeisbt06e0QQpQ"/>
+              </children>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_WpnNTzjCEeisbt06e0QQpQ" containerData="9000" selectedElement="_WpnNUDjCEeisbt06e0QQpQ" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_WpnNUDjCEeisbt06e0QQpQ" containerData="9000" selectedElement="_WpnNUTjCEeisbt06e0QQpQ" horizontal="true">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_WpnNUTjCEeisbt06e0QQpQ" containerData="5000" selectedElement="_WpnNUjjCEeisbt06e0QQpQ">
+                  <children xsi:type="basic:PartSashContainer" xmi:id="_WpnNUjjCEeisbt06e0QQpQ" containerData="6700" selectedElement="_WpnNVDjCEeisbt06e0QQpQ">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_WpnNUzjCEeisbt06e0QQpQ" elementId="org.eclipse.ui.editorss" containerData="6239" ref="_WpnO-DjCEeisbt06e0QQpQ"/>
+                    <children xsi:type="basic:PartStack" xmi:id="_WpnNVDjCEeisbt06e0QQpQ" elementId="bottom" containerData="3761" selectedElement="_WpnNWTjCEeisbt06e0QQpQ">
+                      <tags>org.eclipse.e4.secondaryDataStack</tags>
+                      <tags>Java</tags>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNVTjCEeisbt06e0QQpQ" elementId="org.eclipse.ui.views.ProblemView" ref="_WpnP5TjCEeisbt06e0QQpQ"/>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNVjjCEeisbt06e0QQpQ" elementId="org.eclipse.jdt.ui.SourceView" ref="_WpnP8zjCEeisbt06e0QQpQ"/>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNVzjCEeisbt06e0QQpQ" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_WpnP9jjCEeisbt06e0QQpQ"/>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNWDjCEeisbt06e0QQpQ" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_WpnQITjCEeisbt06e0QQpQ"/>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNWTjCEeisbt06e0QQpQ" elementId="org.eclipse.ui.views.ProgressView" ref="_WpnQJDjCEeisbt06e0QQpQ"/>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNWjjCEeisbt06e0QQpQ" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" ref="_Wpn0ijjCEeisbt06e0QQpQ"/>
+                      <children xsi:type="advanced:Placeholder" xmi:id="_WpnNWzjCEeisbt06e0QQpQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_WpnP-TjCEeisbt06e0QQpQ"/>
+                    </children>
+                  </children>
+                  <children xsi:type="basic:PartStack" xmi:id="_WpnNXDjCEeisbt06e0QQpQ" elementId="PartStack@afc36e4" toBeRendered="false" containerData="3300">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_WpnNXTjCEeisbt06e0QQpQ" elementId="org.eclipse.jdt.callhierarchy.view" toBeRendered="false" ref="_Wpn0vDjCEeisbt06e0QQpQ"/>
+                  </children>
+                </children>
+                <children xsi:type="basic:PartStack" xmi:id="_WpnNXjjCEeisbt06e0QQpQ" elementId="PartStack@47a1e475" toBeRendered="false" containerData="5000">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_WpnNXzjCEeisbt06e0QQpQ" elementId="org.eclipse.jdt.ui.JavadocView" toBeRendered="false" ref="_WpnP8DjCEeisbt06e0QQpQ"/>
+                </children>
+              </children>
+              <children xsi:type="basic:PartSashContainer" xmi:id="_WpnNYDjCEeisbt06e0QQpQ" containerData="1000" selectedElement="_WpnNbjjCEeisbt06e0QQpQ">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_WpnNYTjCEeisbt06e0QQpQ" visible="false" containerData="6000" selectedElement="_WpnNZDjCEeisbt06e0QQpQ">
+                  <children xsi:type="basic:PartStack" xmi:id="_WpnNYjjCEeisbt06e0QQpQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasksMStack" visible="false" containerData="1195" selectedElement="_WpnNYzjCEeisbt06e0QQpQ">
+                    <tags>Minimized</tags>
+                    <children xsi:type="advanced:Placeholder" xmi:id="_WpnNYzjCEeisbt06e0QQpQ" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_Wpn0hTjCEeis

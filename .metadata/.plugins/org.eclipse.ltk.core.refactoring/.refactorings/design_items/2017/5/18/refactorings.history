@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;com.zcib.Teacher.contentcourses&apos; in &apos;com.zcib.Teacher&apos;&#x0D;&#x0A;- Original project: &apos;design_items&apos;&#x0D;&#x0A;- Original element: &apos;com.zcib.Teacher.contentcourses&apos;&#x0D;&#x0A;- Getter method name: &apos;getContentcourses&apos;&#x0D;&#x0A;- Setter method name: &apos;setContentcourses&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;contentcourses&apos;" flags="589830" getter="getContentcourses" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;com.zcib{Teacher.java[Teacher^contentcourses" insertion="-1" setter="setContentcourses" stamp="1493727373316" version="1.0" visibility="1"/>
+</session>

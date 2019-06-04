@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3p0-config>
+  <default-config>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql:///blob</property>
+    <property name="user">root</property>
+    <property name="password">123</property>
+  </default-config>
+  <named-config name="aaa"> 
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql:///blob</property>
+    <property name="user">root</property>
+    <property name="password">123</property>
+  </named-config>
+  <named-config name="bbb"> 
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="jdbcUrl">jdbc:mysql:///blob</property>
+    <property name="user">root</property>
+    <property name="password">123</property>
+  </named-config>
+
+</c3p0-config>
+	

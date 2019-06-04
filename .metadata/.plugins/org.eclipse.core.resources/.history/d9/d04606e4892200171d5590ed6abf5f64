@@ -1,0 +1,21 @@
+package demo4;
+
+public class KeChe extends Car {
+	int sit;
+	public int day;
+	public String getName(String name){
+		this.name=name;
+		return name;
+	}
+	public int getMoney(String name ,int sit,int day){
+		if(name=="½ğ±­"){
+			if(sit>16){
+				money=1500*day;
+			}else{
+				money=800*day;
+			}
+		}
+		return money;
+	}
+
+}

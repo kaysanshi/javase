@@ -1,0 +1,21 @@
+package com.zcib.service;
+
+
+import java.util.List;
+
+import com.zcib.domain.Problem;
+
+public interface ProblemService {
+	/**
+	 * 问题添加
+	 * @param problem
+	 */
+	void addProblem(Problem problem);
+	/**
+	 * 问题列表
+	 * @return
+	 */
+	List<Problem> getAllProblem();
+	
+
+}

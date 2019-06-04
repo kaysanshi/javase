@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;RegistServlet.java&apos; to &apos;Estore/src/com.itheima.web&apos;&#x0D;&#x0A;- Original project: &apos;User&apos;&#x0D;&#x0A;- Destination element: &apos;Estore/src/com.itheima.web&apos;&#x0D;&#x0A;- Original element: &apos;com.itheima.web.RegistServlet.java&apos;" description="Copy compilation unit" destination="=Estore/src&lt;com.itheima.web" element1="/src&lt;com.itheima.web{RegistServlet.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1520258820629" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;demo2/src/com.mingribook&apos;&#x0D;&#x0A;- Original project: &apos;demo3&apos;&#x0D;&#x0A;- Destination element: &apos;demo2/src/com.mingribook&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     demo3.TransferPropety.java&#x0D;&#x0A;     demo3.TransferPropety1.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=demo2/src&lt;com.mingribook" element1="/src&lt;demo3{TransferPropety.java" element2="/src&lt;demo3{TransferPropety1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1494667203302" units="2" version="1.0"/>
+</session>

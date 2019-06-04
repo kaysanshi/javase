@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+	<user username="admin" passward="admin" nickname="admin" email="admin@qq.com" />
+</users>

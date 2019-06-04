@@ -1,0 +1,68 @@
+package com.zcib.web;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.zcib.domain.Resource;
+import com.zcib.factory.BasicFactory;
+import com.zcib.service.ResourceService;
+/**
+ * Servlet implementation class PlayServlet
+ */
+@WebServlet(description = "视频播放", urlPatterns = { "/PlayServlet" })
+public class PlayServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public PlayServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		ResourceService service=BasicFactory.getFactory().GetInstance(ResourceService.class);
+		//1.��ȡҪ���ص���Դid
+		String id = request.getParameter("id");
+		
+		//2.����id������Դ
+		Resource r=service.getresourse(id);
+		if(r==null){
+			//3.�����Դ��������ʾ
+			response.getWriter().write("�Ҳ�������Դ!!!");
+			return;
+		}else{
+			//�����ṩ���ţ�
+			//��ȡ��Ŀ��tomact�е��ļ���·��ֻ�Ǳ���·�����ѣ�
+			//���ǹȸ貢��֧�ֱ��صĲ���v
+			response.setContentType(this.getServletContext().getMimeType(r.getRealname()));
+//			String filePath = "http://localhost:8080/SafeDemo/WEB-INF/upload/"+r.getUuidname();
+			
+			//��ȡ��Ŀ�ڷ������е�λ�õ�·��
+			String basePath = request.getScheme()+"://"
+					+request.getServerName()+":"+request.getServerPort()+request.getContextPath() + r.getSavepath()+"/"+r.getUuidname();
+//			System.out.println(filePath);
+			request.setAttribute("filepath", basePath);
+			System.out.println(basePath);
+			request.getRequestDispatcher("/PlayV.jsp").forward(request, response);
+			}
+		}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

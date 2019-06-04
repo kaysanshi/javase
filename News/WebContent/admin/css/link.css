@@ -1,0 +1,11 @@
+
+a{
+	text-transform:none;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	text-decoration:none;
+}

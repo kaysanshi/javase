@@ -1,0 +1,17 @@
+package demo4;
+
+public class Car {
+	 String name;
+	 String type;
+	 int day;
+	 int money;
+	public String getName(){
+		return name;	
+	}
+	public String getType(){
+		return type;
+	}
+	public int getMoney(int day){
+		return money;
+	}
+}

@@ -1,0 +1,55 @@
+package com.hanshunping;
+
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.util.Vector;
+
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+
+/*
+ * 从数据库中读取数据
+ */
+public class test2 extends JFrame{
+	Vector rowData,columnNames;
+	JTable jt=null;
+	JScrollPane jsp=null;
+	//构造函数
+	public test2(){
+		columnNames=new Vector();
+		columnNames.add("学号");
+		columnNames.add("姓名");
+		columnNames.add("相别");
+		columnNames.add("籍贯");
+		columnNames.add("系别");
+		
+		rowData=new Vector();
+		//加载驱动
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			
+		} catch (ClassNotFoundException e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
+		
+		//初始化JTable
+		jt=new JTable(rowData,columnNames);
+		//
+		jsp=new JScrollPane(jt);
+		this.add(jsp);
+		this.setSize(400,300);
+		this.addWindowListener(new WindowAdapter(){
+			public void windowClosing(WindowEvent e){
+				System.exit(0);
+			}
+		});
+		this.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new test2();
+	}
+
+}

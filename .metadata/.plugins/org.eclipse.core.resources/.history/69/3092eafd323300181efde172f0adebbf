@@ -1,0 +1,188 @@
+package com.zcib.utils;
+//��װһ���������ݿ��javaBean;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import com.sun.org.apache.bcel.internal.generic.ClassObserver;
+
+public class DButils {
+	private String driver;
+	private String username;
+	private String url;
+	private String password;
+	private Connection con;
+	private PreparedStatement pstmt;
+	private ResultSet rs;
+	// ÿҳ��ʾ�ļ�¼��
+		private int pageSize = 3;
+		
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public DButils() {
+		// TODO Auto-generated constructor stub
+		driver="com.mysql.jdbc.Driver";
+		url="jdbc:mysql://localhost:3306/db";
+		username="root";
+		password="123";
+	}
+	//��ȡ���Ӷ���
+	private Connection getConnection(){
+		try {
+			//
+			Class.forName("com.mysql.jdbc.Driver");
+			//
+			con=DriverManager.getConnection(url,username,password);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return con;
+	}
+	//
+	private PreparedStatement getPrepareStatement(String sql){
+		try {
+			pstmt=getConnection().prepareStatement(sql);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return pstmt;
+	}
+	//
+	private void setParams(String sql, String[]params) {
+		pstmt=this.getPrepareStatement(sql);
+		for(int i=0;i<params.length;i++){
+			try {
+				pstmt.setString(i+1, params[i]);
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	//ִ�����ݲ�ѯȻ�󽫻��صĽ����װ��List�����У�
+	public List getList(String sql, String[]params){
+		List list=new ArrayList();
+	
+		try {
+			this.setParams(sql, params);
+			ResultSet rs=pstmt.executeQuery();
+			//��ȡ��ṹ
+			ResultSetMetaData rsmd=rs.getMetaData();
+			//����������¼
+			while(rs.next()){
+				//����һ��Map����
+				Map map = new HashMap();
+				for(int i=1;i<=rsmd.getColumnCount();i++){
+					//����ֶ�����rsmd.getColumnName(i)��Ϊkey����Ӧ��ֵΪvalue
+					map.put(rsmd.getColumnName(i).toLowerCase(),rs.getObject(i));
+				}
+				list.add(map);//����һ����¼��ӵ�list��
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			this.close();
+		}
+		
+		return list;
+		
+	}
+	//��ѯ�Ĳ�����
+	public Map getMap(String sql, String[]params){
+		List list=getList(sql, params);
+		if(list.isEmpty()){
+			return null;
+		}else{
+			return (Map)list.get(0);
+		}
+		
+	}
+	//�������ݿ⣺
+	public int update(String sql, String[]params){
+		int recoder=0;//��¼����
+		
+		try {
+			setParams(sql, params);
+			recoder=pstmt.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			this.close();
+		}
+		return recoder;
+	}
+	//�رյķ�ʽ
+	private void close() {
+		// TODO Auto-generated method stub
+		
+			try {
+				if(rs!=null){
+					rs.close();
+				}if(pstmt!=null){
+					pstmt.close();
+				}if(con!=null){
+					con.close();
+				}
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
+	}
+	// ִ�����ݿ��ѯ����ʱ�����ؽ���ļ�¼������
+		private int getTotalRows(String sql, String[] params) {
+			int totalRows = 0;
+			sql = sql.toLowerCase();
+			String countSql = "";
+			if(sql.indexOf("group")>=0){
+				//�ܼ�¼��
+				countSql = "select count(*) from ("+sql+") as tempNum";
+			}else{
+				//��ǰ��¼��
+				countSql = "select count(*) as tempNum "+ sql.substring(sql.indexOf("from"));
+			}
+			// count�д���ܼ�¼��
+			String count = (String)getMap(countSql,params).get("tempNum");
+			totalRows = Integer.parseInt(count);	
+			return totalRows;
+		}
+
+		// ��ҳ��ʾ��ѯ���ʱ������ǰҳ�е�������Ϣ��װ��PageBean��
+		public PageBean getPageBean(String sql, String[] params, int curPage){
+			//��ҳ���
+			String newSql = sql + " limit " + (curPage-1)*pageSize+","+pageSize;
+			List data=this.getList(newSql, params);
+			PageBean pb=new PageBean();
+			//���õ�ǰҳ��
+			pb.setCurPage(curPage);
+			//���õ�ǰҳ����ʾ����
+			pb.setPageSize(pageSize);
+			//����������
+			pb.setTotalRows(getTotalRows(sql, params));
+			//ÿҳ��ʾ������
+			pb.setData(data);
+			return pb;
+		}
+}

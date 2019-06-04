@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PageBean.java&apos; to &apos;SafeDemo/src/com.zcib.utils&apos;&#x0D;&#x0A;- Original project: &apos;Stexchange&apos;&#x0D;&#x0A;- Destination element: &apos;SafeDemo/src/com.zcib.utils&apos;&#x0D;&#x0A;- Original element: &apos;com.zcib.utils.PageBean.java&apos;" description="Copy compilation unit" destination="=SafeDemo/src&lt;com.zcib.utils" element1="/src&lt;com.zcib.utils{PageBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529387606117" units="1" version="1.0"/>
+</session>

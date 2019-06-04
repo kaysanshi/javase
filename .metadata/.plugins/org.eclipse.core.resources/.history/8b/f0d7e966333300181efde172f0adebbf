@@ -1,0 +1,61 @@
+package com.zcib.service;
+
+import java.util.List;
+
+import com.zcib.domain.User;
+import com.zcib.domain.Page;
+
+public interface UserService {
+	
+	/**
+	 * ע��
+	 */
+	void regist(User user);
+	/**
+	 * 
+	 * @param username
+	 * @param password
+	 * @return
+	 */
+	User getUserByNameAndPsw(String username, String password);
+	/**
+	 * 
+	 * @param ids
+	 */
+	
+	void batchdel(String[] ids);
+	/**
+	 * 获得所有
+	 * @return
+	 */
+	List<User> getAllUser();
+	/**
+	 * ͨ查找
+	 * @param user
+	 * @return
+	 */
+	List<User> findUserByCond(User user);
+	/**
+	 * 当前页
+	 * @param thispage
+	 * @param rowperpage
+	 * @return
+	 */
+	Page pageUser(int thispage, int rowperpage);
+	/**
+	 * 删除
+	 * @param user
+	 */
+	void deleteUser(User user);
+	/**
+	 *更新
+	 * @param user
+	 */
+	void updateUser(User user);
+	/**]
+	 * 朝赵用户
+	 * @param id
+	 * @return
+	 */
+	User findUserByid(String id);
+}

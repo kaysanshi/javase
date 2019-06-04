@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+  <data-sources />
+  <!-- 注册ActionForm -->
+  <form-beans>
+  	<form-bean name="userForm" type="com.lyq.struts.form.UserForm"/>
+  	<form-bean name="medForm" type="com.lyq.struts.form.MedicineForm"/>
+  	<form-bean name="categoryForm" type="com.lyq.struts.form.CategoryForm"/>
+  	<form-bean name="sellDetailForm" type="com.lyq.struts.form.SellDetailForm"/>
+  </form-beans>
+  <global-exceptions />
+  <!-- 全局跳转 -->
+  <global-forwards>
+  	<forward name="login" path="/login.jsp" redirect="true"/>
+  	<forward name="buy" path="/sell/sell.do?command=add"/>
+  	<forward name="error" path="/error.jsp"/>
+  	<forward name="manage" path="/manager.jsp"/>
+  </global-forwards>
+  <action-mappings>
+  	<!-- 用户登录 -->
+	<action path="/login"
+			type="com.lyq.struts.action.LoginAction"
+			name="userForm"
+			scope="request">
+		<forward name="loginFail" path="/login.jsp"/>
+	</action>
+	<!-- 语言选择 -->
+	<action path="/language"
+			type="com.lyq.struts.action.LanguageAction"
+			scope="request" />
+	<!-- 类别 -->
+	<action path="/baseData/category"
+			type="com.lyq.struts.action.CategoryAction"
+			name="categoryForm"
+			scope="request"
+			parameter="command">
+		<forward name="paging" path="/baseData/category.do?command=paging" />
+		<forward name="findAllSuccess" path="/baseData/category_list.jsp" />
+		<forward name="edit" path="/baseData/category_add.jsp" />
+		<forward name="categoryGraph" path="/baseData/category_graph.jsp" />
+	</action>
+	<!-- 药品 -->
+	<action path="/baseData/med"
+			type="com.lyq.struts.action.MedicineAction"
+			name="medForm"
+			scope="request"
+			parameter="command">
+		<forward name="addSuccess" path="/baseData/med.do?command=paging" />
+		<forward name="findAllSuccess" path="/baseData/med_list.jsp" />
+		<forward name="view" path="/baseData/med_view.jsp" />
+		<forward name="add" path="/baseData/med_add.jsp" />
+		<forward name="medUpdate" path="/baseData/med_update.jsp" />
+		<forward name="medSave" path="/baseData/med_save.jsp" />
+		<forward name="canSellMeds" path="/baseData/med_sell.jsp" />
+	</action>
+	<!-- 删除药品信息 -->
+	<action path="/baseData/deleteMedicineAction"
+			type="com.lyq.struts.action.DeleteMedicineAction"
+			parameter="command">
+		<forward name="findAllSuccess" path="/baseData/med.do?command=paging" />
+	</action>
+	<!-- 药品需求 -->
+	<action path="/require/require"
+			type="com.lyq.struts.action.RequireAction"
+			name="medForm"
+			scope="request"
+			parameter="command">
+		<forward name="addSuccess" path="/require/require.do?command=paging" />
+		<forward name="findAllSuccess" path="/require/req_list.jsp" />
+		<forward name="medUpdate" path="/require/req_update.jsp" />
+		<forward name="medSave" path="/require/req_save.jsp" />
+		<forward name="add" path="/require/req_add.jsp" />
+		<forward name="view" path="/baseData/med_view.jsp" />
+	</action>
+	<!-- 删除药品需求信息 -->
+	<action path="/require/deleteReqMedAction"
+			type="com.lyq.struts.action.DeleteReqMedAction"
+			parameter="command">
+		<forward name="findAllSuccess" path="/require/require.do?command=paging" />
+	</action>
+	<!-- 销售 -->
+	<action path="/sell/sell"
+			type="com.lyq.struts.action.SellAction"
+			name="sellDetailForm"
+			scope="request"
+			parameter="command">
+		<forward name="add" path="/sell/sell_add.jsp" />
+		<forward name="order" path="/sell/sell_order.jsp" />
+		<forward name="paging" path="/sell/sell.do?command=paging" />
+		<forward name="findAllSuccess" path="/sell/sell_list.jsp" />
+		<forward name="sequence" path="/sell/sell_seq_list.jsp" />
+	</action>
+	<!-- 系统管理 -->
+	<action path="/system/system"
+			type="com.lyq.struts.action.SystemAction"
+			name="userForm"
+			scope="request"
+			parameter="command">
+		<forward name="userFind" path="/system/system.do?command=userFind" />
+		<forward name="findAllSuccess" path="/system/user_list.jsp"/>
+		<forward name="userEdit" path="/system/user_add.jsp"/>
+	</action>
+  </action-mappings>
+  <message-resources parameter="com.lyq.struts.MessageResources" />
+</struts-config>

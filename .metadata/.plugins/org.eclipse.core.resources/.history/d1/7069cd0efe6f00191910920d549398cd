@@ -1,0 +1,54 @@
+package com.kaysanshi.map;
+/**
+ * 图:
+ * 图是一种和树想象的数据结构，通常有固定的形状
+ * 
+ * 图是由顶点的有穷非空集合和顶点之间边的集合组成，通过表示为G(V,E)，其中，G标示一个图，V是图G中顶点的集合，E是图G中边的集合。
+ *      无边图：若顶点Vi到Vj之间的边没有方向，则称这条边为无项边（Edge），用序偶对(Vi,Vj)标示。
+ *      对于下图无向图G1来说，G1=(V1, {E1})，其中顶点集合V1={A,B,C,D}；
+ *      边集合E1={(A,B),(B,C),(C,D),(D,A),(A,C)}:
+ *有向图：若从顶点Vi到Vj的边是有方向的，则成这条边为有向边，也称为弧（Arc）。
+ *用有序对（Vi，Vj）标示，Vi称为弧尾，Vj称为弧头。如果任意两条边之间都是有向的，则称该图为有向图。   
+ *图的存储结构：
+ *	邻接矩阵：
+ *  邻接表：   
+ * @author Administrator
+ *
+ */
+public class Graph {
+	//顶点数组
+	private Vertex[] vertexList;
+	//邻接矩阵
+	private int[][] adjMat;
+	//顶点的最大数目
+	private int maxSize;
+	//当前顶点
+	private int nVertex;
+	
+	public Graph() {
+		vertexList = new Vertex[maxSize];
+		adjMat = new int[maxSize][maxSize];
+		for(int i = 0; i < maxSize; i++) {
+			for(int j = 0; j < maxSize; j++) {
+				adjMat[i][j] = 0;
+			}
+		}
+		nVertex = 0;
+	}
+	
+	/**
+	 * 添加顶点
+	 */
+	public void addVertex(char label) {
+		vertexList[nVertex++] = new Vertex(label);
+	}
+	
+	/**
+	 * 添加边
+	 */
+	public void addEdge(int start,int end) {
+		adjMat[start][end] = 1;
+		adjMat[end][start] = 1;
+	}
+	
+}

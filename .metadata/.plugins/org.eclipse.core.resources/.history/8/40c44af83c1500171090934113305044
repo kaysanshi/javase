@@ -1,0 +1,11 @@
+package demo2;
+
+public class TestString {
+
+	public static void main(String[] args) {
+		String s="we are student";
+//	获取指定字符索引的位置
+		System.out.println("字符中的s在哪个位置："+s.indexOf(s));
+	}
+
+}

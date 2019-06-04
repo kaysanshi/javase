@@ -1,0 +1,30 @@
+package com.zcib.service;
+
+import java.util.List;
+
+import com.zcib.domain.Resource;
+
+public interface ResourceService {
+	/**
+	 * 增加资源
+	 * @param resource
+	 */
+	void addresource(Resource resource);
+	/**
+	 * @return 
+	 * 获取列表
+	 */
+	List<Resource> getAllResourse();
+	/**
+	 * 获取某一条资源
+	 * @param id 
+	 * @return 
+	 */
+	Resource getresourse(String id);
+	/**
+	 * 删除某一条资源
+	 * @param resourceid
+	 */
+	void delResource(String resourceid);
+	
+}

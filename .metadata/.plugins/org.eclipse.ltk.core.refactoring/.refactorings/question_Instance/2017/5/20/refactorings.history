@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.zcib&apos; to &apos;YIN/src&apos;&#x0D;&#x0A;- Original project: &apos;question_Instance&apos;&#x0D;&#x0A;- Destination element: &apos;YIN/src&apos;&#x0D;&#x0A;- Original element: &apos;question_Instance/src/com.zcib&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=YIN/src" element1="/src&lt;com.zcib" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1495112215867" version="1.0"/>
+</session>

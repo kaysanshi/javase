@@ -1,0 +1,39 @@
+package com.java1995;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class FileInPutStream_Test {
+//文件的输入输出流
+	public static void main(String[] args) {
+		File f=new File("F:\\MicrosoftWord\\AHi.docx");
+		FileInputStream fp=null;
+		try {
+			fp=new FileInputStream(f);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		int i=0;
+		try {
+			i=fp.read();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+//		i=-1是文件读到结束
+		while(i!=-1){
+			System.out.print((char)i);
+			try {
+				fp.read();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+
+	}
+
+}

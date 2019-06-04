@@ -1,0 +1,10 @@
+package com.java1995;
+
+public class FileInPutStream_Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

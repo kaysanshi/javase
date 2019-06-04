@@ -1,0 +1,5 @@
+INDEX VERSION 1.127
+F:\Java\Javase\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1575320496.index
+\stuGrademange\src
+F:\Java\Javase\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1205824980.index
+\Test1\src

@@ -1,0 +1,14 @@
+package com.zcib.service;
+
+import com.zcib.domain.Problem;
+import com.zcib.utils.DaoUtils;
+
+public class ProblemServiceImpl implements ProblemService {
+	
+	@Override
+	public void addProblem(Problem problem) {
+		// TODO Auto-generated method stub
+		return 
+	}
+
+}

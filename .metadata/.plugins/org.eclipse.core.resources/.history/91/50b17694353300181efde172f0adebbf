@@ -1,0 +1,6 @@
+package com.zcib.service;
+
+public interface ProblemService {
+	
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>原生的js写ajax</title>
+</head>
+	<script type="text/javascript">
+		function fun(){
+			///1创建ajax引擎-----通过引擎来操作
+				//先创建对象
+			var xmlHttp=new XMLHttpRequest();
+				
+			//2.绑定监听会监听很多
+			xmlHttp.onreadystatechange=function(){
+				//接受服务端完成的
+					if(xmlHttp.redyState==4 && xmlHttp.status==200){
+				//5.接受相应数据
+					var res=xmlHttp.responseText;
+						alert(res);
+						document.getElementById("span1").innerHTML=res;
+					}	
+			}
+			//3.绑定地址
+			xmlHttp.open("GET","/Test3/AjaxServlet",true);
+			//4.发送请求
+			xmlHttp.send();
+			
+			
+		}
+		function fun1(){
+			///1创建ajax引擎-----通过引擎来操作
+				//先创建对象
+			var xmlHttp=new XMLHttpRequest();
+				
+			//2.绑定监听会监听很多
+			xmlHttp.onreadystatechange=function(){
+				//接受服务端完成的
+					if(xmlHttp.redyState==4 && xmlHttp.status==200){
+				//5.接受相应数据
+					var res=xmlHttp.responseText;
+						alert(res);
+						document.getElementById("span1").innerHTML=res;
+					}	
+			}
+			//3.绑定地址
+			xmlHttp.open("GET","/Test3/AjaxServlet",true);
+			//4.发送请求
+			xmlHttp.send();	
+		}
+	</script>
+<body>
+		<input type="button" value="异步访问" onclick="fun()"><span id="span1"></span>
+		<br>
+		<input type="button" value="同步访问" onclick="fun1()"><span id="span2"></span>
+		<br>
+		<input type="button" value="测试按钮" onclick="fun1()"><span id="span3"></span>
+		
+</body>
+</html>

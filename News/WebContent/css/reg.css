@@ -1,0 +1,44 @@
+body, table, td, input, select, textarea{ /* 所有的标签都定义以下的样式*/
+	font-family:Tahoma,Verdana,Arial,Hevetica,sans-serif; /*表示如果电脑里没有第一种，可以用第二种，如果没有第二种...  */
+	font-size:12px;
+}
+
+h3{
+	font-family:微软雅黑;
+	font-weight:bold;
+	text-align:center;
+}
+ .table_div{
+width:1000px;
+padding:10px;
+backgroud:red;
+margin:0 auto;
+ }
+table{
+	border:1px solid #FFFFFF;
+	border-collapse:collapse;
+	width:50%;	
+	backgroud:blue;
+	margin:0 auto;
+}
+table td{
+	padding:2px 5px 2px 5px;/*上，右，下，左的内边距*/
+	height:26px;
+	border:1px solid #FFFFFF;	
+}
+table td.item{
+	font-weight:bold;
+	color:#333333;
+	text-align:right;
+	vertical-align:top;
+	padding:10pt;
+}
+.btn{
+	font-size:9pt;
+	color:#003399;
+	border:1px solid #93BEE2;
+	background-color:#E8F4FF;
+	cursor:hand;
+	width:60px;
+	height:22px;
+}

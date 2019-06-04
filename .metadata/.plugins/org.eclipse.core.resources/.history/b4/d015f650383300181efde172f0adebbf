@@ -1,0 +1,13 @@
+package com.zcib.service;
+
+import com.zcib.domain.Problem;
+
+public interface ProblemService {
+	/**
+	 * 问题添加
+	 * @param problem
+	 */
+	void addProblem(Problem problem);
+	
+
+}

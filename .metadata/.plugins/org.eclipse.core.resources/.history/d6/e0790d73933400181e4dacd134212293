@@ -1,0 +1,144 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<script type="text/javascript">
+	function regist() {
+		window.location.assign("regist.jsp");
+	}
+	function logout(){
+		window.location.href="LogoutServlet";
+	}
+</script>
+<body>
+	<div id="login">
+		<div class="log">
+			<img src="images/logo.jpg"/>
+		</div>
+		<div class="login">	
+		<form action="${pageContext.request.contextPath }/LoginServlet" method="post">
+			<table>
+			<c:if test="${sessionScope.user == null}">
+			<tr>
+				<td>账号</td>
+				<td><input type="text" name="username" value=""></td>
+				<td ><a href="${pageContext.request.contextPath }/regist.jsp" style="color:red;">注册</a></td>
+			</tr>
+			<tr>
+				<td>密码</td>
+				<td><input type="password" name="password" value=""></td>
+				
+				<td style="color:red; text-decoration:underline;">未登录</td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="" value="登录"></td>
+				<td><input type="button" name="" value="注销" onclick="logout()"><br/></td>
+			</tr>
+			</c:if>
+			<c:if test="${sessionScope.user != null}">
+			<tr>
+				<td>账号</td>
+				<td><input type="text" name="user" value=""></td>
+				<td><input type="submit" name="" value="登录"></td>
+				<td> <a href="${pageContext.request.contextPath }/regist.jsp"> 注册</a></td>
+			</tr>
+			<tr>
+				<td>密码</td>
+				<td><input type="password" name="password" value=""></td>
+				<td><input type="button" name="" value="注销" onclick="logout()"><br/></td>
+				<td color="red">已登录</td>
+			</tr>
+			
+			</c:if>
+		</table>
+		</form>`
+		
+		</div>
+	</div>
+    <div id="head">
+            <ul>
+                <li>
+                	<a href="${pageContext.request.contextPath}/upload.jsp">视频学习</a>
+                    <ul>
+                        <li><a href="#">校规校纪</a></li>
+                        <li><a href="#">校规校纪混合</a></li>
+                        <li><a href="#">相关法律问题</a></li>
+                    </ul>
+                </li>
+                <li><a href="${pageContext.request.contextPath}/ExamieServlet">在线测评</a></li>
+                <li><a href="#">实时新政</a></li>
+                <li><a href="#">外校校规</a></li>
+                <li><a href="#">在线讲座</a></li>
+                <li><a href="#">校规交流</a></li>
+                <li><a href="#">网上大赛</a></li>
+            </ul>
+    </div>
+    <div id="center">
+    	<div class="left">
+            <video width="900px" height="300px" src="${requestScope.filepath}" controls="controls">
+                
+            </video>
+        </div>
+        <div class="right">
+			<ul>
+				<li><a href="">你身边的大学生日常规范演示实例1</a></li>
+				<li><a href="">你身边的大学生日常规范演示实例2</a></li>
+				<li><a href="">你身边的大学生日常规范演示实例3</a></li>
+				<li><a href="">你身边的大学生日常规范演示实例4</a></li>
+				<li><a href="">你身边的大学生日常规范演示实例5</a></li>
+				<li><a href="">你身边的大学生日常规范演示实例6</a></li>
+			</ul>
+        </div>
+    </div>
+    <div id="content">
+		<div class="title">
+			<h3>新闻资讯</h3>
+			<hr>
+		</div>
+		<div class="content_list">
+			<ul>
+				<li><a href="">2018年度国家教育局当局安全评审会</a></li>
+				<li><a href="">2017年度郑州教育局当局安全评审会</a></li>
+				<li><a href="">2016年度北京教育局当局安全评审会</a></li>
+				<li><a href="">2015年度上海教育局当局安全评审会</a></li>
+				<li><a href="">2016年度南京教育局当局安全评审会</a></li>
+				<li><a href="">2016年度广州教育局当局安全评审会</a></li>
+			</ul>
+		</div>
+		<div class="content_right">
+			<a href=""><img src="images/zixun.jpg" alt="图片"></a>
+		</div>
+    </div>
+    <div id="bottom">
+    	<div class="bottom_left">
+    		<h3>资源共享></h3>
+    		<hr/>
+    		<ul>
+				<li><a href="#">资源项目1</a></li>
+				<li><a href="#">资源项目2</a></li>
+				<li><a href="#">资源项目3</a></li>
+				<li><a href="#">资源项目4</a></li>
+				<li><a href="#">资源项目5</a></li>
+    		</ul>
+    	</div>
+    	<div class="bottom_right">
+    		<h3>娱乐天地></h3><hr/>
+    		<ul>
+				<li><a href="#">遇见不一样的新玩法期待你的加入</a></li>
+    		</ul>
+    	</div>
+    </div>
+    <div id="foot">
+    	<ul>
+    	<li>友情链接||---</li>
+    	<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<-中国教育网-></a></li>
+    	<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<-中国安全网-></a></li>
+    	<li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;<-有信网-></a></li>
+    	</ul>
+    </div>
+</body>
+</html>

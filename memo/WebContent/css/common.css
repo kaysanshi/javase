@@ -1,0 +1,44 @@
+.sclear {
+    height: 10px;
+}
+.mclear {
+    height: 15px;
+}
+.bclear {
+    height: 30px;
+}
+.col-sclear {
+    width: 10px;
+    display: inline-block;
+}
+.col-mclear {
+    width: 15px;
+    display: inline-block;
+}
+.col-bclear {
+    width: 30px;
+    display: inline-block;
+}
+.content {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: #5e5e5e;
+    height: 50px;
+    line-height: 50px;
+}
+input{
+	border-radius: 5px;
+	height:40px;
+	width:400px;
+	margin-top:20px;
+}
+textarea{
+	border-radius: 5px;
+	width:400px;
+	margin-top:20px ;
+}
+button{
+	border-radius: 5px;
+	
+}

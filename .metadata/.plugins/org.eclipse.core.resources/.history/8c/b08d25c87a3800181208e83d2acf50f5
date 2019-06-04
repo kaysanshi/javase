@@ -1,0 +1,5 @@
+package com.zcib.dao;
+
+public interface NewsDao {
+
+}

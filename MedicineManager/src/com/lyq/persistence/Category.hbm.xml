@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.lyq.persistence">
+	<class name="Category" table="tb_category">
+		<!-- 主键 -->
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="name" not-null="true" length="100"/>
+		<property name="description" type="text"/>
+		<property name="createTime"/>
+		<!-- 与药品的一对多关系 -->
+		<set name="meds" inverse="true" cascade="all" order-by="categoryId">
+			<key column="categoryId"/>
+			<one-to-many class="Medicine"/>
+		</set>
+	</class>
+</hibernate-mapping>

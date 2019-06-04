@@ -1,0 +1,93 @@
+body,div,p,ul,li{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+#head{
+    width: 1300px;
+    height: 50px;
+    margin:0px auto;
+    background-color: #209583;
+    border: 1px solid #209583;
+}
+#head img{
+    width: 800px;
+    height: 50px;
+    float: left;
+}
+#center{
+    width: 1300px;
+    height: 400px;
+    margin:0px auto;
+    border: 1px solid #209583;
+}
+#center .center_left{
+    width: 780px;
+    height: 400px;
+    float: left;
+}
+#center .center_left img{
+    width: 780px;
+    height: 400px;
+}
+#center .dl{
+    width:480px;
+    height:400px;
+    border:0px solid black;
+    float: right;
+}
+.dl .wz1{
+    width:140px;
+    height:50px;
+    margin-top:20px;
+    margin-left:20px;
+    text-align:left;
+    line-height:50px;
+    color:#209583;
+    font-size:23px;
+    font-weight:bold
+}
+table input{
+    width:250px;
+    height:40px;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:15px;
+    line-height:40px;
+    color:#c3b7b8;
+}
+table .an{
+    width:120px;
+    height:40px;
+    margin-top:20px;
+    margin-left:20px;
+    background:#209583;
+    font-size:20px;
+    font-weight:bold;
+    color:#ffffff;
+}
+table .user{
+    padding-left:45px;
+    background:url("../images/use.jpg") no-repeat 0 0;
+}
+table .password{
+    padding-left:45px;
+    background:url("/images/mm.jpg") no-repeat 0 0;
+}
+table .vcode td{
+    width: 140px;
+    height:40px;
+}
+table .vcode {
+    width:140px;
+    height:40px;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:15px;
+    line-height:40px;
+    color:#c3b7b8;
+}
+table .vcode{
+    padding-left:45px;
+    background:url("../images/mm.jpg") no-repeat 0 0;
+}

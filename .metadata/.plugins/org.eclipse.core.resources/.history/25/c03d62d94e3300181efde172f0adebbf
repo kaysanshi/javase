@@ -1,0 +1,20 @@
+package com.zcib.dao;
+
+import java.util.List;
+
+import com.zcib.domain.Problem;
+
+public interface ProblemDao {
+	/**
+	 * 问题增加
+	 * @param problem
+	 * @return
+	 */
+	void addProblem(Problem problem);
+	/**
+	 * 问题列表
+	 * @return
+	 */
+	List<Problem> getAllProblem();
+
+}

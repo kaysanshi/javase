@@ -1,0 +1,135 @@
+   @CHARSET "UTF-8";
+ body,p,div,ul,li,h3,img{
+ 	margin: 0px auto;
+ 	padding: 0px;
+ }
+   #top{
+   		width:1000px;
+   		height:90px;
+   		margin: 0px auto;
+   		border: 1px solid #000000;
+   }
+   #top .left{
+   		width:700px;
+   		height: 90px;
+   		float: left;
+   }
+   #top .right{
+   	height: 90px;
+   	width:300px;
+   	float: right;
+   	text-align: right;
+   }
+   #main{
+   	width: 1000px;
+   	height:500px;
+   	margin: 0px auto;
+   	border: 1px solid #005CB1;
+   }
+   #main .playvideo{
+   	height:500px;
+   	width:700px;
+   	margin: 0px auto;
+   	float: left; 
+   	border:1px solid #80C51A;
+   }
+   #main .videoist{
+   		width: 295px;
+   		margin: 0px auto;
+   		float: left;
+   		border:0px solid #FF0000;
+   }
+   #main .playvideoright{
+   		height:500px;
+   		width: 295px;
+   		margin: 0px auto;
+   		float: left;
+   		border:0px solid #FF0000;
+   }
+    #main .playvideoright ul{
+   	height:500px;
+   	width: 295px;
+   	border:0px solid #FF0000;
+   	list-style: none;
+   	   }
+    #main .playvideoright ul li{
+   	width:295px;
+   	height:30px;
+   	line-height:30px;
+   	border:1px solid #FF0000;
+   
+   }
+   #main .playvideoright ul li a{
+   	width:295px;
+   	height:30px;
+   line-height: 30px;
+   }
+    #main .playvideoright ul li a span{
+   	text-align: center;  
+   	line-height: 30px;
+   	height: 30px;	
+   }
+    #main .playvideoright ul li a:link,a:visited{
+    text-decoration:none;
+    display:block;
+}
+  	#main .playvideoright ul li a:hover{
+    text-decoration:none;
+    display:block;
+    background: #66AB00; 
+}
+   #fileshow{
+   	height: 300px;
+   	width:1000px;
+   	margin:0px auto;
+   	border:1px solid #FF0000;
+   }
+   #fileshow ul{
+   	height:278px;
+   	width: 970px;
+   	border:0px solid #FF0000;
+   	padding-left: 30px;
+   	   }
+   #fileshow ul li{
+   	width:150px;
+   	height:130px;
+   	line-height: 110px;
+   	border:1px solid #FF0000;
+   	float:left;
+   	margin-top: 20px;
+   	margin-left: 35px;
+   	list-style: url(../images/jb10.jpg);
+   }
+   #fileshow ul li a{
+   	
+   }
+	#fileshow ul li a:link,a:visited{
+    text-decoration:none;
+    display:block;
+}
+	#fileshow ul li a:hover{
+    text-decoration:none;
+    display:block;
+    background: #66AB00; 
+}
+	#bottom{
+		height:30px;
+		width:1000px;
+		margin: 0px auto;
+		border:1px solid #000000;
+	}
+	#bottom ul{
+		height:30px;
+		width:1000px;
+		margin: 0px auto;
+		border:0px solid #000000;
+	}
+	#bottom ul li{
+		height:30px;
+		width:210px;
+		margin: 0px auto;
+		border:1px solid #000000;
+		float: left;
+		line-height: 30px;
+		list-style: none;
+	}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.lyq.persistence">
+	<class name="SellDetail" table="tb_selldetail">
+		<!-- 主键 -->
+		<id name="id">
+			<generator class="native"/>
+		</id>
+		<property name="sellName" not-null="true" length="200"/>
+		<property name="sellPrice" not-null="true"/>
+		<property name="sellCount" not-null="true"/>
+		<property name="sellTime" not-null="true"/>
+		<!-- 与药品的多对一关系 -->
+		<many-to-one name="med" column="medid" cascade="save-update" lazy="proxy"/>
+		<!-- 与管理员的多对一关系 -->
+		<many-to-one name="user" column="userid" cascade="save-update"/>
+	</class>
+</hibernate-mapping>

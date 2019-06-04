@@ -1,0 +1,228 @@
+body,h1,h3,p,ul,span{
+    margin:0px;
+    padding:0px;
+    font-family:宋体;
+    list-style:none;
+}
+a:link,a:visited{
+    color:black;
+    text-decoration:none;
+}
+
+#login{
+    width: 1300px;
+    height: 50px;
+    margin:0px auto;
+    background-color: #209583;
+    border: 0px solid #209583;
+}
+#login .log img{
+    width: 800px;
+    height: 50px;
+    float: left;
+}
+.login{
+    width:320px;
+    height:50px;
+    float: right;       
+}
+#head{
+    border: 0px solid #209583;
+    width:1300px;
+    height:100px;
+    margin: 0px auto;
+    background:#209583;
+}
+#head ul{
+    list-style: none;
+}
+#head ul li{
+    width:160px;
+    height:100px;
+    text-align:center;
+    line-height:100px;
+    font-size: 25px;
+    float:left;
+    margin-left: 20px;
+    position:relative;
+}
+#head  ul li a{
+    text-decoration:none;
+    color:#FFFFFF;
+    display:block;
+}
+#head  ul li a:hover{
+    color:#FFFFFF;
+    background: #27CC35;
+}
+#head  ul li ul{
+    position:absolute;
+    display: none;
+    background:#209583;
+}
+#head  ul li ul li{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+#head  ul li ul li a{
+    width: 100%;
+}
+#head  ul li ul li a:hover{
+    background:#209583;
+}
+#head  ul li:hover ul{
+    display:block;
+}
+
+#center{
+    width:1300px;
+    border:0px solid blue;
+    height:300px;
+    margin:0 auto;
+}
+#center .left{
+    width: 900px;
+    height:300px;
+    border:0px solid blue;
+    float: left;
+}
+#center .right{
+    width: 396px;
+    height:300px;
+    border:0px solid blue;
+    float: right;
+}
+#center .right ul{
+    width: 394px;
+    height:300px;
+    border:0px solid blue;
+    float: right; 
+}
+#center .right ul li{
+    width: 370px;
+    height:48px;
+    border:0px solid black;
+    text-align: center;
+    line-height: 58px;
+    float: right;
+    background-color: ;
+    list-style-type: square;
+    font-size: 18px;
+}
+#center .right ul li a:link,a:visited{
+    text-decoration:none;
+    display:block;
+}
+#center .right ul li a:hover{
+    text-decoration:none;
+    display:block;
+    color:#209583; 
+}
+#content{
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 0px solid blue;
+}
+#content .title{
+    height: 20px;
+    margin:0px auto;
+    width:1300px;
+}
+#content .content_list{
+    height:260px;
+    width:950px;
+    border: 0px solid blue;
+    margin-top: 20px;
+    float: left;
+}
+#content .content_list ul{
+    height:260px;
+    width:910px;
+    margin-left:40px;
+    border: 0px solid blue;
+    list-style-type: square;
+}
+#content .content_list ul li{
+    width:950px;
+    height:40px;
+    line-height: 40px;
+    font-size: 18px;
+
+}
+#content .content_list ul li a:link,a:visited{
+    text-decoration:none;
+    display:block;
+}
+#content .content_list ul li a:hover{
+    text-decoration:none;
+    display:block;
+    color:#209583; 
+}
+#content .content_right img{
+    margin-top: 20px;
+    width:345px;
+    height:260px; 
+    border: 0px solid blue;
+    float: right;
+}
+#bottom{
+    height: 200px;
+    width: 1300px;
+    border: 0px solid blue;
+    margin: 0px auto;
+}
+#bottom .bottom_left{
+    height:200px;
+    width: 800px;
+    border: 0px solid blue;
+    float: left;
+}
+#bottom .bottom_left ul{
+    height:160px;
+    width: 800px;
+    border: 0px solid blue;
+    list-style-type: square;
+   }
+#bottom .bottom_left ul li{
+    height: 30px;
+    width: 780px;
+    border: 0px solid blue;
+    line-height: 30px;
+    margin-left: 20px;
+    font-size: 18px;
+   }
+#bottom .bottom_left ul li a:link,a:visited{
+    text-decoration:none;
+    display:block;
+}
+#bottom .bottom_left ul li a:hover{
+    text-decoration:none;
+    display:block;
+    color:#209583; 
+}
+#bottom .bottom_right{
+    height:200px;
+    width:495px;
+    border: 0px solid blue;
+    float: right;
+}
+#bottom .bottom_right ul{
+    font:华文行楷;
+    color:;
+    font-size:20px;
+
+}
+#foot{
+    width:1300px;
+    height:20px;
+    margin: 0px auto;
+    border: 1px solid blue;
+}
+#foot ul{
+    float: left;
+}
+#foot ul li{
+    float: left;
+}

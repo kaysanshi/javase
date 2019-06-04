@@ -1,0 +1,5 @@
+package com.zcib.dao;
+
+public class NewsDaoImpl implements NewsDao{
+
+}

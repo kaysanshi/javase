@@ -1,0 +1,9 @@
+package com.zcib.service;
+
+public interface ProblemService {
+	/**
+	 * 添加问题
+	 */
+	void addProblem();
+
+}

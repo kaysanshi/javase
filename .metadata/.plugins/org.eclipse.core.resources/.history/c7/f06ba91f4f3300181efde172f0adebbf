@@ -1,0 +1,23 @@
+package com.zcib.service;
+
+import java.sql.Connection;
+import java.util.List;
+
+import com.zcib.dao.ProblemDao;
+import com.zcib.domain.Problem;
+import com.zcib.factory.BasicFactory;
+
+public class ProblemServiceImpl implements ProblemService {
+	ProblemDao dao=BasicFactory.getFactory().GetInstance(ProblemDao.class);
+	@Override
+	public void addProblem(Problem problem,Connection conn) {
+		// TODO Auto-generated method stub
+		 dao.addProblem(problem,conn);
+	}
+	@Override
+	public List<Problem> getAllProblem() {
+		// TODO Auto-generated method stub
+		return dao.getAllProblem();
+	}
+
+}
