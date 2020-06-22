@@ -1,5 +1,7 @@
 #Tomcat publish data
-#Wed Sep 05 21:59:44 CST 2018
+#Wed Jun 26 18:43:09 CST 2019
+org.eclipse.jst.jee.server\:Shop=D\:\\SoftWare\\Tomcat8.0\\webapps\\Shop
 org.eclipse.jst.jee.server\:Estore=D\:\\SoftWare\\Tomcat 8.0\\webapps\\Estore
 org.eclipse.jst.jee.server\:Test1=D\:\\SoftWare\\Tomcat 8.0\\webapps\\Test1
+org.eclipse.jst.jee.server\:HeiMaShop=D\:\\SoftWare\\Tomcat8.0\\webapps\\HeiMaShop
 org.eclipse.jst.jee.server\:Json=D\:\\SoftWare\\Tomcat8.0\\webapps\\Json
