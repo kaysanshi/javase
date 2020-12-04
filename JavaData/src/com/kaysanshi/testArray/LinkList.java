@@ -1,76 +1,76 @@
 package com.kaysanshi.testArray;
 /**
- * Á´±í£ºÊÇÓÉÃ¿¸ö½áµãºÍ½áµãÊı¾İËù×é³ÉµÄÁ´±í
- * @author leoill
- *@date 2019Äê4ÔÂ25ÈÕ
+ * é“¾è¡¨ï¼šæ˜¯ç”±æ¯ä¸ªç»“ç‚¹å’Œç»“ç‚¹æ•°æ®æ‰€ç»„æˆçš„é“¾è¡¨
+ * @author kayä¸‰çŸ³
+ *@date 2019å¹´4æœˆ25æ—¥
  */
 public class LinkList {
-	//Á´±íµÄÍ·½áµã
+	//é“¾è¡¨çš„å¤´ç»“ç‚¹
 	private Node first;
-	
+
 	public LinkList(){
 		first=null;
 	}
 	/**
-	 * ²åÈë½Úµã£ºÔÚÍ·½áµãºó½øĞĞ²åÈë
+	 * æ’å…¥èŠ‚ç‚¹ï¼šåœ¨å¤´ç»“ç‚¹åè¿›è¡Œæ’å…¥
 	 * @param value
 	 */
 	public void insert(long value){
 		Node node=new Node(value);
-			//°ÑÏÂÒ»¸ö½ÚµãµÄÖ¸ÏòÌí¼ÓµÄ½Úµã
-			node.next=first;
-			//È»ºó°ÑÖµ¸øfirst
-			first=node;
-		
+		//æŠŠä¸‹ä¸€ä¸ªèŠ‚ç‚¹çš„æŒ‡å‘æ·»åŠ çš„èŠ‚ç‚¹
+		node.next=first;
+		//ç„¶åæŠŠå€¼ç»™first
+		first=node;
+
 	}
 	/**
-	 * É¾³ıÒ»¸ö½Úµã£¬É¾³ıµÄµÚÒ»¸ö½Úµã
+	 * åˆ é™¤ä¸€ä¸ªèŠ‚ç‚¹ï¼Œåˆ é™¤çš„ç¬¬ä¸€ä¸ªèŠ‚ç‚¹
 	 * @return
 	 */
 	public Node deleteFisrt(){
-		//°ÑÏÂÒ»¸ö½Úµã¸ø½ÓÊÜ
+		//æŠŠä¸‹ä¸€ä¸ªèŠ‚ç‚¹ç»™æ¥å—
 		Node temp=first;
-		//È»ºó°ÑÕâ¸ö½ÚµãÖ¸ÏòµÚÒ»¸ö½Úµã
+		//ç„¶åæŠŠè¿™ä¸ªèŠ‚ç‚¹æŒ‡å‘ç¬¬ä¸€ä¸ªèŠ‚ç‚¹
 		first=temp.next;
 		return temp;
 	}
 	/**
-	 * ÏÔÊ¾µÄ·½·¨
+	 * æ˜¾ç¤ºçš„æ–¹æ³•
 	 */
 	public void display(){
 		Node current=first;
-		//µ±Ç°µÄ½Úµã²»Îªnull
+		//å½“å‰çš„èŠ‚ç‚¹ä¸ä¸ºnull
 		while(current!=null){
 			current.display();
 			current=current.next;
 		}
 	}
 	/**
-	 * ²éÕÒ
+	 * æŸ¥æ‰¾
 	 * @param value
 	 * @return
 	 */
 	public Node find(long value){
 		Node current=first;
 		while(current.data!=value){
-			//ÏÂÒ»¸öÃ»ÓĞÁËÖÕÖ¹
+			//ä¸‹ä¸€ä¸ªæ²¡æœ‰äº†ç»ˆæ­¢
 			if (current.next==null) {
 				return null;
 			}
-			//Ö¸ÏòÏÂÒ»¸öÔªËØ
+			//æŒ‡å‘ä¸‹ä¸€ä¸ªå…ƒç´ 
 			current=current.next;
 		}
 		return current;
 	}
 	/**
-	 * É¾³ıµÄ·½·¨£º·µ»ØÉ¾³ıµÄÊı¾İ
+	 * åˆ é™¤çš„æ–¹æ³•ï¼šè¿”å›åˆ é™¤çš„æ•°æ®
 	 * @param value
 	 * @return
 	 */
 	public Node delete(long value){
-		//µ±Ç°µÄ½Úµã
+		//å½“å‰çš„èŠ‚ç‚¹
 		Node current=first;
-		//Ç°Ò»¸ö½Úµã
+		//å‰ä¸€ä¸ªèŠ‚ç‚¹
 		Node previous=first;
 		while(current.data != value){
 			if (current.next==null) {
@@ -80,37 +80,37 @@ public class LinkList {
 			current=current.next;
 		}
 		if (current==first) {
-			
+
 			first=first.next;
-			
+
 		}else{
-			
+
 			previous.next=current.next;
 		}
 		return current;
 	}
 }
 /**
- * ÕâÊÇÃ¿¸ö½ÚµãÓò
+ * è¿™æ˜¯æ¯ä¸ªèŠ‚ç‚¹åŸŸ
  * @author leoill
- *@date 2019Äê4ÔÂ25ÈÕ
+ *@date 2019å¹´4æœˆ25æ—¥
  */
 class Node{
-	//Êı¾İÓò
+	//æ•°æ®åŸŸ
 	public long data;
-	
-	//½áµãÓò
-	//Ö¸ÕëÓò
+
+	//ç»“ç‚¹åŸŸ
+	//æŒ‡é’ˆåŸŸ
 	public Node next;
-	
-	//Ç°Ò»¸öÖ¸ÕëÓò
+
+	//å‰ä¸€ä¸ªæŒ‡é’ˆåŸŸ
 	public Node privious;
-	
+
 	public Node(long value){
 		this.data=value;
 	}
 	/**
-	 * ÏÔÊ¾µÄ·½·¨
+	 * æ˜¾ç¤ºçš„æ–¹æ³•
 	 */
 	public void display(){
 		System.out.println(data+" ");

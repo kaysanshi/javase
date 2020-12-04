@@ -1,23 +1,23 @@
 package com.kaysanshi.testArray;
 /**
- * Õ»µÄ¹¹Ôì¼°ÆäÊ¹ÓÃ£º
- * ºó½øÏÈ³ö
+ * æ ˆçš„æ„é€ åŠå…¶ä½¿ç”¨ï¼š
+ * åè¿›å…ˆå‡º
  * @author leoill
- *@date 2019Äê4ÔÂ24ÈÕ
+ *@date 2019å¹´4æœˆ24æ—¥
  */
 public class Stack {
-	//µ×²ãµÄÊµÏÖÊÇÒ»¸öÊı×é
+	//åº•å±‚çš„å®ç°æ˜¯ä¸€ä¸ªæ•°ç»„
 	private long[] arry;
-	
-	private int top;//Õ»¶¥ÔªËØ
-	
+
+	private int top;//æ ˆé¡¶å…ƒç´ 
+
 	public Stack(){
 		arry=new long[10];
 		top=-1;
-		
+
 	}
 	/**
-	 * ÓĞ²Î¹¹Ôì³õÊ¼»¯
+	 * æœ‰å‚æ„é€ åˆå§‹åŒ–
 	 * @param maxsize
 	 */
 	public Stack(int maxsize){
@@ -25,36 +25,36 @@ public class Stack {
 		top=-1;
 	}
 	/**
-	 * Ìí¼ÓÊı¾İ
+	 * æ·»åŠ æ•°æ®
 	 */
 	public void push(int value){
 		arry[++top]=value;
 	}
 	/**
-	 * ÒÆ³ıÊı¾İ
+	 * ç§»é™¤æ•°æ®
 	 * @return
 	 */
 	public long pop(){
 		return arry[top--];
 	}
 	/**
-	 * ²é¿´Õ»¶¥Êı¾İ
+	 * æŸ¥çœ‹æ ˆé¡¶æ•°æ®
 	 */
 	public long peek(){
 		return arry[top];
 	}
 	/**
-	 * ÅĞ¶ÏÊÇ·ñÎª¿Õ
+	 * åˆ¤æ–­æ˜¯å¦ä¸ºç©º
 	 */
 	public boolean isEmpty(){
 		return top==-1;
 	}
 	/**
-	 *ÅĞ¶ÏÊÇ·ñÂú
+	 *åˆ¤æ–­æ˜¯å¦æ»¡
 	 * @return
 	 */
 	public boolean isFull(){
 		return top==arry.length-1;
 	}
-	
+
 }

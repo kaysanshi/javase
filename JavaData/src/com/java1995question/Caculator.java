@@ -19,7 +19,7 @@ public class Caculator {
 }
 class CaculatorFrame extends JFrame{
 	public CaculatorFrame(){
-		this.setTitle("������");
+		this.setTitle("计算器");
 		CaculatorPanel cp=new CaculatorPanel();
 		this.add(cp);
 		this.setLocation(300,400);
@@ -76,7 +76,7 @@ class CaculatorPanel extends JPanel{
 		 button.addActionListener(al);
 		 panel.add(button); 
 	}
-	//����������
+	//输入
 	String input ;
 	class CaculatorAction1 implements ActionListener{
 
@@ -94,7 +94,7 @@ class CaculatorPanel extends JPanel{
 		}
 		
 	}
-	//�����ַ�
+	//
 	class CaculatorAction2 implements ActionListener{
 
 		@Override

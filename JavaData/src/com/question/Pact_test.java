@@ -1,12 +1,12 @@
 package com.question;
 
 import java.util.Scanner;
-//�������������Լ��;�̳���Ӧ��;
+//
 public class Pact_test {
 	public void test(int a, int b){
 		int t=1;
 		for(int i=2;i<=a&&i<=b;i++){
-			while(a%i==0&&b%i==0){//whileѭ����ͨ��ö�ٰ����е�����г���;
+			while(a%i==0&&b%i==0){
 				t*=i;
 				a=a/i;
 				b=b/i;

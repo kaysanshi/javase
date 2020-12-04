@@ -1,140 +1,140 @@
 package com.kaysanshi.testArray;
 /**
- * Ë«ÏòÁ´±í
+ * åŒå‘é“¾è¡¨
  * @author leoill
- *@date 2019Äê4ÔÂ26ÈÕ
+ *@date 2019å¹´4æœˆ26æ—¥
  */
 public class DoubleLinkList_double {
-	//Á´±íµÄÍ·½áµã
-			private Node first;
-			//Î²½Úµã
-			private Node last;
-			
-			public DoubleLinkList_double() {
-				// TODO Auto-generated constructor stub
-				first=null;
-				last=null;
-			}
-			/**
-			 * ´ÓÍ·½áµãºó½øĞĞ²åÈë Òª¶ÔÁ´±íÅĞ¶Ï£¬ÅĞ¶ÏÊÇ·ñweinul¡£Èç¹ûweinull.ÔòÉèÖÃÎ²½áµãÎªĞÂÌí¼ÓµÄ½áµã£»£¬Èç¹û²»Îªnull
-			 * ÉèÖÃÍ·½áµãµÄÇ°Ò»¸ö½áµãÎªĞÂÌí¼ÓµÄ½áµã
-			 * @param value
-			 */
-			public void insert(long value){
-				Node node=new Node(value);
-				if (isEmpty()) {
-					//°ÑÎ²½ÚµãÎªµÚÒ»´ÎÌí¼ÓµÄ
-					last=node;
-				}else{
-					first.privious=node;
-				}
-				node.next=first;
-				first=node;
-			}
-			/**
-			 * ´ÓÎ²½Úµã½øĞĞ²åÈë£ºÈç¹ûÁ´±íÎªnullÔòÖ±½ÓÉèÖÃÍ·½áµãÎªĞÂÌí¼ÓµÄ½áµã£¬·ñÔòÉèÖÃÎ²½áµãµÄºóÒ»¸ö½áµãÎªĞÂÌí¼Ó½áµã
-			 * Í¬Ê±ÉèÖÃĞÂÌí¼ÓµÄ½ÚµãµÄÇ°Ò»¸ö½áµãÎªÎ²½áµã
-			 */
-			public void insertLast(long value){
-				Node node=new Node(value);
-				if (isEmpty()) {
-					first=node;
-				}else{
-					last.next=node;
-					node.privious=last;
-				}
-				last=node;
-			}
-			/**
-			 * ´ÓÍ·²¿É¾³ıµÄµÚÒ»¸ö½Úµã:ÅĞ¶ÏÍ·½áµãÊÇ·ñÓĞÏÂÒ»¸ö½áµã£¬Èç¹ûÃ»ÓĞÔòÉèÖÃÎ²½ÚµãÎªnull,·ñÔòÉèÖÃÍ·½áµãµÄÏÂÒ»¸ö½áµãµÄ
-			 * previousÎªnull;
-			 * @return
-			 */
-			public Node deleteFisrt(){
-				//°ÑÏÂÒ»¸ö½Úµã¸ø½ÓÊÜ
-				Node temp=first;
-				if (first.next == null) {
-					last=null;
-				}else{
-					first.next.privious=null;
-				}
-				first=temp.next;
-				return temp;
-			}
-			/**
-			 * É¾³ı½Úµã ´ÓÎ²²¿É¾³ı
-			 * ÅĞ¶ÏÍ·½áµãÊÇ·ñÓĞÏÂÒ»¸ö½áµã£¬Èç¹ûÃ»ÓĞÔòÉèÖÃÍ·½ÚµãÎªnull,·ñÔòÉèÖÃÎ²½áµãµÄÏÂÒ»¸ö½áµãµÄ
-			 * nextÎªnull;
-			 */
-			public Node deleteLast(){
-				Node temp=last;
-				if (first.next==null) {
-					first=null;
-				}else{
-					last.privious.next=null;
-					
-				}
-				last=last.privious;
-				return last;
-			}
-			/**
-			 * ÏÔÊ¾µÄ·½·¨
-			 */
-			public void display(){
-				Node current=first;
-				//µ±Ç°µÄ½Úµã²»Îªnull
-				while(current!=null){
-					current.display();
-					current=current.next;
-				}
-			}
-			/**
-			 * ²éÕÒ
-			 * @param value
-			 * @return
-			 */
-			public Node find(long value){
-				Node current=first;
-				while(current.data!=value){
-					//ÏÂÒ»¸öÃ»ÓĞÁËÖÕÖ¹
-					if (current.next==null) {
-						return null;
-					}
-					//Ö¸ÏòÏÂÒ»¸öÔªËØ
-					current=current.next;
-				}
-				return current;
-			}
-			/**
-			 * É¾³ıµÄ·½·¨£º·µ»ØÉ¾³ıµÄÊı¾İ
-			 * @param value
-			 * @return
-			 */
-			public Node delete(long value){
-				//µ±Ç°µÄ½Úµã
-				Node current=first;
+	//é“¾è¡¨çš„å¤´ç»“ç‚¹
+	private Node first;
+	//å°¾èŠ‚ç‚¹
+	private Node last;
 
-				while(current.data != value){
-					if (current.next==null) {
-						return null;
-					}
-					
-					current=current.next;
-				}
-				if (current==first) {
-					
-					first=first.next;
-					
-				}else{
-					current.privious.next=current.next;
-				}
-				return current;
+	public DoubleLinkList_double() {
+		// TODO Auto-generated constructor stub
+		first=null;
+		last=null;
+	}
+	/**
+	 * ä»å¤´ç»“ç‚¹åè¿›è¡Œæ’å…¥ è¦å¯¹é“¾è¡¨åˆ¤æ–­ï¼Œåˆ¤æ–­æ˜¯å¦weinulã€‚å¦‚æœweinull.åˆ™è®¾ç½®å°¾ç»“ç‚¹ä¸ºæ–°æ·»åŠ çš„ç»“ç‚¹ï¼›ï¼Œå¦‚æœä¸ä¸ºnull
+	 * è®¾ç½®å¤´ç»“ç‚¹çš„å‰ä¸€ä¸ªç»“ç‚¹ä¸ºæ–°æ·»åŠ çš„ç»“ç‚¹
+	 * @param value
+	 */
+	public void insert(long value){
+		Node node=new Node(value);
+		if (isEmpty()) {
+			//æŠŠå°¾èŠ‚ç‚¹ä¸ºç¬¬ä¸€æ¬¡æ·»åŠ çš„
+			last=node;
+		}else{
+			first.privious=node;
+		}
+		node.next=first;
+		first=node;
+	}
+	/**
+	 * ä»å°¾èŠ‚ç‚¹è¿›è¡Œæ’å…¥ï¼šå¦‚æœé“¾è¡¨ä¸ºnullåˆ™ç›´æ¥è®¾ç½®å¤´ç»“ç‚¹ä¸ºæ–°æ·»åŠ çš„ç»“ç‚¹ï¼Œå¦åˆ™è®¾ç½®å°¾ç»“ç‚¹çš„åä¸€ä¸ªç»“ç‚¹ä¸ºæ–°æ·»åŠ ç»“ç‚¹
+	 * åŒæ—¶è®¾ç½®æ–°æ·»åŠ çš„èŠ‚ç‚¹çš„å‰ä¸€ä¸ªç»“ç‚¹ä¸ºå°¾ç»“ç‚¹
+	 */
+	public void insertLast(long value){
+		Node node=new Node(value);
+		if (isEmpty()) {
+			first=node;
+		}else{
+			last.next=node;
+			node.privious=last;
+		}
+		last=node;
+	}
+	/**
+	 * ä»å¤´éƒ¨åˆ é™¤çš„ç¬¬ä¸€ä¸ªèŠ‚ç‚¹:åˆ¤æ–­å¤´ç»“ç‚¹æ˜¯å¦æœ‰ä¸‹ä¸€ä¸ªç»“ç‚¹ï¼Œå¦‚æœæ²¡æœ‰åˆ™è®¾ç½®å°¾èŠ‚ç‚¹ä¸ºnull,å¦åˆ™è®¾ç½®å¤´ç»“ç‚¹çš„ä¸‹ä¸€ä¸ªç»“ç‚¹çš„
+	 * previousä¸ºnull;
+	 * @return
+	 */
+	public Node deleteFisrt(){
+		//æŠŠä¸‹ä¸€ä¸ªèŠ‚ç‚¹ç»™æ¥å—
+		Node temp=first;
+		if (first.next == null) {
+			last=null;
+		}else{
+			first.next.privious=null;
+		}
+		first=temp.next;
+		return temp;
+	}
+	/**
+	 * åˆ é™¤èŠ‚ç‚¹ ä»å°¾éƒ¨åˆ é™¤
+	 * åˆ¤æ–­å¤´ç»“ç‚¹æ˜¯å¦æœ‰ä¸‹ä¸€ä¸ªç»“ç‚¹ï¼Œå¦‚æœæ²¡æœ‰åˆ™è®¾ç½®å¤´èŠ‚ç‚¹ä¸ºnull,å¦åˆ™è®¾ç½®å°¾ç»“ç‚¹çš„ä¸‹ä¸€ä¸ªç»“ç‚¹çš„
+	 * nextä¸ºnull;
+	 */
+	public Node deleteLast(){
+		Node temp=last;
+		if (first.next==null) {
+			first=null;
+		}else{
+			last.privious.next=null;
+
+		}
+		last=last.privious;
+		return last;
+	}
+	/**
+	 * æ˜¾ç¤ºçš„æ–¹æ³•
+	 */
+	public void display(){
+		Node current=first;
+		//å½“å‰çš„èŠ‚ç‚¹ä¸ä¸ºnull
+		while(current!=null){
+			current.display();
+			current=current.next;
+		}
+	}
+	/**
+	 * æŸ¥æ‰¾
+	 * @param value
+	 * @return
+	 */
+	public Node find(long value){
+		Node current=first;
+		while(current.data!=value){
+			//ä¸‹ä¸€ä¸ªæ²¡æœ‰äº†ç»ˆæ­¢
+			if (current.next==null) {
+				return null;
 			}
-			/**
-			 * ÅĞ¶Ïweinull
-			 * @return
-			 */
-			public boolean isEmpty(){
-				return (first==null);
+			//æŒ‡å‘ä¸‹ä¸€ä¸ªå…ƒç´ 
+			current=current.next;
+		}
+		return current;
+	}
+	/**
+	 * åˆ é™¤çš„æ–¹æ³•ï¼šè¿”å›åˆ é™¤çš„æ•°æ®
+	 * @param value
+	 * @return
+	 */
+	public Node delete(long value){
+		//å½“å‰çš„èŠ‚ç‚¹
+		Node current=first;
+
+		while(current.data != value){
+			if (current.next==null) {
+				return null;
 			}
+
+			current=current.next;
+		}
+		if (current==first) {
+
+			first=first.next;
+
+		}else{
+			current.privious.next=current.next;
+		}
+		return current;
+	}
+	/**
+	 * åˆ¤æ–­weinull
+	 * @return
+	 */
+	public boolean isEmpty(){
+		return (first==null);
+	}
 }

@@ -1,33 +1,33 @@
 package com.kaysanshi.testArray;
 /**
- * µİ¹é¸ß¼¶Ó¦ÓÃ 
- * ººÅµËş:
- * 		
+ * é€’å½’é«˜çº§åº”ç”¨
+ * æ±‰è¯ºå¡”:
+ *
  * @author leoill
- *@date 2019Äê4ÔÂ27ÈÕ
+ *@date 2019å¹´4æœˆ27æ—¥
  */
 public class HighFibonacci {
-	
+
 	/**
-	 * ÒÆ¶¯ÅÌ×Ó
-	 * @param TopN ÒÆ¶¯µÄÅÌ×ÓÊı
-	 * @param from ÆğÊ¼µÄËş×ø
-	 * @param inter ÖĞ¼äËş×ù
-	 * @param end Ä¿±êËş×ù
+	 * ç§»åŠ¨ç›˜å­
+	 * @param TopN ç§»åŠ¨çš„ç›˜å­æ•°
+	 * @param from èµ·å§‹çš„å¡”å
+	 * @param inter ä¸­é—´å¡”åº§
+	 * @param end ç›®æ ‡å¡”åº§
 	 */
 	public static void doTower(int TopN,char from,char inter,char end){
 		if (TopN ==1) {
-			System.out.println("ÅÌ×Ó1,´Ó"+from+"Ëş×ù£¬µ½"+end+"Ëş×ù");
+			System.out.println("ç›˜å­1,ä»"+from+"å¡”åº§ï¼Œåˆ°"+end+"å¡”åº§");
 		}else{
-			//ÏÈ°ÑÉÏÃæµÄÕâĞ©ÒÆµ½end£¬Ä¿µÄÎªinter
+			//å…ˆæŠŠä¸Šé¢çš„è¿™äº›ç§»åˆ°endï¼Œç›®çš„ä¸ºinter
 			doTower(TopN-1, from, end,inter);
-			System.out.println("ÅÌ×Ó"+TopN+"´Ó"+from+"Ëş×ù£¬µ½"+end+"Ëş×ù");
-			//°ÑÅÌ×ÓÒÆµ½from,È»ºó±ä»»
+			System.out.println("ç›˜å­"+TopN+"ä»"+from+"å¡”åº§ï¼Œåˆ°"+end+"å¡”åº§");
+			//æŠŠç›˜å­ç§»åˆ°from,ç„¶åå˜æ¢
 			doTower(TopN-1, inter, from, end);
 		}
 	}
-	
-	
+
+
 	public static void main(String[] args) {
 		HighFibonacci.doTower(3, 'A', 'B', 'C');
 	}

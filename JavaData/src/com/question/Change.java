@@ -8,7 +8,7 @@ public class Change {
 		i=i*j;
 		j=i/j;
 		i=i/j;
-		System.out.println("�������ְλ");
+		System.out.println("");
 		System.out.println(i+","+j);
 	}
 	public static void main(String[] args) {

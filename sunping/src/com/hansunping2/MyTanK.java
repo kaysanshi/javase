@@ -90,7 +90,7 @@ class Recorder{
 	//恢复完成读取
 	public Vector<Node> getNodesAndEnNums(){
 		try {
-			fr=new FileReader("F:\\myGrameRecoder");
+			fr=new FileReader("F://myGrameRecoder");
 			br=new BufferedReader(fr);
 			String n=""; 
 			n=br.readLine();
@@ -153,7 +153,7 @@ class Recorder{
 	//冲文件中读取
 	public static void getRecording(){
 		try {
-			fr=new FileReader("F:\\myGrameRecoder");
+			fr=new FileReader("F://myGrameRecoder");
 			br=new BufferedReader(fr);
 			String n=br.readLine();
 			allEnNum=Integer.parseInt(n);
@@ -178,7 +178,7 @@ class Recorder{
 	}
 	public static void keepRecording(){
 		try {
-			fw=new FileWriter("F:\\myGrameRecoder");
+			fw=new FileWriter("F://myGrameRecoder");
 			bw=new BufferedWriter(fw);
 			bw.write(allEnNum+"\r\n");
 		} catch (IOException e) {

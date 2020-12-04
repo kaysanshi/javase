@@ -1,15 +1,15 @@
 package com.kaysanshi.testArray;
 /**
- * µİ¹éµ÷ÓÃ
- * Èı½ÇĞÎµÄµÄÊıÁĞ
+ * é€’å½’è°ƒç”¨
+ * ä¸‰è§’å½¢çš„çš„æ•°åˆ—
  * @author leoill
- *@date 2019Äê4ÔÂ27ÈÕ
+ *@date 2019å¹´4æœˆ27æ—¥
  */
 public class Triangle {
-	
+
 	public static int getNumber(int n){
 		int total=0;
-		
+
 		while (n>0) {
 			total=total+n;
 			n--;
@@ -17,7 +17,7 @@ public class Triangle {
 		return total;
 	}
 	/**
-	 * µİ¹éµ÷ÓÃ
+	 * é€’å½’è°ƒç”¨
 	 * @param n
 	 * @return
 	 */
@@ -25,7 +25,7 @@ public class Triangle {
 		if (n==1) {
 			return 1;
 		}else{
-			//ÒÀ´Îµİ¹é±¾Éí
+			//ä¾æ¬¡é€’å½’æœ¬èº«
 			return n+getNubmerByRecursion(n-1);
 		}
 	}

@@ -1,23 +1,23 @@
 package com.kaysanshi.testArray;
 
 /**
- * ¶ÓÁĞ
+ * é˜Ÿåˆ—
  * @author leoill
- *@date 2019Äê4ÔÂ24ÈÕ
+ *@date 2019å¹´4æœˆ24æ—¥
  */
 public class Queue {
-	//µ×²ãÒ²ÊÇÍ¬ÑùµÄÊ¹ÓÃÊı×é
-	
+	//åº•å±‚ä¹Ÿæ˜¯åŒæ ·çš„ä½¿ç”¨æ•°ç»„
+
 	private long[] arry;
-	//ÓĞĞ§Êı¾İµÄ´óĞ¡
+	//æœ‰æ•ˆæ•°æ®çš„å¤§å°
 	private int elements;
-	
-	//¶ÔÍ·
+
+	//å¯¹å¤´
 	private int front;
-	
-	//¶ÓÎ²
+
+	//é˜Ÿå°¾
 	private int end;
-	
+
 	public Queue(){
 		arry=new long[10];
 		elements=0;
@@ -25,7 +25,7 @@ public class Queue {
 		end=-1;
 	}
 	/**
-	 * 
+	 *
 	 * @param maxsize
 	 */
 	public Queue(int maxsize){
@@ -35,11 +35,11 @@ public class Queue {
 		end=-1;
 	}
 	/**
-	 * Ìí¼ÓÊı¾İ
-	 * 
+	 * æ·»åŠ æ•°æ®
+	 *
 	 */
 	public void insert(long value){
-		//endÖ¸Ïò×îºóÒ»¸öÔªËØÊ±
+		//endæŒ‡å‘æœ€åä¸€ä¸ªå…ƒç´ æ—¶
 		if (end ==arry.length-1) {
 			end=-1;
 		}
@@ -47,13 +47,13 @@ public class Queue {
 		elements++;
 	}
 	/**
-	 * É¾³ıÊı¾İ£¬´Ó¶ÓÍ·É¾³ı
+	 * åˆ é™¤æ•°æ®ï¼Œä»é˜Ÿå¤´åˆ é™¤
 	 * @return
 	 */
 	public long remove(){
-		
+
 		long value=arry[front++];
-		//ÅĞ¶ÏfrontµÄ³¤¶È
+		//åˆ¤æ–­frontçš„é•¿åº¦
 		if (front==arry.length) {
 			front=0;
 		}
@@ -61,29 +61,29 @@ public class Queue {
 		return value;
 	}
 	/**
-	 * ²é¿´Êı¾İ
+	 * æŸ¥çœ‹æ•°æ®
 	 */
 	public long peek(){
 		return arry[front];
 	}
 	/**
-	 * ÅĞ¶ÏÊÇ·ñÎª¿Õ
+	 * åˆ¤æ–­æ˜¯å¦ä¸ºç©º
 	 */
 	public boolean isEmpty(){
 		return elements==0;
 	}
 	/**
-	 * ÅĞ¶ÏÊÇ¶ÓÂú
+	 * åˆ¤æ–­æ˜¯é˜Ÿæ»¡
 	 * @return
 	 */
 	public boolean isFull(){
 		return arry.length==elements;
 	}
 	/**
-	 * ÏÔÊ¾Êı¾İ
+	 * æ˜¾ç¤ºæ•°æ®
 	 */
 	public void display(){
-		
+
 		while(!isEmpty()){
 			System.out.println(peek());
 		}

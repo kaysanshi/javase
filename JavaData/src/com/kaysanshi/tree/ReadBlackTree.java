@@ -1,175 +1,175 @@
 package com.kaysanshi.tree;
 /**
- * 
- * ¶ş²æÊ÷ÖĞµÄÇé¿ö£º±ÈÈçÓĞĞòµÄ 1-10£¬ÕâÑù¾Í»áÖ»ÓĞÓÒ×ÓÊ÷£¬ËùÒÔµ±×óÓÒÉî¶ÈÏà²î¹ı¶à£¬
- * ÔÚÊ¹ÓÃÆ½ºâÇé¿öÏÂµÄ¶ş²æ²éÕÒÊ÷ÊÇÊ±¼ä¸´ÔÓ¶ÈÎªlogn£¬¶ø³öÏÖÕâÖÖ¼«¶ËÇé¿öµÄ»°£¬ÏëÒª²é9µÄÎ»ÖÃ¾ÍĞèÒªÃ¿Ò»´Î¶¼±éÀúÏÂÒ»¸öÓÒ×ÓÊ÷£¬ºÜÓĞ¿ÉÄÜÊ±¼ä¸´ÔÓ¶È±äÎªn(ÓëÊı×éÆÕÍ¨²éÑ¯µÄÊ±¼ä¸´ÔÓ¶ÈÏàÍ¬)
- * 
- * »ùÓÚÉÏÃæµÄÇé¿ö³öÏÖÁËÆ½ºâ¶ş²æÊ÷£¬ºìºÚÊ÷¼´ÎªÆ½ºâ¶ş²æÊ÷µÄÒ»ÖÖ
- * ºìºÚÊ÷£ºÊÇÎªÁË½â¾ö¶ş²æÊ÷ÖĞµÄ³öÏÖ²»Æ½ºâµÄĞòÁĞ£¬
- * 	ÌØµã£º
- * 		½ÚµãÊÇºìÉ«»òºÚÉ«
- * 		¸ù½ÚµãÒ»¶¨ÎªºÚÉ«
- * 		Ã¿¸ö½Úµã¶¼ÊÇºÚÉ«µÄ¿Õ½Úµã
- * 		Ã¿¸öºì½ÚµãµÄÁ½¸ö×Ó½Úµã¶¼ÊÇºÚÉ«µÄ	(´ÓÃ¿¸öÒ¶×Óµ½¸úµÄËùÓĞÂ·¾¶ÉÏ²»ÄÜÓĞÁ½¸öÁ¬ĞøµÄºì½Úµã)
- * 		(¼´¶ÔÓÚ²ãÀ´Ëµ³ıÁËNIL½Úµã£¬ºìºÚ½ÚµãÊÇ½»ÌæµÄ£¬µÚÒ»²ãÊÇºÚ½ÚµãÄÇÃ´ÆäÏÂÒ»²ã¿Ï¶¨¶¼ÊÇºì½Úµã£¬·´Ö®Ò»Ñù)
- * 		´ÓÈÎÒ»½Úµãµ½ÆäÃ¿¸öÒ¶×Ó½ÚµãµÄËùÓĞÂ·¾¶¶¼°üº¬ÏàÍ¬ÊıÄ¿µÄºÚÉ«½Úµã
- * ×óĞı£ºÈç¹û×ó×ÓÊ÷Éî¶È¹ıÉî£¬ÄÇÃ´±ãĞèÒª×óĞı²Ù×÷ÒÔ±£Ö¤×óÓÒ×ÓÊ÷µÄÉî¶È²î×îĞ¡
- * ÓÒĞı£ºÓÒĞıÓë×óĞıµÄ¸ÅÄîÕıºÃÏà·´
- * Í¨¹ı×óĞıºÍÓÒĞı¿ÉÒÔÊµÏÖºìºÚÊ÷
+ *
+ * äºŒå‰æ ‘ä¸­çš„æƒ…å†µï¼šæ¯”å¦‚æœ‰åºçš„ 1-10ï¼Œè¿™æ ·å°±ä¼šåªæœ‰å³å­æ ‘ï¼Œæ‰€ä»¥å½“å·¦å³æ·±åº¦ç›¸å·®è¿‡å¤šï¼Œ
+ * åœ¨ä½¿ç”¨å¹³è¡¡æƒ…å†µä¸‹çš„äºŒå‰æŸ¥æ‰¾æ ‘æ˜¯æ—¶é—´å¤æ‚åº¦ä¸ºlognï¼Œè€Œå‡ºç°è¿™ç§æç«¯æƒ…å†µçš„è¯ï¼Œæƒ³è¦æŸ¥9çš„ä½ç½®å°±éœ€è¦æ¯ä¸€æ¬¡éƒ½éå†ä¸‹ä¸€ä¸ªå³å­æ ‘ï¼Œå¾ˆæœ‰å¯èƒ½æ—¶é—´å¤æ‚åº¦å˜ä¸ºn(ä¸æ•°ç»„æ™®é€šæŸ¥è¯¢çš„æ—¶é—´å¤æ‚åº¦ç›¸åŒ)
+ *
+ * åŸºäºä¸Šé¢çš„æƒ…å†µå‡ºç°äº†å¹³è¡¡äºŒå‰æ ‘ï¼Œçº¢é»‘æ ‘å³ä¸ºå¹³è¡¡äºŒå‰æ ‘çš„ä¸€ç§
+ * çº¢é»‘æ ‘ï¼šæ˜¯ä¸ºäº†è§£å†³äºŒå‰æ ‘ä¸­çš„å‡ºç°ä¸å¹³è¡¡çš„åºåˆ—ï¼Œ
+ * 	ç‰¹ç‚¹ï¼š
+ * 		èŠ‚ç‚¹æ˜¯çº¢è‰²æˆ–é»‘è‰²
+ * 		æ ¹èŠ‚ç‚¹ä¸€å®šä¸ºé»‘è‰²
+ * 		æ¯ä¸ªèŠ‚ç‚¹éƒ½æ˜¯é»‘è‰²çš„ç©ºèŠ‚ç‚¹
+ * 		æ¯ä¸ªçº¢èŠ‚ç‚¹çš„ä¸¤ä¸ªå­èŠ‚ç‚¹éƒ½æ˜¯é»‘è‰²çš„	(ä»æ¯ä¸ªå¶å­åˆ°è·Ÿçš„æ‰€æœ‰è·¯å¾„ä¸Šä¸èƒ½æœ‰ä¸¤ä¸ªè¿ç»­çš„çº¢èŠ‚ç‚¹)
+ * 		(å³å¯¹äºå±‚æ¥è¯´é™¤äº†NILèŠ‚ç‚¹ï¼Œçº¢é»‘èŠ‚ç‚¹æ˜¯äº¤æ›¿çš„ï¼Œç¬¬ä¸€å±‚æ˜¯é»‘èŠ‚ç‚¹é‚£ä¹ˆå…¶ä¸‹ä¸€å±‚è‚¯å®šéƒ½æ˜¯çº¢èŠ‚ç‚¹ï¼Œåä¹‹ä¸€æ ·)
+ * 		ä»ä»»ä¸€èŠ‚ç‚¹åˆ°å…¶æ¯ä¸ªå¶å­èŠ‚ç‚¹çš„æ‰€æœ‰è·¯å¾„éƒ½åŒ…å«ç›¸åŒæ•°ç›®çš„é»‘è‰²èŠ‚ç‚¹
+ * å·¦æ—‹ï¼šå¦‚æœå·¦å­æ ‘æ·±åº¦è¿‡æ·±ï¼Œé‚£ä¹ˆä¾¿éœ€è¦å·¦æ—‹æ“ä½œä»¥ä¿è¯å·¦å³å­æ ‘çš„æ·±åº¦å·®æœ€å°
+ * å³æ—‹ï¼šå³æ—‹ä¸å·¦æ—‹çš„æ¦‚å¿µæ­£å¥½ç›¸å
+ * é€šè¿‡å·¦æ—‹å’Œå³æ—‹å¯ä»¥å®ç°çº¢é»‘æ ‘
  * @author leoill
- *@date 2019Äê4ÔÂ29ÈÕ
+ *@date 2019å¹´4æœˆ29æ—¥
  */
 public class ReadBlackTree {
-	 TreeNode grandParent;
+	TreeNode grandParent;
 	/**
-	 * ×óĞı£º
+	 * å·¦æ—‹ï¼š
 	 * @param presentNode
 	 * @return
 	 */
 	public TreeNode singleRotateWithLeft(TreeNode presentNode){
-	    TreeNode node;        //ĞÂµÄ¸¸½Úµã
-	    node = presentNode.rightChild;
-	    presentNode.rightChild = node.leftChild;
-	    node.leftChild = presentNode;
-	    return node;
+		TreeNode node;        //æ–°çš„çˆ¶èŠ‚ç‚¹
+		node = presentNode.rightChild;
+		presentNode.rightChild = node.leftChild;
+		node.leftChild = presentNode;
+		return node;
 	}
 	/**
-	 * ÓÒĞı
+	 * å³æ—‹
 	 * @param presentNode
 	 * @return
 	 */
 	public TreeNode singleRotateWithRight(TreeNode presentNode){
-	    TreeNode node;
-	    node = presentNode.leftChild;
-	    presentNode.leftChild = node.rightChild;
-	    node.rightChild = presentNode;
-	    return node;
+		TreeNode node;
+		node = presentNode.leftChild;
+		presentNode.leftChild = node.rightChild;
+		node.rightChild = presentNode;
+		return node;
 	}
 	/**
-	 * ²åÈë£º±»²åÈëµÄ½ÚµãÊÇ¸ù½Úµã
+	 * æ’å…¥ï¼šè¢«æ’å…¥çš„èŠ‚ç‚¹æ˜¯æ ¹èŠ‚ç‚¹
 	 * @param presentNode
 	 */
 	public void insert_case1(TreeNode presentNode){
-	    if(presentNode.parent == null){
-	        presentNode.color = "black";
-	    }else{
-	        insert_case2(presentNode);
-	    }
+		if(presentNode.parent == null){
+			presentNode.color = "black";
+		}else{
+			insert_case2(presentNode);
+		}
 	}
 	/**
-	 * ±»²åÈëµÄ½ÚµãµÄ¸¸½ÚµãÊÇºÚÉ«
+	 * è¢«æ’å…¥çš„èŠ‚ç‚¹çš„çˆ¶èŠ‚ç‚¹æ˜¯é»‘è‰²
 	 * @param presentNode
 	 */
 	public void insert_case2(TreeNode presentNode){
-	    if(presentNode.parent.color.equals("black")){
-	        // do nothing
-	    }else{
-	        insert_case3(presentNode);
-	    }
+		if(presentNode.parent.color.equals("black")){
+			// do nothing
+		}else{
+			insert_case3(presentNode);
+		}
 	}
 	/**
-	 * ÊåÊå½ÚµãÊÇºìÉ«
-		´¦Àí·½Ê½£º
-		½« "¸¸½Úµã" ÉèÎªºÚÉ«
-		½« "ÊåÊå½Úµã" ÉèÎªºÚÉ«
-		½« "×æ¸¸½Úµã" ÉèÎªºìÉ«
-		½« "×æ¸¸½Úµã" ÉèÎª "µ±Ç°½Úµã"(ºìÉ«½Úµã)£»Ö®ºó¼ÌĞø¶Ô "µ±Ç°" ½øĞĞ²Ù×÷¡£
-	 * 
+	 * å”å”èŠ‚ç‚¹æ˜¯çº¢è‰²
+	 å¤„ç†æ–¹å¼ï¼š
+	 å°† "çˆ¶èŠ‚ç‚¹" è®¾ä¸ºé»‘è‰²
+	 å°† "å”å”èŠ‚ç‚¹" è®¾ä¸ºé»‘è‰²
+	 å°† "ç¥–çˆ¶èŠ‚ç‚¹" è®¾ä¸ºçº¢è‰²
+	 å°† "ç¥–çˆ¶èŠ‚ç‚¹" è®¾ä¸º "å½“å‰èŠ‚ç‚¹"(çº¢è‰²èŠ‚ç‚¹)ï¼›ä¹‹åç»§ç»­å¯¹ "å½“å‰" è¿›è¡Œæ“ä½œã€‚
+	 *
 	 * @param presentNode
 	 */
 	public void insert_case3(TreeNode presentNode){
-	    if(presentNode.uncle != null && presentNode.uncle.color.equals("red")){
-	        presentNode.parent.color = "black";
-	        presentNode.uncle.color = "black";
-	        grandParent.color = "red";
-	        insert_case1(grandParent);
-	    }else{
-	        insert_case4(presentNode);
-	    }
+		if(presentNode.uncle != null && presentNode.uncle.color.equals("red")){
+			presentNode.parent.color = "black";
+			presentNode.uncle.color = "black";
+			grandParent.color = "red";
+			insert_case1(grandParent);
+		}else{
+			insert_case4(presentNode);
+		}
 	}
 	/**
-	 * ÊåÊå½ÚµãÎªºÚÉ«»òÈ±Ê§£¬ÇÒµ±Ç°½ÚµãÊÇÇúÏß±ß (¼´×óÓÒ»òÓÒ×ó)
-		´¦Àí·½Ê½£º
-		
-		½« "¸¸½Úµã" ×÷Îª "ĞÂµÄµ±Ç°½Úµã"
-		ÒÔ "ĞÂµÄµ±Ç°½Úµã" ÎªÖ§µã½øĞĞ×óĞı
-		ÒÔĞÂµÄµ±Ç°½Úµã(¼´Ô­±¾µÄ¸¸½Úµã)ÔÙ½øĞĞ²Ù×÷
+	 * å”å”èŠ‚ç‚¹ä¸ºé»‘è‰²æˆ–ç¼ºå¤±ï¼Œä¸”å½“å‰èŠ‚ç‚¹æ˜¯æ›²çº¿è¾¹ (å³å·¦å³æˆ–å³å·¦)
+	 å¤„ç†æ–¹å¼ï¼š
+
+	 å°† "çˆ¶èŠ‚ç‚¹" ä½œä¸º "æ–°çš„å½“å‰èŠ‚ç‚¹"
+	 ä»¥ "æ–°çš„å½“å‰èŠ‚ç‚¹" ä¸ºæ”¯ç‚¹è¿›è¡Œå·¦æ—‹
+	 ä»¥æ–°çš„å½“å‰èŠ‚ç‚¹(å³åŸæœ¬çš„çˆ¶èŠ‚ç‚¹)å†è¿›è¡Œæ“ä½œ
 	 */
 	public void insert_case4(TreeNode presentNode){
-	    if(presentNode == presentNode.parent.rightChild && presentNode.parent == presentNode.grandParent.leftChild){
-	        singleRotateWithLeft(presentNode.parent);
-	        presentNode = presentNode.leftChild;
-	    }else if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.rightChild){
-	        singleRotateWithRight(presentNode.parent);
-	        presentNode = presentNode.rightChild;
-	    }
-	    insert_case5(presentNode);
+		if(presentNode == presentNode.parent.rightChild && presentNode.parent == presentNode.grandParent.leftChild){
+			singleRotateWithLeft(presentNode.parent);
+			presentNode = presentNode.leftChild;
+		}else if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.rightChild){
+			singleRotateWithRight(presentNode.parent);
+			presentNode = presentNode.rightChild;
+		}
+		insert_case5(presentNode);
 	}
 	public void insert_case5(TreeNode presentNode){
-	    presentNode.parent.color = "black";
-	    presentNode.grandParent.color = "red";
-	    if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.leftChild){
-	        singleRotateWithRight(presentNode);
-	    }else{
-	        singleRotateWithLeft(presentNode);
-	    }
+		presentNode.parent.color = "black";
+		presentNode.grandParent.color = "red";
+		if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.leftChild){
+			singleRotateWithRight(presentNode);
+		}else{
+			singleRotateWithLeft(presentNode);
+		}
 	}
 	/**
-	 * µü´úÊµÏÖ²åÈë²Ù×÷
+	 * è¿­ä»£å®ç°æ’å…¥æ“ä½œ
 	 */
 	public void insert_case(TreeNode presentNode){
 
-	    while(presentNode != null){
-	        if(presentNode.parent == null){
-	            presentNode.color = "black";
-	            break;
-	        }else if(presentNode.parent.color.equals("black")){
-	            //do nothing
-	            break;
-	        }else if(presentNode.uncle != null && presentNode.uncle.color.equals("red")){
-	        
-	            presentNode.parent.color = "black";
-	            presentNode.uncle.color = "black";
-	            presentNode.grandParent.color = "red";
-	            presentNode = presentNode.grandParent;
-	            
-	        }else if(presentNode == presentNode.parent.rightChild && presentNode.parent == presentNode.grandParent.leftChild){
-	        
-	            singleRotateWithLeft(presentNode.parent);
-	            presentNode = presentNode.leftChild;
-	            
-	        }else if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.rightChild){
-	        
-	            singleRotateWithRight(presentNode.parent);
-	            presentNode = presentNode.rightChild;
-	            
-	        }else{
-	        
-	            presentNode.parent.color = "black";
-	            presentNode.grandParent.color = "red";
-	            if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.leftChild){
-	                singleRotateWithRight(presentNode);
-	            }else{
-	                singleRotateWithLeft(presentNode);
-	            }   
-	            
-	        }
-	    }
+		while(presentNode != null){
+			if(presentNode.parent == null){
+				presentNode.color = "black";
+				break;
+			}else if(presentNode.parent.color.equals("black")){
+				//do nothing
+				break;
+			}else if(presentNode.uncle != null && presentNode.uncle.color.equals("red")){
+
+				presentNode.parent.color = "black";
+				presentNode.uncle.color = "black";
+				presentNode.grandParent.color = "red";
+				presentNode = presentNode.grandParent;
+
+			}else if(presentNode == presentNode.parent.rightChild && presentNode.parent == presentNode.grandParent.leftChild){
+
+				singleRotateWithLeft(presentNode.parent);
+				presentNode = presentNode.leftChild;
+
+			}else if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.rightChild){
+
+				singleRotateWithRight(presentNode.parent);
+				presentNode = presentNode.rightChild;
+
+			}else{
+
+				presentNode.parent.color = "black";
+				presentNode.grandParent.color = "red";
+				if(presentNode == presentNode.parent.leftChild && presentNode.parent == presentNode.grandParent.leftChild){
+					singleRotateWithRight(presentNode);
+				}else{
+					singleRotateWithLeft(presentNode);
+				}
+
+			}
+		}
 	}
 }
 class TreeNode{
-    TreeNode leftChild;
-    TreeNode rightChild;
-    TreeNode parent;
-    TreeNode grandParent;
-    TreeNode uncle;
-    String color;
-    public TreeNode(){
-        grandParent = this.parent.parent;
-        if(this.parent == grandParent.leftChild){
-            uncle = grandParent.rightChild;
-        }else{
-            uncle = grandParent.leftChild;
-        }
-    }
+	TreeNode leftChild;
+	TreeNode rightChild;
+	TreeNode parent;
+	TreeNode grandParent;
+	TreeNode uncle;
+	String color;
+	public TreeNode(){
+		grandParent = this.parent.parent;
+		if(this.parent == grandParent.leftChild){
+			uncle = grandParent.rightChild;
+		}else{
+			uncle = grandParent.leftChild;
+		}
+	}
 }

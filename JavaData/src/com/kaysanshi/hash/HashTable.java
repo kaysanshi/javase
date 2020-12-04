@@ -3,7 +3,7 @@ package com.kaysanshi.hash;
 import java.math.BigInteger;
 /**
  * hashtable
- * @author leoill
+ * @author kaysanshi
  *@date 2019年5月6日
  */
 public class HashTable {

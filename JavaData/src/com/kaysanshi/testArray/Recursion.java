@@ -1,14 +1,14 @@
 package com.kaysanshi.testArray;
 /**
- * µİ¹éµÄÊ¹ÓÃ:
- *±ØĞëµ÷ÓÃ±¾ÉíµÄ£¬±ØĞëÓĞ½áÊøµÄ±êÖ¾ 
+ * é€’å½’çš„ä½¿ç”¨:
+ *å¿…é¡»è°ƒç”¨æœ¬èº«çš„ï¼Œå¿…é¡»æœ‰ç»“æŸçš„æ ‡å¿—
  * @author leoill
- *@date 2019Äê4ÔÂ27ÈÕ
+ *@date 2019å¹´4æœˆ27æ—¥
  */
 public class Recursion {
-	
+
 	public static void test() {
-		System.out.println("²âÊÔµİ¹é");
+		System.out.println("æµ‹è¯•é€’å½’");
 		test();
 	}
 	public static void test2(int n){

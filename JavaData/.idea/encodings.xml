@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/java1995question/Caculator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/java1995question/Instance2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/java1995question/Instance4.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/kaysanshi/hash/HashTable.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/kaysanshi/hash/Info.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/hash/LinkList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/hash/Node.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/hash/TestHashTable.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/kaysanshi/map/Graph.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/map/Vertex.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/map/Vertex.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/kaysanshi/sort/ShellSort.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/kaysanshi/sort/Sort.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Array.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/DoubleLinkList_double.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/DoubleLinklist.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Fibonacci.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/HighFibonacci.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/LinkList.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Queue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Recursion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Stack.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Tree.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/testArray/Triangle.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/tree/Hash.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi/tree/ReadBlackTree.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kaysanshi2020/FactTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/question/Array_to_Array.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/question/MD5.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/question/Quwei.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

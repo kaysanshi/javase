@@ -26,7 +26,7 @@ import com.mingribook.db.DbTools;
 public class AddFrame extends JFrame{
     
     /**
-     * ¸ã²»¶®;;;;;;
+     * æä¸æ‡‚;;;;;;
      */
     private static final long serialVersionUID = -7774133711807576073L;
     private JPanel contentPane;
@@ -134,16 +134,16 @@ public class AddFrame extends JFrame{
 	            if(pwd1.getText().equals(pwd2.getText())){
 	    			UserDao dao=new UserDao();
 	    			dao.addUser(textField.getText(), pwd1.getText());
-	    			JOptionPane.showMessageDialog(this, "×¢²á³É¹¦£¡", null, JOptionPane.INFORMATION_MESSAGE);
+	    			JOptionPane.showMessageDialog(this, "æ³¨å†ŒæˆåŠŸï¼", null, JOptionPane.INFORMATION_MESSAGE);
 	    			this.setVisible(false);
 	    			RegistDemo r=new RegistDemo();
 	    			r.setVisible(true);
 	    		}else{
-	    			JOptionPane.showMessageDialog(this, "Á½´ÎÃÜÂë²»Ò»ÖÂ£¡", null, JOptionPane.INFORMATION_MESSAGE);
+	    			JOptionPane.showMessageDialog(this, "ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´ï¼", null, JOptionPane.INFORMATION_MESSAGE);
 		            return;
 	    		}
 			} else {
-	            JOptionPane.showMessageDialog(this, "ÓÃ»§Ãû³åÍ»£¡", null, JOptionPane.INFORMATION_MESSAGE);
+	            JOptionPane.showMessageDialog(this, "ç”¨æˆ·åå†²çªï¼", null, JOptionPane.INFORMATION_MESSAGE);
 	            return;
 	        }
 		} catch (SQLException e1) {

@@ -1,31 +1,31 @@
 package com.kaysanshi.testArray;
 /***
- * ¹¹ÔìÒ»¸öÊôÓÚ×Ô¼ºµÄÊý×é
+ * æž„é€ ä¸€ä¸ªå±žäºŽè‡ªå·±çš„æ•°ç»„
  * @author leoill
- *@date 2019Äê4ÔÂ23ÈÕ
+ *@date 2019å¹´4æœˆ23æ—¥
  */
 public class Array {
-	
-	private long[] arry;//¶¨ÒåÒ»¸öÊý×é
-	
-	private int elements;//¶¨ÒåÊý¾ÝÓÐÐ§³¤¶È
-	
+
+	private long[] arry;//å®šä¹‰ä¸€ä¸ªæ•°ç»„
+
+	private int elements;//å®šä¹‰æ•°æ®æœ‰æ•ˆé•¿åº¦
+
 	public Array(){
-		arry=new long[50];//ÉèÖÃ50³¤¶È
+		arry=new long[50];//è®¾ç½®50é•¿åº¦
 	}
-	
+
 	public Array(int maxsize){
 		arry=new long[maxsize];
 	}
 	/**
-	 * Êý×éµÄÊý¾ÝµÄÌí¼Ó
+	 * æ•°ç»„çš„æ•°æ®çš„æ·»åŠ 
 	 */
 	public void insert(long value){
 		arry[elements]=value;
-		elements++;	
+		elements++;
 	}
 	/**
-	 * ÏÔÊ¾Êý¾Ý
+	 * æ˜¾ç¤ºæ•°æ®
 	 */
 	public void display(){
 		System.out.println("[");
@@ -35,7 +35,7 @@ public class Array {
 		System.out.println("]");
 	}
 	/**
-	 * ¸ù¾ÝÖµÀ´·µvalue
+	 * æ ¹æ®å€¼æ¥è¿”value
 	 */
 	public int search(long value){
 		int i;
@@ -51,8 +51,8 @@ public class Array {
 		}
 	}
 	/**
-	 * ÏßÐÔ²éÕÒ
-	 * ²éÕÒÊý¾Ý¸ù¾ÝË÷Òý²é
+	 * çº¿æ€§æŸ¥æ‰¾
+	 * æŸ¥æ‰¾æ•°æ®æ ¹æ®ç´¢å¼•æŸ¥
 	 */
 	public long get(int index){
 		if (index >=elements || index <0) {
@@ -62,19 +62,19 @@ public class Array {
 		}
 	}
 	/**
-	 * É¾³ýÊý¾Ý
+	 * åˆ é™¤æ•°æ®
 	 */
 	public void delete(int index ){
 		if (index >=elements || index <0) {
 			throw new ArrayIndexOutOfBoundsException();
 		}else{
 			for(int i=0;i<elements;i++)
-			arry[index]=arry[index+1];
+				arry[index]=arry[index+1];
 			elements--;
 		}
 	}
 	/**
-	 * ¸üÐÂ
+	 * æ›´æ–°
 	 * @param index
 	 * @param newvalue
 	 */
@@ -86,12 +86,12 @@ public class Array {
 		}
 	}
 	///////////////////////////
-	// ÒÔÏÂÊÇÓÐÐòÊý×éµÄ²Ù×÷                ///
+	// ä»¥ä¸‹æ˜¯æœ‰åºæ•°ç»„çš„æ“ä½œ                ///
 	//                      //
 	//                     ///
 	//////////////////////////
 	/**
-	 * ÓÐÐòÌí¼Ó
+	 * æœ‰åºæ·»åŠ 
 	 * @param value
 	 */
 	public void sortinsert(long value){
@@ -101,7 +101,7 @@ public class Array {
 				break;
 			}
 		}
-		//ÕâÀïÊÇ×îºóÒ»¸öÔªËØ¸³Öµ¸øÇ°Ò»¸öÔªËØ£¬Í¬Ê±°ÑÐÂ¼ÓÈëµÄÔªËØ¸ø¸³Öµµ½ÏÂ±êi;ÔªËØ×ÜÁ¿+1£»
+		//è¿™é‡Œæ˜¯æœ€åŽä¸€ä¸ªå…ƒç´ èµ‹å€¼ç»™å‰ä¸€ä¸ªå…ƒç´ ï¼ŒåŒæ—¶æŠŠæ–°åŠ å…¥çš„å…ƒç´ ç»™èµ‹å€¼åˆ°ä¸‹æ ‡i;å…ƒç´ æ€»é‡+1ï¼›
 		for(int j=elements;j>i;j--){
 			arry[j]=arry[j-1];
 		}
@@ -109,18 +109,18 @@ public class Array {
 		elements++;
 	}
 	/**
-	 * ¶þ·Ö²éÕÒ:Ç°ÌáÊÇ±ØÐëÊÇÓÐÐòµÄÊý×é
+	 * äºŒåˆ†æŸ¥æ‰¾:å‰ææ˜¯å¿…é¡»æ˜¯æœ‰åºçš„æ•°ç»„
 	 * @return
 	 */
 	public int binarysearch(long value){
 		int middle=0;
 		int low=0;
-		int pow=elements;//×î´óÏÂ±ê
+		int pow=elements;//æœ€å¤§ä¸‹æ ‡
 		while(true){
 			middle=(pow+low)/2;
 			if (arry[middle] == value) {
 				return middle;
-				
+
 			}else if (low >pow) {
 				return -1;
 			}else {
@@ -132,13 +132,13 @@ public class Array {
 			}
 		}
 	}
-	
-	
+
+
 	/***
-	 * ²âÊÔ
+	 * æµ‹è¯•
 	 * @param args
 	 */
 	public static void main(String[] args){
-		
-	} 
+
+	}
 }

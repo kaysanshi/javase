@@ -5,131 +5,131 @@ import java.math.BigInteger;
 import org.omg.CosNaming.NamingContextExtPackage.StringNameHelper;
 
 /**
- * hash±í£ºµ×²ãÊÇÊı×éÀ´ÊµÏÖµÄ
+ * hashè¡¨ï¼šåº•å±‚æ˜¯æ•°ç»„æ¥å®ç°çš„
  * @author leoill
- *@date 2019Äê5ÔÂ5ÈÕ
+ *@date 2019å¹´5æœˆ5æ—¥
  */
 public class Hash {
-	  private Info[] arry;
-	  
-	  
-	  public Hash(){
-		  arry=new Info[100];
-	  }
-	  /**
-	   * Ö¸¶¨Êı×éµÄ´óĞ¡
-	   */
-	  public Hash(Integer maxSize){
-		  arry=new Info[maxSize];
-	  }
-	  /**
-	   * ²åÈëÊı¾İ
-	   * @param info
-	   */
-	  public void insert(Info info){
-		  arry[info.getKey()]=info;
-		  //»ñÈ¡¹Ø¼ü×Ö
-		  //¹Ø¼ü×ÖËù¶ÔÓ¦µÄhashÊı
-	  }
-	  /**
-	   * ²éÕÒÊı¾İ
-	   */
-	  public Info find(int key ){
-		  return arry[key];
-	  }
-	  /**
-	   * Èç¹ûË÷ÒıÎªÏÂStringÀàĞÍµÄÒª½øĞĞ×ª»»Îª¹şÏ£code
-	   * Í¨¹ı¶Ô×ÖÄ¸µÄAscllÂëµÄÀÛ¼ÓËã³öµÄµ«ÊÇÓĞºÜ´óµÄÖØ¸´£¬±ÈÈç£ºabc bbb cbaËûÃÇµÄhash±àÂë¶¼ÊÇÏàÍ¬µÄ
-	   */
-	  public int hashCode(String key){
-		  int hashVal=0;
-		  for(int i=key.length()-1;i>=0;i--){
-			  int letter=key.charAt(i)-96;//A:97ËùÒÔÒ»Ö±¼õÈ¥
-			  hashVal+=letter;
-		  }
-		  return hashVal;
-	  }
-	  /**
-	   * Í¨¹ıÃİµÄÁ¬³Ë½â¾öÒÔÉÏµÄÎÊÌâ:
-	   * ÕâÀïĞèÒª¶ÔÊı×éµÄ³õÊ¼»¯Öµ¼Ó´ó´Ó¶øÈÃÆä²»²úÉúÔ½½ç
-	   */
-	  public int Hashcode(String keyy){
-		  int hashValue=0;
-		  int pow27=1;
-		  for(int i=keyy.length()-1;i>=0;i--){
-			 int letter=keyy.charAt(i)-96;
-			 hashValue+=letter*pow27;
-			 pow27*=27;
-		  }
-		  return hashValue;
-		  
-	  }
-	  /**
-	   * Ê¹ÓÃÑ¹Ëõ¿Õ¼äÊ¹µÃ²»Ô½½ç,ÒªÊ¹ÓÃBigintegerÀàĞÍÀ´²Ù×÷
-	   * ÓĞ¿ÉÄÜ»áÖØ£¬²»Ò»¶¨¶¼ÄÜÓ³Éäµ½¿Õ°×µÄµØÖ·ÖĞ            
-	   *
-	   */
-	  public int hashcode(String keyyy){
-		  BigInteger hashValue=new BigInteger("0");
-		  BigInteger pow27=new BigInteger("1");
-		//  int pow27=1
-		  for(int i=keyyy.length()-1;i>=0;i--){
-			 int letter=keyyy.charAt(i)-96;
-			 BigInteger letterB=new BigInteger(String.valueOf(letter));
-			 hashValue=hashValue.add(letterB.multiply(pow27));
-			 pow27=pow27.multiply(new BigInteger(String.valueOf(27)));
-		  }
-		  return hashValue.mod(new BigInteger(String.valueOf(arry.length))).intValue();
-		  
-	  } 
-	  /**
-	   * ²éÕÒµÄÊ±Ö±½ÓÓÃ£ºarry[hashCode(key)]=info
-	   * 
-	   * 
-	   */
-	  /////////////////////////////////
-	  ////
-	  ////ÒÔÏÂÓÃ¿ª·ÅµØÖ··¨½øĞĞÊ¹ÓÃ£º
-	  ////
-	  ////
-	  ////
-	  /////
-	  /////////////////////////////////
-	  /**
-	   * ÒÔÉÏ¶¼»á²úÉú³åÍ»
-	   * ËùÒÔÊ¹ÓÃ¿ª·ÅµØÖ··¨£º
-	   * µ±²úÉú³åÍ»µ³µÄÊ±ºò£¬Í¨¹ı²éÕÒÊı×éµÄÒ»¸ö¿ÕÎ»£¬²¢½«Êı¾İÌîÈë£¬¶ø²»ÔÙÓÃhashº¯ÊıµÃµ½µÄÊı×éÏÂ±ê
-	   */
-	  public void insertBy(Info info){
-		  //»ñµÃ¹Ø¼ü×Ö
-		  String key =info.getKey1();
-		  //¹Ø¼ü×ÖËù¶¨ÒåµÄ×Ô¶¨ÒåµÄhashÊı
-		  int hascode=hashcode(key);
-		  while (arry[hascode] !=null && arry[hascode].getValue()!=null) {
-			//½øĞĞµİ¼Ó
-			  ++hascode;
-			  //Ñ­»·
-			  hascode%=arry.length;
-			
+	private Info[] arry;
+
+
+	public Hash(){
+		arry=new Info[100];
+	}
+	/**
+	 * æŒ‡å®šæ•°ç»„çš„å¤§å°
+	 */
+	public Hash(Integer maxSize){
+		arry=new Info[maxSize];
+	}
+	/**
+	 * æ’å…¥æ•°æ®
+	 * @param info
+	 */
+	public void insert(Info info){
+		arry[info.getKey()]=info;
+		//è·å–å…³é”®å­—
+		//å…³é”®å­—æ‰€å¯¹åº”çš„hashæ•°
+	}
+	/**
+	 * æŸ¥æ‰¾æ•°æ®
+	 */
+	public Info find(int key ){
+		return arry[key];
+	}
+	/**
+	 * å¦‚æœç´¢å¼•ä¸ºä¸‹Stringç±»å‹çš„è¦è¿›è¡Œè½¬æ¢ä¸ºå“ˆå¸Œcode
+	 * é€šè¿‡å¯¹å­—æ¯çš„Ascllç çš„ç´¯åŠ ç®—å‡ºçš„ä½†æ˜¯æœ‰å¾ˆå¤§çš„é‡å¤ï¼Œæ¯”å¦‚ï¼šabc bbb cbaä»–ä»¬çš„hashç¼–ç éƒ½æ˜¯ç›¸åŒçš„
+	 */
+	public int hashCode(String key){
+		int hashVal=0;
+		for(int i=key.length()-1;i>=0;i--){
+			int letter=key.charAt(i)-96;//A:97æ‰€ä»¥ä¸€ç›´å‡å»
+			hashVal+=letter;
 		}
-		  arry[hascode]=info;  
-	  }
-	  /////////////////////////////
-	  ///
-	  ///ÒÔÏÂÊÇÓÃÁ´µØÖ··¨£º
-	  ///£ºÔÚ¹şÏ£±íÖĞÃ¿¸öµ¥ÔªÖĞÉèÖÃÁ´±í£¬Ä³¸öÊı¾İÏîµÄ¹Ø¼ü×Ö»¹ÊÇÏñÍ¨³£Ò»Ñù£¬Ó³Éäµ½hash±íÖĞµÄµ¥ÔªÖĞ£¬¶øÊı¾İÏî±¾Éí£¬²åÈëµ½µ¥ÔªÖĞµÄÁ´±íÖĞ
-	  ///
-	  ///
-	  ///
-	  /////////////////////////////
-	  
-	  
-	  /**
-	   * ²éÕÒ
-	   * @param key
-	   * @return
-	   */
-	  public Info findByy(String key ){
+		return hashVal;
+	}
+	/**
+	 * é€šè¿‡å¹‚çš„è¿ä¹˜è§£å†³ä»¥ä¸Šçš„é—®é¢˜:
+	 * è¿™é‡Œéœ€è¦å¯¹æ•°ç»„çš„åˆå§‹åŒ–å€¼åŠ å¤§ä»è€Œè®©å…¶ä¸äº§ç”Ÿè¶Šç•Œ
+	 */
+	public int Hashcode(String keyy){
+		int hashValue=0;
+		int pow27=1;
+		for(int i=keyy.length()-1;i>=0;i--){
+			int letter=keyy.charAt(i)-96;
+			hashValue+=letter*pow27;
+			pow27*=27;
+		}
+		return hashValue;
+
+	}
+	/**
+	 * ä½¿ç”¨å‹ç¼©ç©ºé—´ä½¿å¾—ä¸è¶Šç•Œ,è¦ä½¿ç”¨Bigintegerç±»å‹æ¥æ“ä½œ
+	 * æœ‰å¯èƒ½ä¼šé‡ï¼Œä¸ä¸€å®šéƒ½èƒ½æ˜ å°„åˆ°ç©ºç™½çš„åœ°å€ä¸­
+	 *
+	 */
+	public int hashcode(String keyyy){
+		BigInteger hashValue=new BigInteger("0");
+		BigInteger pow27=new BigInteger("1");
+		//  int pow27=1
+		for(int i=keyyy.length()-1;i>=0;i--){
+			int letter=keyyy.charAt(i)-96;
+			BigInteger letterB=new BigInteger(String.valueOf(letter));
+			hashValue=hashValue.add(letterB.multiply(pow27));
+			pow27=pow27.multiply(new BigInteger(String.valueOf(27)));
+		}
+		return hashValue.mod(new BigInteger(String.valueOf(arry.length))).intValue();
+
+	}
+	/**
+	 * æŸ¥æ‰¾çš„æ—¶ç›´æ¥ç”¨ï¼šarry[hashCode(key)]=info
+	 *
+	 *
+	 */
+	/////////////////////////////////
+	////
+	////ä»¥ä¸‹ç”¨å¼€æ”¾åœ°å€æ³•è¿›è¡Œä½¿ç”¨ï¼š
+	////
+	////
+	////
+	/////
+	/////////////////////////////////
+	/**
+	 * ä»¥ä¸Šéƒ½ä¼šäº§ç”Ÿå†²çª
+	 * æ‰€ä»¥ä½¿ç”¨å¼€æ”¾åœ°å€æ³•ï¼š
+	 * å½“äº§ç”Ÿå†²çªå…šçš„æ—¶å€™ï¼Œé€šè¿‡æŸ¥æ‰¾æ•°ç»„çš„ä¸€ä¸ªç©ºä½ï¼Œå¹¶å°†æ•°æ®å¡«å…¥ï¼Œè€Œä¸å†ç”¨hashå‡½æ•°å¾—åˆ°çš„æ•°ç»„ä¸‹æ ‡
+	 */
+	public void insertBy(Info info){
+		//è·å¾—å…³é”®å­—
+		String key =info.getKey1();
+		//å…³é”®å­—æ‰€å®šä¹‰çš„è‡ªå®šä¹‰çš„hashæ•°
+		int hascode=hashcode(key);
+		while (arry[hascode] !=null && arry[hascode].getValue()!=null) {
+			//è¿›è¡Œé€’åŠ 
+			++hascode;
+			//å¾ªç¯
+			hascode%=arry.length;
+
+		}
+		arry[hascode]=info;
+	}
+	/////////////////////////////
+	///
+	///ä»¥ä¸‹æ˜¯ç”¨é“¾åœ°å€æ³•ï¼š
+	///ï¼šåœ¨å“ˆå¸Œè¡¨ä¸­æ¯ä¸ªå•å…ƒä¸­è®¾ç½®é“¾è¡¨ï¼ŒæŸä¸ªæ•°æ®é¡¹çš„å…³é”®å­—è¿˜æ˜¯åƒé€šå¸¸ä¸€æ ·ï¼Œæ˜ å°„åˆ°hashè¡¨ä¸­çš„å•å…ƒä¸­ï¼Œè€Œæ•°æ®é¡¹æœ¬èº«ï¼Œæ’å…¥åˆ°å•å…ƒä¸­çš„é“¾è¡¨ä¸­
+	///
+	///
+	///
+	/////////////////////////////
+
+
+	/**
+	 * æŸ¥æ‰¾
+	 * @param key
+	 * @return
+	 */
+	public Info findByy(String key ){
 		int hashVal=hashcode(key);
 		while(arry[hashVal] !=null){
 			if (arry[hashVal].getKey1().equals(key)) {
@@ -139,35 +139,35 @@ public class Hash {
 			hashVal%=arry.length;
 		}
 		return null;
-	  }
-	  /**
-	   * É¾³ıÊı¾İ
-	   * @param key
-	   * @return
-	   */
-	  public Info delete(String key){
-		  int hashVal=hashcode(key);
-		  while(arry[hashVal]!=null){
-			  if (arry[hashVal].getKey1().equals(key)) {
+	}
+	/**
+	 * åˆ é™¤æ•°æ®
+	 * @param key
+	 * @return
+	 */
+	public Info delete(String key){
+		int hashVal=hashcode(key);
+		while(arry[hashVal]!=null){
+			if (arry[hashVal].getKey1().equals(key)) {
 				Info temp=arry[hashVal];
 				temp.setValue(null);
 				return temp;
-				
+
 			}
-			  ++hashVal;
-			  hashVal%=arry.length;
-		  }
-		  
+			++hashVal;
+			hashVal%=arry.length;
+		}
+
 		return null;
-		  
-	  }
+
+	}
 
 }
 
 class Info{
-	
+
 	private Integer  key;
-	
+
 	private String key1;
 	public String getKey1() {
 		return key1;
@@ -210,5 +210,5 @@ class Info{
 	public void setValue(String value) {
 		this.value = value;
 	}
-	
+
 }

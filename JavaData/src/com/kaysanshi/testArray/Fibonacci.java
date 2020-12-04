@@ -1,14 +1,14 @@
 package com.kaysanshi.testArray;
 /**
- * ì³²¨ÄÇÆõÊıÁĞ:
- * µİ¹éµ÷ÓÃ£»
+ * æ–æ³¢é‚£å¥‘æ•°åˆ—:
+ * é€’å½’è°ƒç”¨ï¼›
  * @author leoill
- *@date 2019Äê4ÔÂ27ÈÕ
+ *@date 2019å¹´4æœˆ27æ—¥
  */
 public class Fibonacci {
 
 	public static int getnumber(int n){
-		
+
 		if (n==1) {
 			return 0;
 		}else if (n==2) {
@@ -16,9 +16,9 @@ public class Fibonacci {
 		}else{
 			return getnumber(n-1)+getnumber(n-2);
 		}
-		
+
 	}
-	
+
 	public static void main(String[] args) {
 		int res=Fibonacci.getnumber(20);
 		System.out.println(res);

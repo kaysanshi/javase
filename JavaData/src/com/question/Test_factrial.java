@@ -3,7 +3,7 @@ package com.question;
 import java.util.Scanner;
 
 public class Test_factrial {
-//����׳�1+2��+3��+4!+....
+//1+1/2!+1/3!+1/4!+...
 	public static void main(String[] args) {
 		System.out.println("请输入阶乘");
 		Scanner scan=new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Test_factrial {
 				sum+=rid;
 			}	
 		System.out.println(sum);
-		//������while������
+		//
 		int i=1;
 		int sum1=0;
 		int rid1=1;

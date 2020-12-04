@@ -1,388 +1,464 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1e5ca004-ed0c-4605-a19a-53ecad4f759c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/jzoffer/ArrayFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo7/.idea/dictionaries/leoill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo7/demo7.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1/2029e82a327200191d9e940225b2113a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/12/d0658a8dfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1d/801450ccfd6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/31/906a189ffc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3a/20f1c4f4fc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/43/e090baf4fc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/50/20fe854b307200191d9e940225b2113a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/59/a0d93cea037000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5a/4002e29bfd6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5a/806ef2db007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5d/b0156702fd6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/60/b0e3138c027000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/61/c0bd2f27fd6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/61/e0825cfffe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6e/20e1d0adfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6e/d09c6a28ff6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/76/8088bef4fc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/80/1010b59c057000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/80/10b978bc007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/84/a0f5370fff6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/87/f0d909c1007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8c/e0c95ff4007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8e/703abcd3007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8f/50b42774047000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9/c02b0b29327200191d9e940225b2113a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/90/50945dfffe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/96/a0bb9a79027000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9a/c061742bfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9e/e055d1ee037000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/a5/90f75868017000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ad/60a23a1bfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ad/8007b3d1017000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b2/507c14eb007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b3/80294b24ff6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b5/00cf10e9fe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b8/602a4f5f027000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c1/40fc5afffe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c4/a043918dfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c4/c0584916ff6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c4/d07b0d2eff6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c5/706f0fe9fe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c8/6089958dfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cc/106ca38dfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d0/2003d3fafe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d1/7069cd0efe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e2/f0b8b756017000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e4/500f8e8dfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e5/40609888fc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e7/b04373c4007000191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e8/102cdf1e3b7200191d9e940225b2113a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f0/e049398bfc6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f6/a05512e9fe6f00191910920d549398cd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Itheima/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Itheima/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.indexes/e4/81/77/5c/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.indexes/e4/81/77/9e/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.indexes/e4/81/77/e/history.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Server/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Server/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo4/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo4/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/org.eclipse.jdt.core/state.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/.markers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/.markers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/org.eclipse.jdt.core/state.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/584.tree" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/_index.jsp.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/_login.jsp.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.fdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.fdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.fnm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.frq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.nrm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.prx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.tii" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.tis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2992573656.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2992573656.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3277276393.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3277276393.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1205824980.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1205824980.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1548529216.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1548529216.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1657330681.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1657330681.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1862440442.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1862440442.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2571465609.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2571465609.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2808364197.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2808364197.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2849049848.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2849049848.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2983172833.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2983172833.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3011503269.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3011503269.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3738582126.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3738582126.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/383641943.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/383641943.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/536438792.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/536438792.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/925135804.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/925135804.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_ic.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_ic_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_id.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_id_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_ie.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_ie_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_if.cfs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_gn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_a.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_a_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_b.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_b_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_c.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_c_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_d.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_d_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_e.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_e_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/_f.cfs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/segments.gen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/segments_g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_ic.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_ic_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_id.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_id_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_ie.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_ie_1.del" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_if.cfs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_gn" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/954423863.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chuanjiang/bin/com/java1995/Tickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Chuanjiang/bin/com/java1995/Tickets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chuanjiang/bin/com/leoi555/javaTest/test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Chuanjiang/bin/com/leoi555/javaTest/test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/AddFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/AddFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/AddFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/AddFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/AddFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/AddFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/RegistDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/bin/com/mingribook/frame/SelectFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BStudent/src/com/mingribook/frame/AddFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BStudent/src/com/mingribook/frame/AddFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_ServerTest/bin/com/hanshunping/Sever3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../C_ServerTest/bin/com/hanshunping/Sever3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_ServerTest/bin/com/mingribook/ChatServerFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../C_ServerTest/bin/com/mingribook/ChatServerFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_ServerTest/bin/com/mingribook/ChatServerFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../C_ServerTest/bin/com/mingribook/ChatServerFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../C_ServerTest/bin/com/mingribook/ChatServerFrame$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../C_ServerTest/bin/com/mingribook/ChatServerFrame$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CrazyCourseTest/bin/com/leo/crazy/test/DownUtil_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../CrazyCourseTest/bin/com/leo/crazy/test/DownUtil_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/factory/BasicFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/factory/BasicFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/filter/EncodeFilter$MyHttpServletRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/filter/EncodeFilter$MyHttpServletRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/filter/EncodeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/filter/EncodeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/util/TransactionManager$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/web/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/web/RegistServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/web/ValiImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Estore/WEB-INF/classes/com/itheima/web/ValiImg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/utils/MailUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/utils/MailUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/filter/AutoLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/filter/AutoLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/filter/UserLoginPrivilegeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/filter/UserLoginPrivilegeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/ActiveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/ActiveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/BaseServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/BaseServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/CallbackServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/CallbackServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/CheckUsernameServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/CheckUsernameServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/PrdocutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/PrdocutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/RegisterServlet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HeiMaShop/build/classes/com/itheima/web/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/hash/HashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/hash/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/hash/LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/hash/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/TestHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/hash/TestHashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/map/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/map/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/map/TestGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/map/TestGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/map/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/map/Vertex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Singleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Singleton3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Singleton4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Singleton5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Singleton5$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Singleton5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/Test1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/TestSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/TestSingleton1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/shangguigu/TestSingleton3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/sort/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/sort/ShellSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/sort/Sort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/test/Multable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/DoubleLinkList_double.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/DoubleLinkList_double.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/DoubleLinklist.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/DoubleLinklist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/HighFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/HighFibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Recursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Stack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/tree/Hash.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/tree/Info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/ReadBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/tree/ReadBlackTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/kaysanshi/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Change.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/MD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Pact_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Pact_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Quwei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Quwei.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Sum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Sum1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/Wanshu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Wanshu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Caculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Caculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/DrawCone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/DrawCone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/FileOutputStream_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/FileOutputStream_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/IOquestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/IOquestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Instance9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Intestance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Intestance1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/ParityCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/ParityCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/TestChang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/TestChang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/TestConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/TestConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Test_Game_rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Test_Game_rule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Test_Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Test_Random.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java1995question/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/question/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/question/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/InStance2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/question/InStance2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/Instance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/question/Instance1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/Instance3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/question/Instance3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/Instance4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/question/Instance4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Array_oop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Array_oop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Array_to_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Array_to_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Bushizhitu_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Bushizhitu_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/FileReader_print_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/FileReader_print_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/File_to_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/File_to_File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Huiwenshu_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Huiwenshu_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/JiaoChe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/JiaoChe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/KeChe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/KeChe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/MonkeyWin_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/MonkeyWin_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Month_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Month_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Score_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Score_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Shuduyouxi_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Shuduyouxi_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/StudentAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/StudentAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_DateAndTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_DateAndTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_String_remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_String_remove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_array_io.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_array_io.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_arrays_max.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_arrays_max.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_arrays_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_arrays_sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_factrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_factrial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Test_factrial1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_factrial1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/question/Text_love.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Text_love.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Servers/Tomcat v8.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Tomcat v8.0 Server at localhost-config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/dbConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/dbConfig.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop/src/dbConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/src/dbConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/hash/TestHashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/map/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/map/TestGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/map/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/sort/ShellSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/sort/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/DoubleLinkList_double.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/DoubleLinklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/HighFibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/LinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/testArray/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/Hash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/ReadBlackTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/kaysanshi/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/single.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java1995question/Caculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Caculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java1995question/Instance4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java1995question/Instance4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/hash/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/hash/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/hash/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/hash/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/hash/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/hash/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/hash/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/hash/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/hash/TestHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/hash/TestHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/map/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/map/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/sort/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/DoubleLinkList_double.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/DoubleLinkList_double.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/DoubleLinklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/DoubleLinklist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/HighFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/HighFibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/testArray/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/tree/Hash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/tree/Hash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kaysanshi/tree/ReadBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kaysanshi/tree/ReadBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Change.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Pact_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Pact_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Quwei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Quwei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Sum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Sum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Test_factrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Test_factrial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/question/Wanshu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/question/Wanshu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/question/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/question/Fibonacci.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/question/InStance2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/question/Instance1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/question/Instance3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/question/Instance4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyRestaurant/bin/com/mhl/view/Window1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MyRestaurant/bin/com/mhl/view/Window1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/ManageNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/ManageNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/NewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/NewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/VerifyCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../News/build/classes/com/zcib/servlet/VerifyCodeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Privilege/build/classes/com/itheima/filter/PrivilegeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Privilege/build/classes/com/itheima/filter/PrivilegeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Privilege/build/classes/com/itheima/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Privilege/build/classes/com/itheima/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Privilege/build/classes/com/itheima/web/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Privilege/build/classes/com/itheima/web/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/filter/EncodingFilter$MyHttpServletRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/filter/EncodingFilter$MyHttpServletRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/filter/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/filter/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/AddNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/AddNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/AddResourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/AddResourceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/AddSubjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/AddSubjectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/BatchDeleteUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/BatchDeleteUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/CertificationServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/CertificationServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/CheckAnswerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/CheckAnswerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelProblemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelProblemServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelResourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelResourceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DelVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DeleteNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DeleteNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DownVideoListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DownVideoListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DowntServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/DowntServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorResourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorResourceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorSubjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorSubjectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/EditorVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ExamieServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ExamieServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/FindProblemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/FindProblemServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/FindUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/FindUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/GetPlayServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/GetPlayServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListProblemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListProblemServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListResourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListResourceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ListVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/PlayServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/PlayServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ProblemInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ProblemInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/RegistServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditResourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditResourceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditSubjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditSubjectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SaveEditUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchNewsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchNewsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchResourceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchResourceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchSubjectServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchSubjectServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/SearchVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UpdateProblemServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UpdateProblemServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UpdateUserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UpdateUserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UploadVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UploadVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UserInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/UserInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ValiImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SafeDemo/build/classes/com/zcib/web/ValiImg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/filter/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/filter/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/filter/EncodingRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/filter/EncodingRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/filter/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AddressServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AddressServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AdminCategoryServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AdminCategoryServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AdminOrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AdminOrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AdminProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/AdminProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/CartServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/CartServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/ImageUpload.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/ImageUpload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/ImageUploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/ImageUploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/OrderServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/OrderServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/PCAServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/PCAServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/utils/Upload.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/com/xiaoxiao/utils/Upload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/utils/EncodingFilter$MyHttpServletRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/utils/EncodingFilter$MyHttpServletRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/utils/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/utils/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/utils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/utils/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminDeleteStudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminDeleteStudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminDeleteTeacherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminDeleteTeacherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminEditFileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminEditFileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminEditVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminEditVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminUpdateinfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/AddminUpdateinfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ChangeTalkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ChangeTalkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DelMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DelMessageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DelVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DelVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DeletefilesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DeletefilesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DownFileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/DownFileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/EditStudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/EditStudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/EditTeacherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/EditTeacherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/EditfilesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/EditfilesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/FileSeachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/FileSeachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/GetVideoListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/GetVideoListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListAllFilesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListAllFilesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListAllVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListAllVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListFilesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListFilesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListMessageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListStudentServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListStudentServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListTeacherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListTeacherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ListVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/LoginFileter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/LoginFileter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MessageSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MessageSaveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MessageSeachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MessageSeachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MyHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MyHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MyMessageListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/MyMessageListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/PlayVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/PlayVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/RegistServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ReplySaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ReplySaveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ReplyServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ReplyServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveEditFileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveEditFileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveEditStudentSertvlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveEditStudentSertvlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveEditTeacherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveEditTeacherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveStudentInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveStudentInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveTeacherInfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SaveTeacherInfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SeachMessageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SeachMessageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SearchFileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/SearchFileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/TeacherMyHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/TeacherMyHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UpdateStudentinfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UpdateStudentinfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UpdateTeacherinfoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UpdateTeacherinfoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UploadVideoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UploadVideoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UploadfileServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/UploadfileServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ValiImg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/ValiImg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/VideoSeachServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/VideoSeachServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/wwwww.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stexchange/build/classes/com/zcib/web/wwwww.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/AddServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/AddServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/CharactorFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/CharactorFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/CountFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/CountFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Filter/LoginValidationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Filter/LoginValidationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Filter/SimpleServletFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Filter/SimpleServletFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Upload/FileUploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Upload/FileUploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Upload/PartuploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Upload/PartuploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Upload/UpLoadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/Upload/UpLoadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/UserInforTrace.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/com/mingribook/UserInforTrace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/servlets/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/servlets/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/servlets/DownLoadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/servlets/DownLoadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/servlets/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test1/build/classes/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test1/build/classes/util/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/down/DownListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/down/DownListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/down/DownServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/down/DownServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/down/DowntServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/down/DowntServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/filter/AutologinFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/filter/AutologinFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/filter/EncodingFilter$MyHttpServletRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/filter/EncodingFilter$MyHttpServletRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/filter/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/filter/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/listener/MySCListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/listener/MySCListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/upload/UploadServlet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/upload/UploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/upload/UploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/upload/UploaddisckServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/upload/UploaddisckServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/web/KickServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/web/KickServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/web/LogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test2/WebContent/WEB-INF/classes/com/itheima/web/LogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/ajax/AjaxServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/ajax/AjaxServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/ajax/AjaxServletone.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/ajax/AjaxServletone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminAddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminAddProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminAddProductUIServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminAddProductUIServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminDelProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminDelProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminProductListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminProductListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminSearchProductListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminSearchProductListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminUpdateProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminUpdateProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminUpdateProductUIServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/AdminUpdateProductUIServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/CheckUsernameServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/CheckUsernameServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/ProductListServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/ProductListServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/SearchWordServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test3/build/classes/com/itheima/web/SearchWordServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/attribute/MyServletContextAttributeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/attribute/MyServletContextAttributeListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/attribute/TestMyServletContextAttributeListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/attribute/TestMyServletContextAttributeListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/birthday/BirthdayListener$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/birthday/BirthdayListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/birthday/BirthdayListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/create/MyHttpSessionListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/create/MyHttpSessionListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/create/MyServletContextListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/create/MyServletContextListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/TestCustomerActiveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/TestCustomerActiveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/TestCustomerActiveServlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/TestCustomerActiveServlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/TestPersonBindingServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/domian/TestPersonBindingServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/mail/MailUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/mail/MailUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/proxy/ProxyTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/proxy/ProxyTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/proxy/ProxyTest2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Test4/build/classes/com/itheima/proxy/ProxyTest2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/tag/URLDEcoderTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/tag/URLDEcoderTag.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/LoginoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/LoginoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/RegistServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/RegistServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/ValiImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../User/WEB-INF/classes/com/itheima/web/ValiImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch08/bin/studentscoresystem/AppMain$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ch08/bin/studentscoresystem/AppMain$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/AdminServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/AdminServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/DownLoadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/DownLoadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/servlets/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/util/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ch14/WebContent/WEB-INF/classes/util/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/bin/com/zcib2/job2/ResultView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/bin/com/zcib2/job2/ResultView$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/bin/com/zcib2/job2/View$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/bin/com/zcib2/job2/View$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/bin/com/zcib2/job3/ProgressSample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/bin/com/zcib2/job3/ProgressSample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/bin/com/zcib2/job3/ProgressSample$BarThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/bin/com/zcib2/job3/ProgressSample$BarThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/bin/com/zcib2/job3/frame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/bin/com/zcib2/job3/frame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/bin/com/MindView/net/IterableFibonacci$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/bin/com/MindView/net/IterableFibonacci$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/bin/com/mingribook/ItemListener_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/bin/com/mingribook/ItemListener_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/bin/com/mingribook/ItemListener_test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/bin/com/mingribook/ItemListener_test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/bin/com/mingribook/TableModeEvent_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/bin/com/mingribook/TableModeEvent_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/bin/com/mingribook/TableModeEvent_test$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/bin/com/mingribook/TableModeEvent_test$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/bin/com/mingribook/TableModeEvent_test$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo1/bin/com/mingribook/TableModeEvent_test$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/java1995/CardLayout_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo7/bin/com/java1995/CardLayout_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/java1995/MyJFame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo7/bin/com/java1995/MyJFame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/java1995/MyJFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo7/bin/com/java1995/MyJFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/java1995/mJFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo7/bin/com/java1995/mJFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/java1995/tJFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demo7/bin/com/java1995/tJFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/zcib/Example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/zcib/LiaotianFrame$MyActionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/bin/com/zcib/LiaotianFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/src/com/zcib/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo7/src/com/zcib/LiaotianFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../democlass/bin/com/Java1995/Out$In.class" beforeDir="false" afterPath="$PROJECT_DIR$/../democlass/bin/com/Java1995/Out$In.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../democlass/bin/com/Java1995/TestInner$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../democlass/bin/com/Java1995/TestInner$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gjp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../gjp/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/action/RecordAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/action/RecordAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/action/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/interceptor/LoginInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/interceptor/LoginInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/util/MyPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/util/MyPool$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/util/ResultUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../memo/build/classes/cn/test/memo/util/ResultUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_Instance/bin/com/java1995question/CaculatorFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question_Instance/bin/com/java1995question/CaculatorFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../question_Instance/bin/com/suanfa/cn/MD5.class" beforeDir="false" afterPath="$PROJECT_DIR$/../question_Instance/bin/com/suanfa/cn/MD5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/ACtionListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/ACtionListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/ACtionListener2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/ACtionListener2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/ActionListener3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/ActionListener3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/BorderLayOut$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/BorderLayOut$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/Box_t$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/Box_t$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/DrawPaint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/DrawPaint$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/FLowLayout_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/FLowLayout_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/GridLayOut_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/GridLayOut_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JList_JSC$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JList_JSC$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JP_M$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JP_M$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JPanel_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JPanel_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JSPlitPane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JSPlitPane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JTabbedPane_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JTabbedPane_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JTextArea_test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/JTextArea_test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping/NotePad$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping/NotePad$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping2/Recorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping2/Recorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/hansunping2/TanKD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/hansunping2/TanKD$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/bin/com/mingribook/test$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/bin/com/mingribook/test$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sunping/src/com/hansunping2/MyTanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sunping/src/com/hansunping2/MyTanK.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/bin/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/question/Bushizhitu_test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/question/Array_to_Array.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/question/Array_oop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/test/question/Fibonacci.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/sort/ShellSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/sort/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -394,69 +470,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/java1995question/Instance3.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Instance5.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Instance6.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Instance7.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Instance8.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Instance9.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Instance11.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Intestance1.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/IOquestion.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/ParityCheck.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Test_Game_rule.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Test_Random.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/TestChang.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/TestConstant.java" />
-        <option value="$PROJECT_DIR$/src/java1995question/Time.java" />
-        <option value="$PROJECT_DIR$/src/net/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/net/Instance1.java" />
-        <option value="$PROJECT_DIR$/src/net/InStance2.java" />
-        <option value="$PROJECT_DIR$/src/net/Instance3.java" />
-        <option value="$PROJECT_DIR$/src/net/Instance4.java" />
-        <option value="$PROJECT_DIR$/src/question/Array_oop.java" />
-        <option value="$PROJECT_DIR$/src/question/Array_to_Array.java" />
-        <option value="$PROJECT_DIR$/src/question/Bushizhitu_test.java" />
-        <option value="$PROJECT_DIR$/src/question/File_to_File.java" />
-        <option value="$PROJECT_DIR$/src/question/FileReader_print_test.java" />
-        <option value="$PROJECT_DIR$/src/question/Game.java" />
-        <option value="$PROJECT_DIR$/src/question/Student.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_String_appear_times.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_oddnumber.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_I.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_String_remove.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_factrial.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_DateAndTime.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_arrays_sum.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_area.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_arrays_max.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_array_io.java" />
-        <option value="$PROJECT_DIR$/src/question/Test.java" />
-        <option value="$PROJECT_DIR$/src/question/Text_love.java" />
-        <option value="$PROJECT_DIR$/src/question/Test_factrial1.java" />
-        <option value="$PROJECT_DIR$/src/question/StudentAdmin.java" />
-        <option value="$PROJECT_DIR$/src/question/Shuduyouxi_test.java" />
-        <option value="$PROJECT_DIR$/src/question/Score_test.java" />
-        <option value="$PROJECT_DIR$/src/question/Month_test.java" />
-        <option value="$PROJECT_DIR$/src/question/MonkeyWin_test.java" />
-        <option value="$PROJECT_DIR$/src/question/Huiwenshu_test.java" />
-        <option value="$PROJECT_DIR$/src/com/test/question/Fibonacci.java" />
-        <option value="$PROJECT_DIR$/src/com/jzoffer/ArrayFind.java" />
-        <option value="$PROJECT_DIR$/src/com/jzoffer/ArrayTest2.java" />
-        <option value="$PROJECT_DIR$/src/com/jzoffer/ArrayTest3.java" />
-        <option value="$PROJECT_DIR$/src/com/jzoffer/StringTest1.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -465,62 +478,22 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
-    <option name="y" value="46" />
-    <option name="width" value="1760" />
-    <option name="height" value="829" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Internationalization</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>LossyEncoding</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
+  <component name="ProjectId" id="1l9GzmeWdQxK3RyaPBQJZuQ1WJz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="JavaData" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaData" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaData" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581256333031" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../spring-cloud-itoken" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604842292666" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -532,25 +505,13 @@
       <recent name="F:\Java\Javase\JavaData\src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Multable">
-    <configuration name="Multable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.test.Multable" />
+  <component name="RunManager" selected="Application.Instance2">
+    <configuration name="FileOutputStream_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java1995question.FileOutputStream_test" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kaysanshi.test.*" />
+          <option name="PATTERN" value="com.java1995question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -558,12 +519,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.shangguigu.Test1" />
+    <configuration name="Instance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.java1995question.Instance" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kaysanshi.shangguigu.*" />
+          <option name="PATTERN" value="com.java1995question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -571,12 +534,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleton1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.shangguigu.TestSingleton1" />
+    <configuration name="Instance1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java1995question.Instance1" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kaysanshi.shangguigu.*" />
+          <option name="PATTERN" value="com.java1995question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -584,34 +547,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSingleton3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.shangguigu.TestSingleton3" />
+    <configuration name="Instance11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java1995question.Instance11" />
       <module name="JavaData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kaysanshi.shangguigu.*" />
+          <option name="PATTERN" value="com.java1995question.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Instance2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java1995question.Instance2" />
+      <module name="JavaData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.java1995question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.TestSingleton1" />
-      <item itemvalue="Application.TestSingleton3" />
-      <item itemvalue="Application.Multable" />
+      <item itemvalue="Application.FileOutputStream_test" />
+      <item itemvalue="Application.Instance" />
+      <item itemvalue="Application.Instance1" />
+      <item itemvalue="Application.Instance11" />
+      <item itemvalue="Application.Instance2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Multable" />
-        <item itemvalue="Application.TestSingleton3" />
-        <item itemvalue="Application.TestSingleton1" />
-        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Instance2" />
+        <item itemvalue="Application.Instance" />
+        <item itemvalue="Application.Instance11" />
+        <item itemvalue="Application.Instance1" />
+        <item itemvalue="Application.FileOutputStream_test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -635,407 +627,89 @@
       <workItem from="1581238517319" duration="1525000" />
       <workItem from="1581254603329" duration="777000" />
       <workItem from="1581339124992" duration="22000" />
+      <workItem from="1601384588459" duration="1681000" />
+      <workItem from="1601429256803" duration="765000" />
+      <workItem from="1601473707441" duration="44000" />
+      <workItem from="1603165875590" duration="1459000" />
+      <workItem from="1603513895737" duration="599000" />
+      <workItem from="1603518238614" duration="24000" />
+      <workItem from="1604818552903" duration="2917000" />
+      <workItem from="1607002161009" duration="3224000" />
+      <workItem from="1607005417509" duration="155000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27860000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Alibaba Cloud Explorer" order="8" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.052785926" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="JRebel Executor" order="13" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" id="Redis Servers" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/Test_Game_rule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/Test_Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/TestChang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/TestConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/question/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/question/Instance1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/question/InStance2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/question/Instance3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/question/Instance4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/question/Test_String_appear_times.java" />
-    <entry file="file://$PROJECT_DIR$/src/question/Test_oddnumber.java" />
-    <entry file="file://$PROJECT_DIR$/src/question/Test_I.java" />
-    <entry file="file://$PROJECT_DIR$/src/question/Test_area.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/question/Text_love.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_String_remove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_factrial1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_factrial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_DateAndTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_arrays_sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_arrays_max.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test_array_io.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/StudentAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Shuduyouxi_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Score_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Month_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/MonkeyWin_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/KeChe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/时事大家谈 完整版（2019年6月3日）.url" />
-    <entry file="file://$PROJECT_DIR$/src/com/question/JiaoChe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Huiwenshu_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/FileReader_print_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/File_to_File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jzoffer/StringTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jzoffer/ArrayTest3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jzoffer/ArrayTest2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jzoffer/ArrayFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/single.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/Instance2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="44" lean-forward="true" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/java1995question/Instance1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Bushizhitu_test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Array_to_Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/question/Array_oop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/question/Fibonacci.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/sort/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/sort/ShellSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="395" y="91" key="#Inspections" timestamp="1607002635244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1607002635244" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1607002532690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1607002532690" />
+    <state x="306" y="56" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607005338986">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="306" y="56" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607005338986" />
+    <state x="595" y="350" width="539" height="422" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1607005296578">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="595" y="350" width="539" height="422" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1607005296578" />
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1607005527494">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607005527494" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1607005527493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607005527493" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1607005527493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607005527493" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1607005527494">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607005527494" />
+    <state width="1493" height="165" key="GridCell.Tab.1.bottom" timestamp="1607005406864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="165" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607005406864" />
+    <state width="1493" height="165" key="GridCell.Tab.1.center" timestamp="1607005406864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="165" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607005406864" />
+    <state width="1493" height="165" key="GridCell.Tab.1.left" timestamp="1607005406864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="165" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607005406864" />
+    <state width="1493" height="165" key="GridCell.Tab.1.right" timestamp="1607005406864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="165" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607005406864" />
+    <state x="371" y="0" key="SettingsEditor" timestamp="1607005362033">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="371" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607005362033" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607004307931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607004307931" />
   </component>
 </project>

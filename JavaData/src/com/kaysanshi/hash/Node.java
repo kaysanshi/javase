@@ -1,15 +1,15 @@
 package com.kaysanshi.hash;
 /*
- * Á´½áµã£¬Ïàµ±ÓÚÊÇ³µÏá
+ * é“¾ç»“ç‚¹ï¼Œç›¸å½“äºæ˜¯è½¦å¢
  */
 public class Node {
-	//Êı¾İÓò
+	//æ•°æ®åŸŸ
 	public Info info;
-	//Ö¸ÕëÓò
+	//æŒ‡é’ˆåŸŸ
 	public Node next;
-	
+
 	public Node(Info info) {
 		this.info = info;
 	}
-	
+
 }

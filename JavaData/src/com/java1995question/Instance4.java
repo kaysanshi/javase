@@ -1,11 +1,11 @@
 package com.java1995question;
 /*
- * ��ʵ�������������������
+ * ??????????????????????
  */
 import java.util. Scanner;
 public class Instance4 {
 	public static void main(String[] args) {
-		System.out.println("�ж��������еĴ������");
+		System.out.println("?��????????��???????");
 		Scanner scan=new Scanner(System.in);
 		int a=scan.nextInt();
 		int b=scan.nextInt();

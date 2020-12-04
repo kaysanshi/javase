@@ -4,15 +4,16 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-//��д�㷨��ӡͼ��,�Խ������е���������е�;
-//˼����ת��Ϊ�����е�С��;
+/**
+ *
+ */
 public class Test1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		int[][] a =new int[100][100];
-		System.out.println("��������");
+		System.out.println("请输入");
 		Scanner scanner=new Scanner(System.in);
 		int	n=scanner.nextInt();
 			int k=1;
