@@ -10,7 +10,7 @@ public class QQServerUser {
 		public boolean checkUser(String userId,String userpd){
 			boolean b=false;
 			SqlHelper hp=null;
-			String sql="select * from uerlogiin where userlogin=? and passward=?";
+			String sql="select * from uerlogiin where userlogin=? and password=?";
 			String []params={userId,userpd};
 			hp=new SqlHelper();
 			ResultSet rs=hp.queryExectue(sql, params);

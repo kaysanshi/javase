@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d57083e-e03c-4a7f-b7cd-b7e125d1d997" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaData/src/com/jzoffer/ArrayFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/.tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.mylyn/tasks.xml.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1/2029e82a327200191d9e940225b2113a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/12/d0658a8dfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/1d/801450ccfd6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/31/906a189ffc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/3a/20f1c4f4fc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/43/e090baf4fc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/50/20fe854b307200191d9e940225b2113a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/59/a0d93cea037000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5a/4002e29bfd6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5a/806ef2db007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/5d/b0156702fd6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/60/b0e3138c027000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/61/c0bd2f27fd6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/61/e0825cfffe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6e/20e1d0adfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/6e/d09c6a28ff6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/76/8088bef4fc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/80/1010b59c057000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/80/10b978bc007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/84/a0f5370fff6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/87/f0d909c1007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8c/e0c95ff4007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8e/703abcd3007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/8f/50b42774047000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9/c02b0b29327200191d9e940225b2113a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/90/50945dfffe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/96/a0bb9a79027000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9a/c061742bfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/9e/e055d1ee037000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/a5/90f75868017000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ad/60a23a1bfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/ad/8007b3d1017000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b2/507c14eb007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b3/80294b24ff6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b5/00cf10e9fe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/b8/602a4f5f027000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c1/40fc5afffe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c4/a043918dfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c4/c0584916ff6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c4/d07b0d2eff6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c5/706f0fe9fe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/c8/6089958dfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/cc/106ca38dfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d0/2003d3fafe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/d1/7069cd0efe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e2/f0b8b756017000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e4/500f8e8dfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e5/40609888fc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e7/b04373c4007000191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/e8/102cdf1e3b7200191d9e940225b2113a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f0/e049398bfc6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.history/f6/a05512e9fe6f00191910920d549398cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BStudent/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/C_ServerTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Chuanjiang/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ClientTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/CrazyCourseTest/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Customer/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/DataSource/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Estore/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/HeiMaShop/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Itheima/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Itheima/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JDBC/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.indexes/e4/81/77/5c/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.indexes/e4/81/77/9e/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.indexes/e4/81/77/e/history.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/JavaData/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Json/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/News/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Privilege/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Client/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Server/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/QQ_Server/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/SafeDemo/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Shop/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Stexchange/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test1/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test2/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test3/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Test4/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/User/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch08/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.wst.jsdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/ch14/org.eclipse.wst.jsdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo1/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo2/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo3/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo4/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo4/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo5/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo6/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/demo7/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/democlass/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/design_items/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/memo/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/question_Instance/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/sunping/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/584.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/_index.jsp.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/_login.jsp.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.fdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.fdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.fnm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.frq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.nrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.prx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.tii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/_1k.tis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/remote-history/segments_1o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.epp.logging.aeri.ide/org.eclipse.epp.logging.aeri.ide.server/server-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2992573656.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2992573656.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1205824980.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1205824980.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1548529216.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1548529216.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1657330681.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1657330681.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1862440442.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/1862440442.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2571465609.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2571465609.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2808364197.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2808364197.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2849049848.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2849049848.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2983172833.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2983172833.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3011503269.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3011503269.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3738582126.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/3738582126.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/383641943.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/383641943.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/536438792.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/536438792.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/925135804.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/925135804.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_gn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/7ecc6915ccb1e16d8b77caf778760e47/segments_g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_gn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/954423863.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/publish.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chuanjiang/bin/com/java1995/Tickets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Chuanjiang/bin/com/java1995/Tickets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chuanjiang/bin/com/leoi555/javaTest/test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Chuanjiang/bin/com/leoi555/javaTest/test01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/.idea/dictionaries/leoill.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaAlgorithrms/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/Java8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/out/production/JavaAlgorithrms/com/kaysanshi/MyArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/out/production/JavaAlgorithrms/com/kaysanshi/MyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/out/production/JavaAlgorithrms/com/kaysanshi/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/out/production/JavaAlgorithrms/com/kaysanshi/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/out/production/JavaAlgorithrms/com/kaysanshi/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/src/com/kaysanshi/MyArrayList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/src/com/kaysanshi/MyLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/src/com/kaysanshi/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/src/com/kaysanshi/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaAlgorithrms/src/com/kaysanshi/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/HashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/TestHashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/hash/TestHashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/map/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/map/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/map/TestGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/map/TestGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/map/Vertex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/map/Vertex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Singleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Singleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Singleton4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Singleton5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Singleton5$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Singleton5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/TestSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/TestSingleton1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/shangguigu/TestSingleton3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/sort/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/sort/ShellSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/sort/Sort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/sort/Sort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/test/Multable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/DoubleLinkList_double.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/DoubleLinkList_double.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/DoubleLinklist.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/DoubleLinklist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/HighFibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/HighFibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Recursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/testArray/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/Hash.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/Hash.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/ReadBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/ReadBlackTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/bin/com/kaysanshi/tree/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Change.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/MD5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Pact_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Pact_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Quwei.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Quwei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Sum1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Sum1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/cn/Wanshu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Wanshu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Caculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Caculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/DrawCone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/DrawCone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/FileOutputStream_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/FileOutputStream_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/IOquestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/IOquestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Instance9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Instance9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Intestance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Intestance1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/ParityCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/ParityCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/TestChang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/TestChang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/TestConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/TestConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Test_Game_rule.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Test_Game_rule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Test_Random.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Test_Random.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/java1995question/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/java1995question/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/net/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/test/question/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/net/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/test/question/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/net/InStance2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/test/question/InStance2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/net/Instance1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/test/question/Instance1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/net/Instance3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/test/question/Instance3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/net/Instance4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/test/question/Instance4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Array_oop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Array_oop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Array_to_Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Array_to_Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Bushizhitu_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Bushizhitu_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/FileReader_print_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/FileReader_print_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/File_to_File.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/File_to_File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Huiwenshu_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Huiwenshu_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/JiaoChe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/JiaoChe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/KeChe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/KeChe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/MonkeyWin_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/MonkeyWin_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Month_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Month_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Score_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Score_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Shuduyouxi_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Shuduyouxi_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/StudentAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/StudentAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_DateAndTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_DateAndTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_String_remove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_String_remove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_array_io.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_array_io.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_arrays_max.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_arrays_max.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_arrays_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_arrays_sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_factrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_factrial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Test_factrial1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Test_factrial1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaData/src/question/Text_love.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaData/src/com/question/Text_love.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/Tomcat v8.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Tomcat v8.0 Server at localhost-config/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/build/classes/dbConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/build/classes/dbConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Shop/src/dbConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop/src/dbConfig.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/LambdaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1258">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/LambdaTest2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/MethodRefTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1920#1921#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/ConstructorRefTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/StramAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/StreamApITest1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+              <folding>
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/MyInterFace.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/MyLinklList.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/Stack.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/MyInterFace.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/LambdaTest2.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/MethodRefTest.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/ConstructorRefTest.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/StramAPITest.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/kaysanshi/java8/StreamApITest1.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/SoftWare/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\SoftWare\mavenstorage\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="95" />
+    <option name="y" value="23" />
+    <option name="width" value="1650" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kaysanshi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kaysanshi" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588428396610" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Java\Javase\JavaAlgorithrms\src\com\kaysanshi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StreamApITest1.test2">
+    <configuration name="ConstructorRefTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaysanshi.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.java8.ConstructorRefTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConstructorRefTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaysanshi.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.java8.ConstructorRefTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StramAPITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaysanshi.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.java8.StramAPITest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApITest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaysanshi.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.java8.StreamApITest1" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApITest1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kaysanshi.java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kaysanshi.java8" />
+      <option name="MAIN_CLASS_NAME" value="com.kaysanshi.java8.StreamApITest1" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ConstructorRefTest.test1" />
+      <item itemvalue="JUnit.ConstructorRefTest.test2" />
+      <item itemvalue="JUnit.StramAPITest.test1" />
+      <item itemvalue="JUnit.StreamApITest1.test1" />
+      <item itemvalue="JUnit.StreamApITest1.test2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StreamApITest1.test2" />
+        <item itemvalue="JUnit.StreamApITest1.test1" />
+        <item itemvalue="JUnit.StramAPITest.test1" />
+        <item itemvalue="JUnit.ConstructorRefTest.test2" />
+        <item itemvalue="JUnit.ConstructorRefTest.test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d57083e-e03c-4a7f-b7cd-b7e125d1d997" name="Default Changelist" comment="" />
+      <created>1557217408373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557217408373</updated>
+      <workItem from="1557217412286" duration="5227000" />
+      <workItem from="1557290690232" duration="1643000" />
+      <workItem from="1557369226668" duration="2048000" />
+      <workItem from="1557629722311" duration="3965000" />
+      <workItem from="1557668889009" duration="5934000" />
+      <workItem from="1557727393029" duration="4016000" />
+      <workItem from="1581600011386" duration="4139000" />
+      <workItem from="1582547465652" duration="648000" />
+      <workItem from="1582721375029" duration="2067000" />
+      <workItem from="1582985268299" duration="1863000" />
+      <workItem from="1583650987950" duration="606000" />
+      <workItem from="1588404019449" duration="13818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StramAPITest_test1 - 2020.05.02 at 21h 38m 27s.xml">
+      <configuration name="StramAPITest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StramAPITest_test1 - 2020.05.02 at 21h 38m 40s.xml">
+      <configuration name="StramAPITest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StramAPITest_test1 - 2020.05.02 at 21h 38m 51s.xml">
+      <configuration name="StramAPITest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StramAPITest_test1 - 2020.05.02 at 21h 39m 14s.xml">
+      <configuration name="StramAPITest.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamApITest1_test1 - 2020.05.02 at 21h 41m 46s.xml">
+      <configuration name="StreamApITest1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamApITest1_test1 - 2020.05.02 at 21h 43m 15s.xml">
+      <configuration name="StreamApITest1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamApITest1_test1 - 2020.05.02 at 21h 43m 55s.xml">
+      <configuration name="StreamApITest1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamApITest1_test1 - 2020.05.02 at 21h 44m 37s.xml">
+      <configuration name="StreamApITest1.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamApITest1_test2 - 2020.05.02 at 22h 01m 44s.xml">
+      <configuration name="StreamApITest1.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamApITest1_test2 - 2020.05.02 at 22h 05m 39s.xml">
+      <configuration name="StreamApITest1.test2" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45974000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="76" y="19" width="1320" height="822" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19096673" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Alibaba Cloud Explorer" order="8" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32330826" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3281493" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Redis Servers" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/kaysanshi/java8/StreamApITest1.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1691">
+          <caret line="97" column="28" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/LambdaTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/MyInterFace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/MethodRefTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/StramAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/ConstructorRefTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/kaysanshi/java8/StreamApITest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

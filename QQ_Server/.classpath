@@ -3,6 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="/QQ_Client"/>
-	<classpathentry kind="lib" path="D:/SoftWare/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.45.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
