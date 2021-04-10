@@ -41,7 +41,8 @@ public class LoginServlet extends HttpServlet {
 		}else{
 			//4.如果错误提示
 			response.getWriter().write("用户名密码不正确!");
-		}	}
+		}	
+	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)

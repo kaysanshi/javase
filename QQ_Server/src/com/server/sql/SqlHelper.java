@@ -11,9 +11,9 @@ public class SqlHelper {
 	Connection conn;
 	PreparedStatement ps;
 	ResultSet rs;
-	String url="jdbc:mysql://localhost:3306/Student?";
+	String url="jdbc:mysql://localhost:3306/student";
 	String user="root";
-	String password="123";
+	String password="123456";
 	public void close(){
 		try {
 			if(rs!=null){

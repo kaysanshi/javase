@@ -35,7 +35,7 @@ public class LoginoutServlet extends HttpServlet {
 				}
 				//2.重定向到主页
 				response.sendRedirect(request.getContextPath()+"/loginout/index.jsp");
-			}	
+	}	
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
